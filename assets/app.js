@@ -18,5 +18,4 @@ grid.innerHTML=list.map(card).join('')||'<p class="empty">Nothing crawled out. T
 document.getElementById('count').textContent=`${list.length} game${list.length===1?'':'s'} in the queue`;}
 document.querySelectorAll('.filters button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.filters button').forEach(x=>x.classList.remove('on'));b.classList.add('on');f=b.dataset.f;render();});
 [plat,store].forEach(el=>el.onchange=render);q.oninput=render;render();
-const nf=document.getElementById('news-form');if(nf)nf.addEventListener('submit',e=>{e.preventDefault();alert('Newsletter coming soon! (placeholder: nothing was saved)');});
 })();

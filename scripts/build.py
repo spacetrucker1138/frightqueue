@@ -34,16 +34,23 @@ Watch the <a href="https://www.youtube.com/@Spacetrucker138">24/7 stream</a> · 
 Game names, art and trademarks belong to their owners. Data comes from public Steam and itch.io pages. Store links may become affiliate links later; we'll say so when they do.</div></div></footer>"""
 
 def news():
-    return """<section class="news" id="newsletter"><!-- NEWSLETTER PLACEHOLDER: replace action/name attrs with your provider's (Buttondown, Mailchimp, beehiiv, etc). No account is set up yet. -->
+    # Buttondown HTML embed (official format: standard <form> POST, no fetch). Newsletter: buttondown.com/frightqueue
+    return """<section class="news" id="newsletter">
 <div class="eyebrow">The Weekly Fright</div><h2 class="sec" style="margin-top:.3rem">Get the Queue in your inbox</h2>
-<p>Fresh demos, release dates and one cursed JURN transmission each week.</p>
-<form id="news-form" action="#" method="post" data-placeholder="true"><input type="email" name="email" placeholder="you@crypt.com" required aria-label="Email address"><button class="btn" type="submit">Summon me</button></form>
-<p class="meta" style="margin-top:.6rem">Newsletter launching soon. This form is a placeholder and doesn't save anything yet.</p></section>"""
+<p>Free demos to play this weekend, new releases, what's coming, and one cursed JURN transmission. Weekly. No spam, unsubscribe anytime.</p>
+<form action="https://buttondown.com/api/emails/embed-subscribe/frightqueue" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/frightqueue', 'popupwindow')" class="embeddable-buttondown-form">
+<label for="bd-email" class="sr-only">Email address</label><input type="email" name="email" id="bd-email" placeholder="you@crypt.com" required>
+<input type="hidden" value="1" name="embed"><input type="hidden" name="tag" value="frightqueue-site">
+<button class="btn" type="submit">Summon me</button></form>
+<p class="meta" style="margin-top:.6rem">Powered by <a href="https://buttondown.com/refer/frightqueue" target="_blank" rel="noopener">Buttondown</a>. You'll get a confirmation email.</p></section>"""
 
 def link(g): return g["link"] + AFFILIATE.get(g["store"], "")
 
 # ---------- game pages ----------
 (R/"games").mkdir(exist_ok=True)
+_keep = {f"{g['id']}.html" for g in games}
+for _f in (R/"games").glob("*.html"):  # drop pages for games no longer in the data
+    if _f.name not in _keep: _f.unlink()
 for g in games:
     desc = f'{g["title"]} by {g["developer"]}: {g["blurb"]}'[:300]
     ld = {"@context":"https://schema.org","@type":"VideoGame","name":g["title"],"author":{"@type":"Organization","name":g["developer"]},

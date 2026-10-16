@@ -41,3 +41,4 @@ footer .jurn{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}footer img{
 .detail h1{font-family:Creepster,cursive;color:#fff;font-size:2.6rem;letter-spacing:2px;line-height:1.1}
 .prose{max-width:720px}.prose p,.prose li{margin:.6rem 0}form.submit{display:grid;gap:.8rem;max-width:600px}form label{display:grid;gap:.25rem;font-size:.85rem;color:var(--bone)}
 @media(max-width:720px){.detail{grid-template-columns:1fr}nav a{margin:0 .8rem 0 0}}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
