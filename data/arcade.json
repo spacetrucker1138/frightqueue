@@ -1,0 +1,98 @@
+[
+ {
+  "title": "JURN: Riot City",
+  "genre": "2.5D Brawler",
+  "path": "games/jurn-riot-city/",
+  "img": "assets/arcade/website-thumb.jpg"
+ },
+ {
+  "title": "The Last Selfie",
+  "genre": "Timing Game",
+  "path": "games/the-last-selfie/",
+  "img": "assets/arcade/the-last-selfie-thumb.png"
+ },
+ {
+  "title": "Pit Fury",
+  "genre": "Rhythm Game",
+  "path": "games/jurn-rhythm/",
+  "img": "assets/arcade/pit_fury_title_art.jpg"
+ },
+ {
+  "title": "JURN: Necropolis Rising",
+  "genre": "Idle / Incremental",
+  "url": "https://spacetrucker1138.github.io/jurn-necropolis/",
+  "img": "assets/arcade/necropolis_rising_title.jpg"
+ },
+ {
+  "title": "Death Drive",
+  "genre": "Racing",
+  "path": "games/death-drive/",
+  "img": "assets/arcade/death_drive_title.jpg"
+ },
+ {
+  "title": "Grave Crawler",
+  "genre": "Snake",
+  "path": "games/grave-crawler/",
+  "img": "assets/arcade/grave_crawler_title.jpg"
+ },
+ {
+  "title": "The Bang Boom Bar",
+  "genre": "Bar Shooter",
+  "path": "games/boom-bang-bar/",
+  "img": "assets/arcade/cover-art.png"
+ },
+ {
+  "title": "Afterverse Invaders",
+  "genre": "Space Invaders",
+  "path": "games/afterverse-invaders/",
+  "img": "assets/arcade/titlescreen_bg.jpg"
+ },
+ {
+  "title": "Dead Crossing",
+  "genre": "Frogger",
+  "path": "games/dead-crossing/",
+  "img": "assets/arcade/cover.jpg"
+ },
+ {
+  "title": "Gut Stackers",
+  "genre": "Falling Blocks",
+  "path": "games/bone-stack/",
+  "img": "assets/arcade/gutstackers_card.jpg"
+ },
+ {
+  "title": "JURNbreaker",
+  "genre": "Brick Breaker",
+  "path": "games/jurnbreaker/",
+  "img": "assets/arcade/jurnbreaker_card.jpg"
+ },
+ {
+  "title": "Whack-a-Ghoul",
+  "genre": "Whack-a-Mole",
+  "path": "games/whack-a-ghoul/",
+  "img": "assets/arcade/whack_a_ghoul_title.jpg"
+ },
+ {
+  "title": "Arcana Solitaire",
+  "genre": "Card Game",
+  "path": "games/arcana-solitaire/",
+  "img": "assets/arcade/arcana_title.jpg"
+ },
+ {
+  "title": "Trash Queen Tarot",
+  "genre": "Tarot Reading",
+  "path": "games/tarot/",
+  "img": "assets/arcade/splash.jpg"
+ },
+ {
+  "title": "Skull Pong",
+  "genre": "Pong",
+  "path": "games/skull-pong/",
+  "img": "assets/arcade/skull_pong_title.jpg"
+ },
+ {
+  "title": "Flappy Skull",
+  "genre": "One-Tap",
+  "path": "games/flappy-skull/",
+  "img": "assets/arcade/flappy_skull_title.jpg"
+ }
+]

@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Submit Your Indie Horror Game | Fright Queue</title><meta name="description" content="Making an indie horror game or demo? Submit it to Fright Queue.">
+<link rel="canonical" href="https://frightqueue.thejurn.com/submit.html">
+<meta property="og:title" content="Submit Your Indie Horror Game | Fright Queue"><meta property="og:description" content="Making an indie horror game or demo? Submit it to Fright Queue.">
+<meta property="og:url" content="https://frightqueue.thejurn.com/submit.html"><meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎃</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@300;400;600;700&display=swap">
+<link rel="stylesheet" href="/assets/style.css"></head><body>
+<header class="top"><div class="wrap"><a class="logo" href="/">Fright Queue</a>
+<nav><a href="/#this-week">This Week</a><a href="/#queue">The Queue</a><a href="/#arcade">JURN Arcade</a><a href="/submit.html">Submit</a></nav></div></header><main class="wrap prose"><h2 class="sec">Submit your game</h2>
+<p>Got a horror game, demo or jam entry? Send it in. Indie and solo devs come first. Steam, itch.io, Game Jolt and browser games are all welcome.</p>
+<!-- SUBMISSION METHOD: mailto (opens the visitor's mail app). To switch to GitHub Issues later, point the form at
+     https://github.com/OWNER/REPO/issues/new?template=submit-game.yml (placeholder: no repo exists yet). -->
+<form class="submit" id="submit-form">
+<label>Game title<input name="title" required></label><label>Developer / studio<input name="developer" required></label>
+<label>Store link (Steam / itch.io)<input name="link" type="url" required></label>
+<label>Status<select name="status"><option>Demo</option><option>Out now</option><option>Upcoming</option></select></label>
+<label>Release date<input name="date" placeholder="2026-10-31 or TBA"></label><label>Platforms<input name="platforms" placeholder="Windows, Mac, Browser…"></label>
+<label>Short pitch (1–2 sentences)<textarea name="blurb" rows="3"></textarea></label>
+<button class="btn" type="submit">Send submission</button></form>
+<p class="meta">This opens your email app with everything filled in, addressed to contact@thejurn.com. We don't store anything on this site.</p></main><footer><div class="wrap jurn"><a href="https://thejurn.com/" aria-label="The JURN"><img src="/assets/jurn-logo.png" alt="The JURN logo" loading="lazy" width="96" height="48"></a>
+<div>Fright Queue is dug up nightly by <a href="https://thejurn.com/">The JURN</a>, horror punk from the grave in Amityville, NY.
+Watch the <a href="https://www.youtube.com/@Spacetrucker138">24/7 stream</a> · play the <a href="https://thejurn.com/games.html">JURN Arcade</a> · <a href="https://discord.gg/4aWt5h52t">Discord</a>.<br>
+Game names, art and trademarks belong to their owners. Data comes from public Steam and itch.io pages. Store links may become affiliate links later; we'll say so when they do.</div></div></footer><script>document.getElementById('submit-form').addEventListener('submit',ev=>{ev.preventDefault();const f=new FormData(ev.target);
+let b='';for(const[k,v]of f)b+=k+': '+v+'\n';location.href='mailto:contact@thejurn.com?subject='+encodeURIComponent('Fright Queue submission: '+f.get('title'))+'&body='+encodeURIComponent(b);});</script></body></html>
