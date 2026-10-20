@@ -31,7 +31,7 @@ def foot():
     return f"""<footer><div class="wrap jurn"><a href="{JURN}" aria-label="The JURN"><img src="/assets/jurn-logo.png" alt="The JURN logo" loading="lazy" width="96" height="48"></a>
 <div>Fright Queue is dug up nightly by <a href="{JURN}">The JURN</a>, horror punk from the grave in Amityville, NY.
 Watch the <a href="https://www.youtube.com/@Spacetrucker138">24/7 stream</a> · play the <a href="{JURN}games.html">JURN Arcade</a> · <a href="https://discord.gg/4aWt5h52t">Discord</a>.<br>
-Game names, art and trademarks belong to their owners. Data comes from public Steam and itch.io pages. Store links may become affiliate links later; we'll say so when they do.</div></div></footer>"""
+Game names, art and trademarks belong to their owners. Data comes from public Steam and itch.io pages. As an Amazon Associate, Fright Queue earns from qualifying purchases.</div></div></footer>"""
 
 def news():
     # Buttondown HTML embed (official format: standard <form> POST, no fetch). Newsletter: buttondown.com/frightqueue
@@ -43,6 +43,18 @@ def news():
 <input type="hidden" value="1" name="embed"><input type="hidden" name="tag" value="frightqueue-site">
 <button class="btn" type="submit">Summon me</button></form>
 <p class="meta" style="margin-top:.6rem">Powered by <a href="https://buttondown.com/refer/frightqueue" target="_blank" rel="noopener">Buttondown</a>. You'll get a confirmation email.</p></section>"""
+
+# Amazon Associates: generic search links only (no specific products).
+AMAZON_TAG = "thejurn-20"
+GEAR = [("🎧 Gaming headsets", "gaming headset"), ("🎮 Horror games for PS5", "horror game PS5"),
+        ("🕹 Horror games for Nintendo Switch", "horror game Nintendo Switch"), ("💡 LED gaming room lights", "LED gaming room lights"),
+        ("🎮 PC game controllers", "PC game controller"), ("🖼 Horror movie posters", "horror movie posters")]
+def gear():
+    from urllib.parse import quote_plus
+    items = "".join(f'<a class="btn" href="https://www.amazon.com/s?k={quote_plus(q)}&amp;tag={AMAZON_TAG}" target="_blank" rel="sponsored noopener">{e(label)}</a> ' for label, q in GEAR)
+    return f"""<section id="gear" class="gear"><h2 class="sec">Horror Gaming Gear</h2>
+<p class="sub">Kit out your crypt. These are Amazon searches; we earn a small commission on qualifying purchases.</p>
+<p class="gear-links" style="display:flex;flex-wrap:wrap;gap:.5rem">{items}</p></section>"""
 
 def link(g): return g["link"] + AFFILIATE.get(g["store"], "")
 
@@ -87,6 +99,7 @@ idx += f"""<main class="wrap">
 <p class="sub" id="count"></p><div class="grid" id="grid"></div>
 <noscript><ul>{noscript}</ul></noscript></section>
 {news()}
+{gear()}
 <section id="arcade" class="arcade"><h2 class="sec">JURN Arcade</h2><p class="sub">Free browser games from the Graveyard Dimension by <a href="{JURN}">The JURN</a>. No downloads, just play.</p><div class="grid">{arc}</div>
 <p style="margin-top:1rem"><a class="btn" href="{JURN}games.html">Enter the full Arcade</a></p></section>
 </main>{foot()}<script src="/assets/app.js" defer></script></body></html>"""
