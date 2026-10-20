@@ -13,9 +13,19 @@ e = lambda s: html.escape(str(s or ""), quote=True)
 # AFFILIATE HOOK: set per-store affiliate params here once programs are approved (none signed up yet).
 AFFILIATE = {"Steam": "", "itch.io": ""}  # e.g. "itch.io": "?ac=XXXX"
 
+GA = """<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RG06HTMTSE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RG06HTMTSE');
+</script>
+"""
+
 def head(title, desc, path, img=None, extra=""):
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+{GA}<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{SITE}{path}">
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">
