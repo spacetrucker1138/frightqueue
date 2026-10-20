@@ -25,7 +25,7 @@ def head(title, desc, path, img=None, extra=""):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@300;400;600;700&display=swap">
 <link rel="stylesheet" href="/assets/style.css">{extra}</head><body>
 <header class="top"><div class="wrap"><a class="logo" href="/">Fright Queue</a>
-<nav><a href="/#this-week">This Week</a><a href="/#queue">The Queue</a><a href="/#arcade">JURN Arcade</a><a href="/submit.html">Submit</a></nav></div></header>"""
+<nav><a href="/#this-week">This Week</a><a href="/#queue">The Queue</a><a href="/#arcade">JURN Arcade</a><a href="/submit.html">Submit</a><a href="{JURN}ghoulbox/">Ghoul Box</a><a href="{JURN}">The JURN ↗</a></nav></div></header>"""
 
 def foot():
     return f"""<footer><div class="wrap jurn"><a href="{JURN}" aria-label="The JURN"><img src="/assets/jurn-logo.png" alt="The JURN logo" loading="lazy" width="96" height="48"></a>
