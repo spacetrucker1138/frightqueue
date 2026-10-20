@@ -1,98 +1,6 @@
 {
-  "updated": "2026-10-19T16:28:33Z",
+  "updated": "2026-10-20T14:18:54Z",
   "games": [
-    {
-      "id": "anomaly-jobs-death-row",
-      "title": "Anomaly Jobs : Death Row",
-      "developer": "Imbace",
-      "status": "upcoming",
-      "release_date": "2026-10-19",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/4769150/",
-      "blurb": "Same Path again and again. Everything looks familiar, until it does not. Some Anomalies hide in plain sight. Some are hard to spot. Find them, then take the correct exit. Every…",
-      "tags": [
-        "Horror",
-        "Adventure",
-        "Indie",
-        "Free To Play"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4769150/fcffcce6dee38687a4a435e326afed000fbdfcfd/header.jpg?t=1792076887",
-      "free": true,
-      "price": "Free",
-      "source": "steam",
-      "steam_appid": 4769150
-    },
-    {
-      "id": "her-revenge",
-      "title": "Her Revenge",
-      "developer": "sibghatGAMES, Sajjad Chandio",
-      "status": "upcoming",
-      "release_date": "2026-10-19",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/4952170/",
-      "blurb": "You are stuck inside a sealed apartment, and have to uncover a massive misunderstanding. Discover what happened to Grandma, and be completely silent. It's not your apartment. You…",
-      "tags": [
-        "Horror",
-        "Adventure",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4952170/ea0b24e6e8e1228eabd7278a836406167574a15c/header.jpg?t=1792344610",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 4952170
-    },
-    {
-      "id": "welcome-to-hillveil",
-      "title": "Welcome To HillVeil",
-      "developer": "Cryomist Games, BorSa Games",
-      "status": "upcoming",
-      "release_date": "2026-10-20",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/5343820/",
-      "blurb": "An atmospheric 3D exploration game about cheering up the lovely folks of HillVeil and making memories that last a lifetime!",
-      "tags": [
-        "Horror",
-        "Adventure",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5343820/67ea5fe0af1857e9a255abe30cf4aaaf5d37046d/header.jpg?t=1792022731",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5343820
-    },
-    {
-      "id": "beatrice",
-      "title": "Beatrice",
-      "developer": "BusinessPooh",
-      "status": "upcoming",
-      "release_date": "2026-10-20",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/5355820/",
-      "blurb": "You are sent to inspect an old abandoned estate before its demolition. Locals refuse to speak about the place, only whispering of a doll named Beatrice left behind. Uncover the…",
-      "tags": [
-        "Horror",
-        "Adventure"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5355820/41b3f5073f909b3d5a47529c4ff536a1ddf7cb98/header.jpg?t=1791830860",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5355820
-    },
     {
       "id": "blue-ridge-hunting",
       "title": "Blue Ridge Hunting",
@@ -165,6 +73,31 @@
       "price": null,
       "source": "steam",
       "steam_appid": 4985010
+    },
+    {
+      "id": "meccha-liar",
+      "title": "MECCHA LIAR",
+      "developer": "HEXIT",
+      "status": "upcoming",
+      "release_date": "2026-10-21",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5081300/",
+      "blurb": "2 to 4 participants gathered in pursuit of a massive cash prize. The moment they open their eyes, they are trapped in unfamiliar darkness and each other's lies. In a place where…",
+      "tags": [
+        "Horror",
+        "Casual",
+        "Indie",
+        "RPG",
+        "Simulation"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5081300/671e78705892fa6cfff3b73130066802d01cb6fa/header.jpg?t=1792430082",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5081300
     },
     {
       "id": "subject-zero",
@@ -240,6 +173,30 @@
       "steam_appid": 3996640
     },
     {
+      "id": "grease-trap-99",
+      "title": "Grease Trap '99",
+      "developer": "James Muirhead",
+      "status": "upcoming",
+      "release_date": "2026-10-21",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/4509200/",
+      "blurb": "Mystery Horror / Comedic Takeaway Simulator. Deep-fry pizzas and live the Scottish dream. Voice-acted in Scottish Gaelic; subtitles in English or Gaelic.",
+      "tags": [
+        "Horror",
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4509200/da134b47eb2f899f07ce9cc689613802b1c5aa3b/header.jpg?t=1792505090",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 4509200
+    },
+    {
       "id": "dungeon-prisoner-simulator",
       "title": "Dungeon Prisoner Simulator",
       "developer": "Loyal Mussy",
@@ -261,6 +218,53 @@
       "price": null,
       "source": "steam",
       "steam_appid": 5364370
+    },
+    {
+      "id": "halloween-on-goober-street",
+      "title": "Halloween On Goober Street",
+      "developer": "MyGrandfatherGames",
+      "status": "upcoming",
+      "release_date": "2026-10-21",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5279620/",
+      "blurb": "Halloween On Goober Street is a first-person horror-comedy taking place on Halloween night. Players must Trick-or-Treat their way to 100 candies or face the consequences. With…",
+      "tags": [
+        "Horror",
+        "Indie",
+        "Free To Play"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5279620/dad2740197c7c8ea38fa329bed0316c27fdfb8a0/header.jpg?t=1791830938",
+      "free": true,
+      "price": "Free",
+      "source": "steam",
+      "steam_appid": 5279620
+    },
+    {
+      "id": "sakimori",
+      "title": "SAKIMORI",
+      "developer": "LOOIFEND GAMES",
+      "status": "upcoming",
+      "release_date": "2026-10-21",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/4642780/",
+      "blurb": "Explore cursed locations, locate cursed objects, and purify them. Alongside the guardian Saku Tsukino, confront the curse within an anomalous space, purify the cursed objects,…",
+      "tags": [
+        "Horror",
+        "Action",
+        "Indie",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4642780/a8016a2e27b7129f4ac42442c8e3d2e02d0b50ea/header.jpg?t=1792061343",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 4642780
     },
     {
       "id": "puppet-mall-chapter-1-lost-friend",
@@ -287,6 +291,30 @@
       "steam_appid": 5132990
     },
     {
+      "id": "phasmophobia",
+      "title": "Phasmophobia",
+      "developer": "Kinetic Games",
+      "status": "released",
+      "release_date": "2020-09-18",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/739630/",
+      "blurb": "Phasmophobia is a 4 player online co-op psychological horror. Paranormal activity is on the rise and it’s up to you and your team to use all the ghost-hunting equipment at your…",
+      "tags": [
+        "Horror",
+        "Action",
+        "Indie",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/6283e4bf96c6e8160492ae12016f0c9a308a75d9/header_alt_assets_13.jpg?t=1791632508",
+      "free": false,
+      "price": "$13.99",
+      "source": "steam",
+      "steam_appid": 739630
+    },
+    {
       "id": "invokyr",
       "title": "Invokyr",
       "developer": "Ludogram",
@@ -310,30 +338,6 @@
       "price": "$9.74",
       "source": "steam",
       "steam_appid": 3883570
-    },
-    {
-      "id": "phasmophobia",
-      "title": "Phasmophobia",
-      "developer": "Kinetic Games",
-      "status": "released",
-      "release_date": "2020-09-18",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/739630/",
-      "blurb": "Phasmophobia is a 4 player online co-op psychological horror. Paranormal activity is on the rise and it’s up to you and your team to use all the ghost-hunting equipment at your…",
-      "tags": [
-        "Horror",
-        "Action",
-        "Indie",
-        "Early Access"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/6283e4bf96c6e8160492ae12016f0c9a308a75d9/header_alt_assets_13.jpg?t=1791632508",
-      "free": false,
-      "price": "$19.99",
-      "source": "steam",
-      "steam_appid": 739630
     },
     {
       "id": "escape-the-backrooms",
@@ -433,29 +437,28 @@
       "steam_appid": 1562430
     },
     {
-      "id": "the-forest",
-      "title": "The Forest",
-      "developer": "Endnight Games Ltd",
+      "id": "gone-fishing",
+      "title": "GONE Fishing",
+      "developer": "GONE Studios",
       "status": "released",
-      "release_date": "2018-04-30",
+      "release_date": "2026-10-20",
       "platforms": [
         "Windows"
       ],
       "store": "Steam",
-      "link": "https://store.steampowered.com/app/242760/",
-      "blurb": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive…",
+      "link": "https://store.steampowered.com/app/3645890/",
+      "blurb": "GONE Fishing is a 1-8 player survival horror game where you and your friends must work together to stay alive, by fishing. The only way to survive is to keep feeding the lake’s…",
       "tags": [
         "Horror",
         "Action",
         "Adventure",
-        "Indie",
-        "Simulation"
+        "Indie"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3645890/ccf41cdf893f47a5a692f05e2344df5e2fdeb3d9/header_alt_assets_0.jpg?t=1792492815",
       "free": false,
-      "price": "$19.99",
+      "price": "$6.69",
       "source": "steam",
-      "steam_appid": 242760
+      "steam_appid": 3645890
     },
     {
       "id": "dreadout",
@@ -510,30 +513,6 @@
       "demo_link": "https://store.steampowered.com/app/285540/"
     },
     {
-      "id": "the-hambagu-shop",
-      "title": "The Hambagu Shop",
-      "developer": "Mike Ten",
-      "status": "demo",
-      "release_date": "2027-01-11",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/3991140/",
-      "blurb": "The Hambagu Shop is a cozy horror simulator where you work in a Japanese Hamburg Steak Shop. Cook Hamburg, serve customers, and upgrade your shop for more menu items.",
-      "tags": [
-        "Horror",
-        "Indie",
-        "Simulation"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3991140/7debafaeab2d89db142a073fdd62a19da69e6e68/header.jpg?t=1791406692",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 3991140,
-      "demo_link": "https://store.steampowered.com/app/4108400/"
-    },
-    {
       "id": "mumei",
       "title": "夢迷 -Mumei-",
       "developer": "Tomanegi",
@@ -556,6 +535,30 @@
       "source": "steam",
       "steam_appid": 4034690,
       "demo_link": "https://store.steampowered.com/app/4045430/"
+    },
+    {
+      "id": "the-hambagu-shop",
+      "title": "The Hambagu Shop",
+      "developer": "Mike Ten",
+      "status": "demo",
+      "release_date": "2027-01-11",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/3991140/",
+      "blurb": "The Hambagu Shop is a cozy horror simulator where you work in a Japanese Hamburg Steak Shop. Cook Hamburg, serve customers, and upgrade your shop for more menu items.",
+      "tags": [
+        "Horror",
+        "Indie",
+        "Simulation"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3991140/7debafaeab2d89db142a073fdd62a19da69e6e68/header.jpg?t=1791406692",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 3991140,
+      "demo_link": "https://store.steampowered.com/app/4108400/"
     },
     {
       "id": "psalm-2",
@@ -706,6 +709,31 @@
       "demo_link": "https://store.steampowered.com/app/4119380/"
     },
     {
+      "id": "fools-maniacs-and-liars",
+      "title": "Fools, Maniacs and Liars",
+      "developer": "NanZhai Game",
+      "status": "demo",
+      "release_date": "March 2027",
+      "platforms": [
+        "Windows",
+        "Mac"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/1741170/",
+      "blurb": "A narrative-driven game of suspense, crime, and dark humor. Amid exquisitely crafted art and a gripping story, the Wushan Great Buddha's demise unfolds.",
+      "tags": [
+        "Horror",
+        "Indie",
+        "RPG"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1741170/header.jpg?t=1790675124",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 1741170,
+      "demo_link": "https://store.steampowered.com/app/3227590/"
+    },
+    {
       "id": "the-no-jumpscare-show",
       "title": "The No Jumpscare Show",
       "developer": "Polypaw",
@@ -730,32 +758,6 @@
       "demo_link": "https://store.steampowered.com/app/5056910/"
     },
     {
-      "id": "the-boba-teashop",
-      "title": "The Boba Teashop",
-      "developer": "Mike Ten",
-      "status": "demo",
-      "release_date": "2025-04-20",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/3461920/",
-      "blurb": "A cozy horror game where you own and manage a boba tea shop. Prepare boba teas, serve customers, and expand your menu to grow your business.",
-      "tags": [
-        "Horror",
-        "Action",
-        "Adventure",
-        "Casual",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3461920/header.jpg?t=1774794865",
-      "free": false,
-      "price": "$4.99",
-      "source": "steam",
-      "steam_appid": 3461920,
-      "demo_link": "https://store.steampowered.com/app/3521210/"
-    },
-    {
       "id": "the-doll-shop",
       "title": "The Doll Shop",
       "developer": "ateliersento",
@@ -772,7 +774,7 @@
       ],
       "image": "https://img.itch.zone/aW1nLzI5Mzc4ODY1LmdpZg==/original/u9hc4Y.gif",
       "free": false,
-      "price": "$11.69",
+      "price": "$12.99",
       "source": "itch"
     },
     {
@@ -795,6 +797,49 @@
       "image": "https://img.itch.zone/aW1nLzI5MTk3NjYxLmpwZw==/315x250%23c/AXo6yM.jpg",
       "free": false,
       "price": "$11.00",
+      "source": "itch"
+    },
+    {
+      "id": "empty-box",
+      "title": "Empty Box:空盒子",
+      "developer": "mimu2026",
+      "status": "demo",
+      "release_date": "2026-05-22",
+      "platforms": [
+        "Windows",
+        "Mac"
+      ],
+      "store": "itch.io",
+      "link": "https://mimu2026.itch.io/empty-box",
+      "blurb": "...HE SEES YOU?",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzI3NTYyOTczLnBuZw==/315x250%23c/ejTCgn.png",
+      "free": false,
+      "price": "$2.99",
+      "source": "itch"
+    },
+    {
+      "id": "my-sweet-housemate",
+      "title": "My Sweet! Housemate",
+      "developer": "sourmiiiilk",
+      "status": "demo",
+      "release_date": "2024-08-13",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "store": "itch.io",
+      "link": "https://sourmiiiilk.itch.io/my-sweet-housemate",
+      "blurb": "A horror comedy about cannibalism",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzE5MzU0MjE3LnBuZw==/315x250%23c/9kuHwt.png",
+      "free": false,
+      "price": "$4.99",
       "source": "itch"
     },
     {
@@ -821,48 +866,6 @@
       "source": "itch"
     },
     {
-      "id": "hapunan-full-game",
-      "title": "Hapunan [Full Game]",
-      "developer": "yikon",
-      "status": "demo",
-      "release_date": "2024-12-04",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "itch.io",
-      "link": "https://yikon.itch.io/hapunan",
-      "blurb": "What are the secrets of the balut?",
-      "tags": [
-        "Horror"
-      ],
-      "image": "https://img.itch.zone/aW1nLzI5NTIyODYwLmpwZw==/315x250%23c/oEenYN.jpg",
-      "free": false,
-      "price": "$3.99",
-      "source": "itch"
-    },
-    {
-      "id": "my-sweet-housemate",
-      "title": "My Sweet! Housemate",
-      "developer": "sourmiiiilk",
-      "status": "demo",
-      "release_date": "2024-08-13",
-      "platforms": [
-        "Windows",
-        "Mac",
-        "Linux"
-      ],
-      "store": "itch.io",
-      "link": "https://sourmiiiilk.itch.io/my-sweet-housemate",
-      "blurb": "A horror comedy about cannibalism",
-      "tags": [
-        "Horror"
-      ],
-      "image": "https://img.itch.zone/aW1nLzE5MzU0MjE3LnBuZw==/315x250%23c/9kuHwt.png",
-      "free": false,
-      "price": "$4.99",
-      "source": "itch"
-    },
-    {
       "id": "slay-the-princess-the-pristine-cut",
       "title": "Slay the Princess - The Pristine Cut",
       "developer": "blacktabbygames",
@@ -881,6 +884,26 @@
       "image": "https://img.itch.zone/aW1nLzE4MjkyMDE0LnBuZw==/315x250%23c/3shEBV.png",
       "free": false,
       "price": "$17.99",
+      "source": "itch"
+    },
+    {
+      "id": "hapunan-full-game",
+      "title": "Hapunan [Full Game]",
+      "developer": "yikon",
+      "status": "demo",
+      "release_date": "2024-12-04",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "itch.io",
+      "link": "https://yikon.itch.io/hapunan",
+      "blurb": "What are the secrets of the balut?",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzI5NTIyODYwLmpwZw==/315x250%23c/oEenYN.jpg",
+      "free": false,
+      "price": "$3.99",
       "source": "itch"
     },
     {
@@ -971,26 +994,6 @@
       "source": "itch"
     },
     {
-      "id": "family-secrets-1-empty-plate",
-      "title": "Family Secrets 1 : Empty Plate",
-      "developer": "badcat-games",
-      "status": "demo",
-      "release_date": "2026-06-05",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "itch.io",
-      "link": "https://badcat-games.itch.io/family-secrets-1-empty-plate",
-      "blurb": "Short Horror Game",
-      "tags": [
-        "Horror"
-      ],
-      "image": "https://img.itch.zone/aW1nLzI3Njg2MzU0LnBuZw==/315x250%23c/T3ipaq.png",
-      "free": false,
-      "price": "$2.00",
-      "source": "itch"
-    },
-    {
       "id": "doki-doki-literature-club",
       "title": "Doki Doki Literature Club!",
       "developer": "teamsalvato",
@@ -1054,21 +1057,23 @@
       "source": "itch"
     },
     {
-      "id": "mr-magpie-s-harmless-card-game",
-      "title": "Mr Magpie's Harmless Card Game",
-      "developer": "giantlight",
+      "id": "project-kat",
+      "title": "Project Kat",
+      "developer": "leef6010",
       "status": "released",
-      "release_date": "2024-12-13",
+      "release_date": "2020-02-09",
       "platforms": [
-        "Windows"
+        "Windows",
+        "Mac",
+        "Linux"
       ],
       "store": "itch.io",
-      "link": "https://giantlight.itch.io/mr-magpies-harmless-card-game",
-      "blurb": "Greed is Good.",
+      "link": "https://leef6010.itch.io/projectkat",
+      "blurb": "A small, unconventional horror rpg.",
       "tags": [
         "Horror"
       ],
-      "image": "https://img.itch.zone/aW1nLzIwMjcyNzYwLmdpZg==/original/LLxfXP.gif",
+      "image": "https://img.itch.zone/aW1nLzMwOTcyMjIucG5n/315x250%23c/a0NL9j.png",
       "free": true,
       "price": "Free",
       "source": "itch"
@@ -1094,23 +1099,21 @@
       "source": "itch"
     },
     {
-      "id": "project-kat",
-      "title": "Project Kat",
-      "developer": "leef6010",
+      "id": "madison-demo",
+      "title": "MADiSON Demo",
+      "developer": "madisonvideogame",
       "status": "released",
-      "release_date": "2020-02-09",
+      "release_date": "2017-11-30",
       "platforms": [
-        "Windows",
-        "Mac",
-        "Linux"
+        "Windows"
       ],
       "store": "itch.io",
-      "link": "https://leef6010.itch.io/projectkat",
-      "blurb": "A small, unconventional horror rpg.",
+      "link": "https://madisonvideogame.itch.io/madison-demo",
+      "blurb": "A first person psychological horror game",
       "tags": [
         "Horror"
       ],
-      "image": "https://img.itch.zone/aW1nLzMwOTcyMjIucG5n/315x250%23c/a0NL9j.png",
+      "image": "https://img.itch.zone/aW1nLzY4MTkzNDEucG5n/315x250%23c/wacSNX.png",
       "free": true,
       "price": "Free",
       "source": "itch"
@@ -1138,41 +1141,21 @@
       "source": "itch"
     },
     {
-      "id": "madison-demo",
-      "title": "MADiSON Demo",
-      "developer": "madisonvideogame",
+      "id": "mr-magpie-s-harmless-card-game",
+      "title": "Mr Magpie's Harmless Card Game",
+      "developer": "giantlight",
       "status": "released",
-      "release_date": "2017-11-30",
+      "release_date": "2024-12-13",
       "platforms": [
         "Windows"
       ],
       "store": "itch.io",
-      "link": "https://madisonvideogame.itch.io/madison-demo",
-      "blurb": "A first person psychological horror game",
+      "link": "https://giantlight.itch.io/mr-magpies-harmless-card-game",
+      "blurb": "Greed is Good.",
       "tags": [
         "Horror"
       ],
-      "image": "https://img.itch.zone/aW1nLzY4MTkzNDEucG5n/315x250%23c/wacSNX.png",
-      "free": true,
-      "price": "Free",
-      "source": "itch"
-    },
-    {
-      "id": "endless-blue",
-      "title": "ENDLESS BLUE",
-      "developer": "mrdiv",
-      "status": "released",
-      "release_date": "2021-08-31",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "itch.io",
-      "link": "https://mrdiv.itch.io/endless-blue",
-      "blurb": "An underwater Survival Horror Adventure - but what lies beyond the ocean's deepest depths?",
-      "tags": [
-        "Horror"
-      ],
-      "image": "https://img.itch.zone/aW1nLzEzNDUyMjAxLmpwZw==/315x250%23c/SCxtx7.jpg",
+      "image": "https://img.itch.zone/aW1nLzIwMjcyNzYwLmdpZg==/original/LLxfXP.gif",
       "free": true,
       "price": "Free",
       "source": "itch"
@@ -1200,23 +1183,21 @@
       "source": "itch"
     },
     {
-      "id": "a-little-inconvenience",
-      "title": "A Little Inconvenience",
-      "developer": "husbandogoddess",
+      "id": "endless-blue",
+      "title": "ENDLESS BLUE",
+      "developer": "mrdiv",
       "status": "released",
-      "release_date": "2025-01-19",
+      "release_date": "2021-08-31",
       "platforms": [
-        "Windows",
-        "Mac",
-        "Linux"
+        "Windows"
       ],
       "store": "itch.io",
-      "link": "https://husbandogoddess.itch.io/a-little-inconvenience",
-      "blurb": "Every roadblock to you is just a little inconvenience...",
+      "link": "https://mrdiv.itch.io/endless-blue",
+      "blurb": "An underwater Survival Horror Adventure - but what lies beyond the ocean's deepest depths?",
       "tags": [
         "Horror"
       ],
-      "image": "https://img.itch.zone/aW1nLzMxMDEwODc3LnBuZw==/315x250%23c/2TS%2BYf.png",
+      "image": "https://img.itch.zone/aW1nLzEzNDUyMjAxLmpwZw==/315x250%23c/SCxtx7.jpg",
       "free": true,
       "price": "Free",
       "source": "itch"
@@ -1242,6 +1223,71 @@
       "source": "itch"
     },
     {
+      "id": "breadwinner",
+      "title": "Breadwinner",
+      "developer": "mithikagames",
+      "status": "released",
+      "release_date": "2026-10-04",
+      "platforms": [
+        "Browser"
+      ],
+      "store": "itch.io",
+      "link": "https://mithikagames.itch.io/breadwinner",
+      "blurb": "Horrors of a family living on one salary.",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzMwNjY5MTY2LnBuZw==/315x250%23c/thgCWM.png",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "project-sever",
+      "title": "Project SEVER",
+      "developer": "mehozavr",
+      "status": "released",
+      "release_date": "2023-02-22",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux",
+        "Android"
+      ],
+      "store": "itch.io",
+      "link": "https://mehozavr.itch.io/sever",
+      "blurb": "Submarine simulator, horror, exploration and maintenance",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzMwNzkwNjg2LnBuZw==/315x250%23c/r7j2qZ.png",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "a-little-inconvenience",
+      "title": "A Little Inconvenience",
+      "developer": "husbandogoddess",
+      "status": "released",
+      "release_date": "2025-01-19",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "store": "itch.io",
+      "link": "https://husbandogoddess.itch.io/a-little-inconvenience",
+      "blurb": "Every roadblock to you is just a little inconvenience...",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzMxMDEwODc3LnBuZw==/315x250%23c/2TS%2BYf.png",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
       "id": "voices-of-the-void-alpha",
       "title": "\"Voices Of The Void\" Alpha",
       "developer": "mrdrnose",
@@ -1257,6 +1303,26 @@
         "Horror"
       ],
       "image": "https://img.itch.zone/aW1nLzI2NDI5NTgzLmpwZw==/315x250%23c/5lRRHP.jpg",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "harlequinade-demo",
+      "title": "Harlequinade [Demo]",
+      "developer": "crystalgameworks",
+      "status": "released",
+      "release_date": "2026-06-19",
+      "platforms": [
+        "Browser"
+      ],
+      "store": "itch.io",
+      "link": "https://crystalgameworks.itch.io/harlequinade",
+      "blurb": "can you escape a neverending carnival night with the help of some clowns?",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzI4MDMzOTMyLmpwZw==/315x250%23c/L8n7xN.jpg",
       "free": true,
       "price": "Free",
       "source": "itch"
@@ -1284,28 +1350,6 @@
       "source": "itch"
     },
     {
-      "id": "last-missing",
-      "title": "LASt Missing",
-      "developer": "akilargie",
-      "status": "released",
-      "release_date": "2026-09-30",
-      "platforms": [
-        "Windows",
-        "Mac",
-        "Linux"
-      ],
-      "store": "itch.io",
-      "link": "https://akilargie.itch.io/last-missing",
-      "blurb": "A time-loop horror visual novel. One party, one mansion, twelve ways it can end.",
-      "tags": [
-        "Horror"
-      ],
-      "image": "https://img.itch.zone/aW1nLzMwNDEwMjMwLnBuZw==/315x250%23c/CSDNeu.png",
-      "free": true,
-      "price": "Free",
-      "source": "itch"
-    },
-    {
       "id": "online-obsession",
       "title": "Online Obsession",
       "developer": "sourmiiiilk",
@@ -1323,28 +1367,6 @@
         "Horror"
       ],
       "image": "https://img.itch.zone/aW1nLzE5NjgyMjc4LnBuZw==/315x250%23c/mdp6SI.png",
-      "free": true,
-      "price": "Free",
-      "source": "itch"
-    },
-    {
-      "id": "the-art-shop-day-2",
-      "title": "The Art Shop: DAY 2",
-      "developer": "surrtasm",
-      "status": "released",
-      "release_date": "2026-07-15",
-      "platforms": [
-        "Windows",
-        "Mac",
-        "Linux"
-      ],
-      "store": "itch.io",
-      "link": "https://surrtasm.itch.io/the-art-shop",
-      "blurb": "\"Welcome to your new Job.\"",
-      "tags": [
-        "Horror"
-      ],
-      "image": "https://img.itch.zone/aW1nLzI5Nzg1NDUzLnBuZw==/315x250%23c/wcZytH.png",
       "free": true,
       "price": "Free",
       "source": "itch"
