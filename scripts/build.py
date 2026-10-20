@@ -45,7 +45,7 @@ def news():
 <p class="meta" style="margin-top:.6rem">Powered by <a href="https://buttondown.com/refer/frightqueue" target="_blank" rel="noopener">Buttondown</a>. You'll get a confirmation email.</p></section>"""
 
 # Amazon Associates: generic search links only (no specific products).
-AMAZON_TAG = "thejurn-20"
+AMAZON_TAG = "frightqueue-20"
 GEAR = [("🎧 Gaming headsets", "gaming headset"), ("🎮 Horror games for PS5", "horror game PS5"),
         ("🕹 Horror games for Nintendo Switch", "horror game Nintendo Switch"), ("💡 LED gaming room lights", "LED gaming room lights"),
         ("🎮 PC game controllers", "PC game controller"), ("🖼 Horror movie posters", "horror movie posters")]
