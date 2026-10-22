@@ -2,6 +2,30 @@
   "updated": "2026-10-22T14:31:43Z",
   "games": [
     {
+      "id": "graveyard-shift",
+      "title": "Graveyard Shift (Early Access)",
+      "developer": "Spacetrucker / The JURN",
+      "status": "released",
+      "release_date": "2026-10-22",
+      "platforms": [
+        "Browser"
+      ],
+      "store": "thejurn.com",
+      "link": "https://thejurn.com/games/graveyard-shift/",
+      "blurb": "EARLY ACCESS from The JURN (our own game). A fast, chaotic horror roguelite starring Grave Hog, the cemetery's most overworked night-shift employee. Fight the undead, collect bizarre weapons, beat the bosses and survive until sunrise, then make one quick stop at Mega-Mart. Play in your browser on desktop or phone.",
+      "tags": [
+        "Early Access",
+        "Horror",
+        "Roguelite",
+        "Pixel Art"
+      ],
+      "image": "https://thejurn.com/games/graveyard-shift/og-image.jpg",
+      "free": false,
+      "price": null,
+      "source": "manual",
+      "pinned": true
+    },
+    {
       "id": "mojo-is-loved",
       "title": "Mojo Is Loved",
       "developer": "VAINSANE",
