@@ -7,6 +7,31 @@
   gtag('js', new Date());
   gtag('config', 'G-RG06HTMTSE');
 </script>
+<script id="jurn-ga-events">
+/* JURN GA4 events: amazon_click + generate_lead */
+(function(){
+  var SITE = "frightqueue";
+  function ok(){ return typeof window.gtag === 'function'; }
+  document.addEventListener('click', function(e){
+    if (!ok() || !e.target || !e.target.closest) return;
+    var a = e.target.closest('a[href]');
+    if (!a) return;
+    var h = a.hostname || '';
+    if (!/(^|[.])amazon[.]com$|(^|[.])amzn[.]to$/i.test(h)) return;
+    window.gtag('event', 'amazon_click', {
+      link_url: a.href, page_location: location.href,
+      item: (a.textContent || '').trim().slice(0, 100), site: SITE,
+      transport_type: 'beacon'
+    });
+  }, true);
+  document.addEventListener('submit', function(e){
+    var f = e.target;
+    if (!ok() || !f || !f.getAttribute) return;
+    if ((f.getAttribute('action') || '').indexOf('buttondown.com') === -1) return;
+    window.gtag('event', 'generate_lead', {form: 'weekly_fright', site: SITE, transport_type: 'beacon'});
+  }, true);
+})();
+</script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Slay the Princess - The Pristine Cut | Fright Queue</title><meta name="description" content="Slay the Princess - The Pristine Cut by blacktabbygames: You&#x27;re here to slay the Princess. Don&#x27;t believe her lies.">
 <link rel="canonical" href="https://frightqueue.thejurn.com/games/slay-the-princess-the-pristine-cut.html">
