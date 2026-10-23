@@ -60,7 +60,7 @@ def head(title, desc, path, img=None, extra=""):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@300;400;600;700&display=swap">
 <link rel="stylesheet" href="/assets/style.css">{extra}</head><body>
 <header class="top"><div class="wrap"><a class="logo" href="/">Fright Queue</a>
-<nav><a href="/#this-week">This Week</a><a href="/#queue">The Queue</a><a href="/#arcade">JURN Arcade</a><a href="/submit.html">Submit</a><a href="{JURN}ghoulbox/">Ghoul Box</a><a href="{JURN}">The JURN ↗</a></nav></div></header>"""
+<nav><a href="/#this-week">This Week</a><a href="/#queue">The Queue</a><a href="/#arcade">JURN Arcade</a><a href="/next-fest/">Next Fest</a><a href="/submit.html">Submit</a><a href="{JURN}ghoulbox/">Ghoul Box</a><a href="{JURN}">The JURN ↗</a></nav></div></header>"""
 
 def foot():
     return f"""<footer><div class="wrap jurn"><a href="{JURN}" aria-label="The JURN"><img src="/assets/jurn-logo.png" alt="The JURN logo" loading="lazy" width="96" height="48"></a>
@@ -158,10 +158,43 @@ sub += foot() + """<script>document.getElementById('submit-form').addEventListen
 let b='';for(const[k,v]of f)b+=k+': '+v+'\\n';location.href='mailto:contact@thejurn.com?subject='+encodeURIComponent('Fright Queue submission: '+f.get('title'))+'&body='+encodeURIComponent(b);});</script></body></html>"""
 (R/"submit.html").write_text(sub)
 
+# ---------- Steam Next Fest horror demo tracker (/next-fest/) ----------
+# Dates from Steamworks: https://partner.steamgames.com/doc/marketing/upcoming_events  (update when Valve posts new editions)
+FESTS = [("October 2026", "2026-10-19T17:00:00Z", "2026-10-26T17:00:00Z"),
+         ("February 2027", "2027-02-22T18:00:00Z", "2027-03-01T18:00:00Z"),
+         ("June 2027", "2027-06-14T17:00:00Z", "2027-06-21T17:00:00Z")]
+_nf_path = R/"data/nextfest.json"
+nf = json.loads(_nf_path.read_text()) if _nf_path.exists() else {"updated": "", "demos": []}
+cards = "".join(f"""<article class="card"><a href="{e(d["link"])}" rel="noopener"><img src="{e(d["image"])}" alt="{e(d["title"])} key art" loading="lazy" width="460" height="215"></a>
+<div class="b">{'<span class="pill demo">Demo available</span>' if d.get("demo_available") else ''}<span class="meta">{e(d["release_date"])}</span>
+<h3><a href="{e(d["link"])}" rel="noopener">{e(d["title"])}</a></h3><p class="meta">by {e(d["developer"])}</p><p>{e(d["blurb"])}</p>
+<p style="margin-top:.6rem"><a class="btn" href="{e(d["demo_link"])}" rel="noopener">Play the demo on Steam</a></p></div></article>""" for d in nf["demos"])
+fest_rows = "".join(f'<li><strong>Steam Next Fest: {e(n)}</strong>: <time datetime="{a}">{a[:10]}</time> to <time datetime="{b}">{b[:10]}</time> (10 AM Pacific)</li>' for n, a, b in FESTS)
+nfp = head("Steam Next Fest Horror Demo Tracker | Fright Queue",
+           "Steam Next Fest dates, a countdown, and the horror demos you can play now on Steam. Updated nightly by Fright Queue.", "/next-fest/")
+nfp += f"""<main class="wrap">
+<section class="hero"><div class="eyebrow">Steam Next Fest · demos updated {e(nf["updated"][:10])}</div><h1>Next Fest Horror Demo Tracker</h1>
+<p id="nf-status">Steam Next Fest: February 2027 runs Feb 22 to Mar 1, 2027 (10 AM Pacific).</p>
+<p id="nf-count" style="font-size:1.6rem;font-weight:700;margin-top:.6rem"></p></section>
+<section><h2 class="sec">Festival dates</h2><ul>{fest_rows}</ul>
+<p class="meta">Source: <a href="https://partner.steamgames.com/doc/marketing/upcoming_events/nextfest/feb_2027" rel="noopener">Steamworks: Steam Next Fest February 2027</a> · <a href="https://partner.steamgames.com/doc/marketing/upcoming_events" rel="noopener">Upcoming Steam Events</a></p></section>
+<section id="demos"><h2 class="sec">Horror demos to play now</h2>
+<p class="sub">{len(nf["demos"])} upcoming horror games with a playable Steam demo, pulled nightly from Steam's Horror tag. Many of these are in (or headed for) Next Fest.</p>
+<div class="grid">{cards}</div></section>
+{news()}</main>{foot()}
+<script>(function(){{var F={json.dumps(FESTS)};var s=document.getElementById('nf-status'),c=document.getElementById('nf-count');
+function fmt(ms){{var d=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5),m=Math.floor(ms%36e5/6e4);return d+'d '+h+'h '+m+'m';}}
+function tick(){{var now=Date.now();for(var i=0;i<F.length;i++){{var a=Date.parse(F[i][1]),b=Date.parse(F[i][2]);
+if(now<a){{s.textContent='Next up: Steam Next Fest '+F[i][0]+'. Starts in';c.textContent=fmt(a-now);return;}}
+if(now<b){{s.textContent='Steam Next Fest '+F[i][0]+' is LIVE. Ends in';c.textContent=fmt(b-now);return;}}}}
+s.textContent='Check Steamworks for the next Next Fest dates.';c.textContent='';}}tick();setInterval(tick,30000);}})();</script></body></html>"""
+(R/"next-fest").mkdir(exist_ok=True)
+(R/"next-fest/index.html").write_text(nfp)
+
 # ---------- 404, sitemap, robots ----------
 (R/"404.html").write_text(head("Lost in the crypt | Fright Queue","Page not found","/404.html")+'<main class="wrap hero"><h1>404</h1><p>This page has been buried. <a href="/">Back to the Queue</a></p></main>'+foot()+"</body></html>")
 today = date.today().isoformat()
-urls = ["/", "/submit.html"] + [f"/games/{g['id']}.html" for g in games]
+urls = ["/", "/next-fest/", "/submit.html"] + [f"/games/{g['id']}.html" for g in games]
 (R/"sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     "".join(f"  <url><loc>{SITE}{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n")
 (R/"robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
