@@ -1,30 +1,6 @@
 {
- "updated": "2026-10-23T14:15:55.500695+00:00",
+ "updated": "2026-10-24T13:21:04.843959+00:00",
  "demos": [
-  {
-   "appid": 5398960,
-   "demo_appid": 5401880,
-   "title": "The Lost Within II",
-   "developer": "Valera",
-   "blurb": "You are trapped in dark, abandoned mines where your only way out is to run. Solve puzzles, avoid deadly traps, and try to survive while a bloodthirsty monster hunts you down in every corner. Can you make it to the light?",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398960/36b1df48d2e9a9f81264b32bf280d150a29e5391/header.jpg?t=1792417966",
-   "release_date": "Coming soon",
-   "link": "https://store.steampowered.com/app/5398960/",
-   "demo_link": "https://store.steampowered.com/app/5401880/",
-   "demo_available": true
-  },
-  {
-   "appid": 4387060,
-   "demo_appid": 5435570,
-   "title": "Hauntbound",
-   "developer": "BrokeSoft",
-   "blurb": "An online and local multiplayer horror party game for 2 to 8 players. Explore a haunted house that builds itself, search for relics, avoid deadly traps, and compete in chaotic minigames before the haunt begins.",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4387060/7bcc2eeeb23f70643d91c1f4597b59fca8bb9393/header.jpg?t=1792182998",
-   "release_date": "Coming soon",
-   "link": "https://store.steampowered.com/app/4387060/",
-   "demo_link": "https://store.steampowered.com/app/5435570/",
-   "demo_available": true
-  },
   {
    "appid": 2076980,
    "demo_appid": 5465800,
@@ -35,6 +11,18 @@
    "release_date": "Coming soon",
    "link": "https://store.steampowered.com/app/2076980/",
    "demo_link": "https://store.steampowered.com/app/5465800/",
+   "demo_available": true
+  },
+  {
+   "appid": 3050090,
+   "demo_appid": 5407340,
+   "title": "Thalassomania",
+   "developer": "OffTheHookGames",
+   "blurb": "A PS1-style co-op horror game for 1–4 players. Set at sea, you run a fishing trawler with your crew, haul, gut, steer, repair! while something lurks in the shadows. Keep the ship alive. Get home. You're not alone out there.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3050090/3f8f93fb1f5c2af2cbec18628298eff83134d3b7/header.jpg?t=1792796333",
+   "release_date": "Q1 2027",
+   "link": "https://store.steampowered.com/app/3050090/",
+   "demo_link": "https://store.steampowered.com/app/5407340/",
    "demo_available": true
   },
   {
@@ -62,15 +50,27 @@
    "demo_available": true
   },
   {
-   "appid": 3430740,
-   "demo_appid": 4610320,
-   "title": "Pine Creek",
-   "developer": "DREADMITH Games",
-   "blurb": "A weekend getaway to Pine Creek in '86 turns into a nightmare when your wife vanishes as strange lights appear in the sky. Solve puzzles, hide from the grays, save Sarah and survive the night in this first-person stealth survival horror. Th",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3430740/049b247300bf3f0d99e4de9f40474b6ca173393d/header.jpg?t=1792682725",
+   "appid": 5048280,
+   "demo_appid": 5223320,
+   "title": "Netherworld: Blood Moon",
+   "developer": "BaBiBoBo Studio",
+   "blurb": "You wake up shackled to a bamboo stalk in an unfamiliar forest. In the distance, something seems to be moving through the grove. You look closer... until you realize... it isn’t alive at all. One bizarre and horrifying event follows another",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5048280/b7b76ea2d2433a4ea1f02977b3d4b678685d2dc7/header.jpg?t=1792843828",
+   "release_date": "Q1 2027",
+   "link": "https://store.steampowered.com/app/5048280/",
+   "demo_link": "https://store.steampowered.com/app/5223320/",
+   "demo_available": true
+  },
+  {
+   "appid": 3776070,
+   "demo_appid": 5396140,
+   "title": "Noctheria",
+   "developer": "zombiebytegames",
+   "blurb": "A retro horror action-adventure. Explore cursed dungeons, solve their puzzles, and find the tools that open each new path. All while uncovering the truth of ancient gods.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3776070/e090e85aa5c663c93774476e974387e89c3d7757/header.jpg?t=1792003184",
    "release_date": "Coming soon",
-   "link": "https://store.steampowered.com/app/3430740/",
-   "demo_link": "https://store.steampowered.com/app/4610320/",
+   "link": "https://store.steampowered.com/app/3776070/",
+   "demo_link": "https://store.steampowered.com/app/5396140/",
    "demo_available": true
   },
   {
@@ -146,6 +146,18 @@
    "demo_available": true
   },
   {
+   "appid": 5246510,
+   "demo_appid": 5420660,
+   "title": "The Inkwell",
+   "developer": "Partime Studios",
+   "blurb": "Monitor. Identify. Purge. Watch haunted cartoon feeds, identify entities by the anomalies they leave behind, and perform precise exorcisms. Keep the corruption contained, or the broadcast will claim you next.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5246510/e998decf39f3c3946b8bf3380cad84ff7534e1f7/header.jpg?t=1792844785",
+   "release_date": "Q1 2027",
+   "link": "https://store.steampowered.com/app/5246510/",
+   "demo_link": "https://store.steampowered.com/app/5420660/",
+   "demo_available": true
+  },
+  {
    "appid": 5260120,
    "demo_appid": 5328950,
    "title": "Blackwood: A Sétima Safra",
@@ -158,39 +170,15 @@
    "demo_available": true
   },
   {
-   "appid": 5246510,
-   "demo_appid": 5420660,
-   "title": "The Inkwell",
-   "developer": "Partime Studios",
-   "blurb": "Monitor. Identify. Purge. Watch haunted cartoon feeds, identify entities by the anomalies they leave behind, and perform precise exorcisms. Keep the corruption contained, or the broadcast will claim you next.",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5246510/e998decf39f3c3946b8bf3380cad84ff7534e1f7/header.jpg?t=1792712268",
-   "release_date": "Q1 2027",
-   "link": "https://store.steampowered.com/app/5246510/",
-   "demo_link": "https://store.steampowered.com/app/5420660/",
-   "demo_available": true
-  },
-  {
-   "appid": 5210800,
-   "demo_appid": 5443490,
-   "title": "SYSTEM INTRUDER",
-   "developer": "R_Games",
-   "blurb": "Explore the dark secrets of ASGARD-04 in an immersive retro-cyberpunk survival horror inspired by classic 3D games. Search for clues, solve puzzles, fight enemies, manage limited resources, and survive the horrors lurking within a mysteriou",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5210800/d5f007032b69dbb89e70cd5e2ad60700e07ad633/header.jpg?t=1792623529",
-   "release_date": "Q1 2027",
-   "link": "https://store.steampowered.com/app/5210800/",
-   "demo_link": "https://store.steampowered.com/app/5443490/",
-   "demo_available": true
-  },
-  {
-   "appid": 3558830,
-   "demo_appid": 5442740,
-   "title": "Grave Benders",
-   "developer": "Nullsmith Interactive",
-   "blurb": "Rob the graves of the rich after curfew. Dig with your friends, which is loud, in a cemetery that listens... It's 1947 and the plague never ended. There's room in the van for four. Keep your voices down. The watchman can hear you, and not e",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558830/bd66fd6d8f2e3841e330a84e876a1995d64ff22c/header.jpg?t=1792752606",
-   "release_date": "Coming soon",
-   "link": "https://store.steampowered.com/app/3558830/",
-   "demo_link": "https://store.steampowered.com/app/5442740/",
+   "appid": 3601550,
+   "demo_appid": 5474480,
+   "title": "FMV - Full Motion Voyeur",
+   "developer": "Ten Thousand Hearts Ltd.",
+   "blurb": "Full Motion Voyeur is a dark FMV thriller where you're trapped in a nightmare of surveillance, obedience, and sacrifice. Guided by the mysterious ADMIN, Claire is ordered to investigate targets, uncover their secrets, and feed them to a Dem",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3601550/35ecbff914c12953aeed5181b54832489facd7e0/header.jpg?t=1792427536",
+   "release_date": "Q2 2027",
+   "link": "https://store.steampowered.com/app/3601550/",
+   "demo_link": "https://store.steampowered.com/app/5474480/",
    "demo_available": true
   },
   {
@@ -206,6 +194,18 @@
    "demo_available": true
   },
   {
+   "appid": 3558830,
+   "demo_appid": 5442740,
+   "title": "Grave Benders",
+   "developer": "Nullsmith Interactive",
+   "blurb": "Rob the graves of the rich after curfew. Dig with your friends, which is loud, in a cemetery that listens... It's 1947 and the plague never ended. There's room in the van for four. Keep your voices down. The watchman can hear you, and not e",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558830/bd66fd6d8f2e3841e330a84e876a1995d64ff22c/header.jpg?t=1792752606",
+   "release_date": "Coming soon",
+   "link": "https://store.steampowered.com/app/3558830/",
+   "demo_link": "https://store.steampowered.com/app/5442740/",
+   "demo_available": true
+  },
+  {
    "appid": 4725940,
    "demo_appid": 5400510,
    "title": "Backrooms Anomaly Project",
@@ -215,6 +215,30 @@
    "release_date": "To be announced",
    "link": "https://store.steampowered.com/app/4725940/",
    "demo_link": "https://store.steampowered.com/app/5400510/",
+   "demo_available": true
+  },
+  {
+   "appid": 4979250,
+   "demo_appid": 5170330,
+   "title": "Hollow Crew",
+   "developer": "Dark Snow Games",
+   "blurb": "Hollow Crew is a survival horror set in the confines of an isolated space station. Its loyal androids have suddenly been turned against you - survive their relentless hunt and contain the emergency, or die trying.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4979250/40db7c6ccfa6f6b729cdaa6c86fe8a7dc4064eb7/header.jpg?t=1791659745",
+   "release_date": "Q2 2027",
+   "link": "https://store.steampowered.com/app/4979250/",
+   "demo_link": "https://store.steampowered.com/app/5170330/",
+   "demo_available": true
+  },
+  {
+   "appid": 5314110,
+   "demo_appid": 5465930,
+   "title": "Mr. StoryTeller",
+   "developer": "Erick Alejandro Perez Orona",
+   "blurb": "Mr. StoryTeller is an ever-expanding psychological horror and mystery anthology. From a timeless cosmic library, choose from multiple standalone 15-20 minute chronicles: liminal spaces, existential dread, and shocking narrative twists. Are ",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5314110/4f8e7ab562dee4b290fa6b65e287da89f65ae8a0/header.jpg?t=1791481185",
+   "release_date": "Coming soon",
+   "link": "https://store.steampowered.com/app/5314110/",
+   "demo_link": "https://store.steampowered.com/app/5465930/",
    "demo_available": true
   },
   {
@@ -271,7 +295,7 @@
    "title": "EXORCISMUS: Vade Retro Satana",
    "developer": "Airem",
    "blurb": "A psychological exorcism horror featuring the unique Presence System and a 3D Jumpscare effect that makes demons burst out of your screen. Every sound has a source. The demon sees you, hears you, senses your fear. Forget predictable jumpsca",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4915180/ec3a61cd5015f25e582ab04830412c4a2475357f/header.jpg?t=1792347100",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4915180/ec3a61cd5015f25e582ab04830412c4a2475357f/header.jpg?t=1792773877",
    "release_date": "Oct 30, 2026",
    "link": "https://store.steampowered.com/app/4915180/",
    "demo_link": "https://store.steampowered.com/app/4915200/",
@@ -314,15 +338,15 @@
    "demo_available": true
   },
   {
-   "appid": 5129020,
-   "demo_appid": 5466000,
-   "title": "Operation Night Shift 2",
-   "developer": "Htoo Khant Maung, Multi-Games Studio (MUIG Studio)",
-   "blurb": "Hired by Robot Industries 12, you're promised a life-changing $1,000,000 payout for a high-risk mission. All you have to do is follow orders and survive the locations. What could possibly go wrong?",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5129020/1531a2a15f341d4939898484319ed103c361dc07/header.jpg?t=1792295626",
+   "appid": 3430740,
+   "demo_appid": 4610320,
+   "title": "Pine Creek",
+   "developer": "DREADMITH Games",
+   "blurb": "A weekend getaway to Pine Creek in '86 turns into a nightmare when your wife vanishes as strange lights appear in the sky. Solve puzzles, hide from the grays, save Sarah and survive the night in this first-person stealth survival horror. Th",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3430740/049b247300bf3f0d99e4de9f40474b6ca173393d/header.jpg?t=1792682725",
    "release_date": "Coming soon",
-   "link": "https://store.steampowered.com/app/5129020/",
-   "demo_link": "https://store.steampowered.com/app/5466000/",
+   "link": "https://store.steampowered.com/app/3430740/",
+   "demo_link": "https://store.steampowered.com/app/4610320/",
    "demo_available": true
   },
   {
@@ -350,39 +374,27 @@
    "demo_available": true
   },
   {
-   "appid": 5356730,
-   "demo_appid": 5415030,
-   "title": "Not a Duck",
-   "developer": "NOXRG",
-   "blurb": "Night shift, Line 3. Squeeze, float, stamp and weigh every rubber duck that rolls down the belt, then ship it or shred it. Shelve the good ones in a dark warehouse where the lights only come on when you move. Some units are not ducks. Don't",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5356730/e5b45331a7c1cbc4a34f9387a5445099e2340337/header.jpg?t=1791440369",
+   "appid": 5246560,
+   "demo_appid": 5280850,
+   "title": "Help Wanted",
+   "developer": "Caffeineline",
+   "blurb": "first/third person psychological horror, where the player takes odd freelance jobs,with specific rules to survive. Using a phone to access security cameras, take pictures, and the flashlight app to help with work. -Thanks for applying to ou",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5246560/906f52affede4b0cdb95f695a800c0346c7a43b9/header.jpg?t=1790153061",
    "release_date": "Coming soon",
-   "link": "https://store.steampowered.com/app/5356730/",
-   "demo_link": "https://store.steampowered.com/app/5415030/",
+   "link": "https://store.steampowered.com/app/5246560/",
+   "demo_link": "https://store.steampowered.com/app/5280850/",
    "demo_available": true
   },
   {
-   "appid": 5415090,
-   "demo_appid": 5420650,
-   "title": "Abandoned Below",
-   "developer": "Eldersong Games",
-   "blurb": "Face relentless zombie waves in a decaying underground bunker. Fight solo or in co-op for up to four players. Build barricades, unlock new passages, explore and survive as long as you can.",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5415090/6e48375824e1eb685d12f24d361ab5a4559cde06/header.jpg?t=1792572891",
-   "release_date": "Dec 1, 2026",
-   "link": "https://store.steampowered.com/app/5415090/",
-   "demo_link": "https://store.steampowered.com/app/5420650/",
-   "demo_available": true
-  },
-  {
-   "appid": 5346390,
-   "demo_appid": 5425560,
-   "title": "Just Take Me to My Floor!",
-   "developer": "SUGAMUE",
-   "blurb": "This is a short, rule-based elevator horror puzzle game where you aim to reach the 10th floor while following a series of eerie rules that change daily.",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5346390/b2bbe1e3d7b2d7f2b707b8c234c1fd603e84eb51/header.jpg?t=1791468167",
-   "release_date": "November 2026",
-   "link": "https://store.steampowered.com/app/5346390/",
-   "demo_link": "https://store.steampowered.com/app/5425560/",
+   "appid": 4158950,
+   "demo_appid": 5275320,
+   "title": "Silent Ward",
+   "developer": "ZiggySleeps",
+   "blurb": "Silent Ward is a free short horror experience: explore a ruined asylum from a wheelchair, uncover what happened during your coma, and survive blind monsters that hunt by sound—escape with one of multiple endings.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4158950/5107ff2b953177d01324171e2739629c92968631/header.jpg?t=1768542556",
+   "release_date": "Coming soon",
+   "link": "https://store.steampowered.com/app/4158950/",
+   "demo_link": "https://store.steampowered.com/app/5275320/",
    "demo_available": true
   },
   {
@@ -398,39 +410,27 @@
    "demo_available": true
   },
   {
-   "appid": 726680,
-   "demo_appid": 5433070,
-   "title": "Better Together",
-   "developer": "Víbrur Games",
-   "blurb": "A 2 to 6 player co-op psychological horror. Become neighbors with your friends in an underground experiment. Complete the studies, get paid by doing tasks, while the Institute notes your routine. Betray your friends before they do. In the e",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726680/0e466566ef0f38a8a72664c72c0c89a1dc5ca6b7/header.jpg?t=1791808140",
-   "release_date": "Coming soon",
-   "link": "https://store.steampowered.com/app/726680/",
-   "demo_link": "https://store.steampowered.com/app/5433070/",
+   "appid": 5244680,
+   "demo_appid": 5461800,
+   "title": "Ray Ray Zombies",
+   "developer": "Wow Cool Games",
+   "blurb": "Ray Ray Zombies is the new lightweight generation of zombie survival horror. Survive waves of undead and discover the elemental secrets of the Wonderplex Corporation with Ray Ray and his team.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5244680/ec169fa0db776bc5587ab122edb0abae1f3b1d25/header.jpg?t=1792759107",
+   "release_date": "October 2026",
+   "link": "https://store.steampowered.com/app/5244680/",
+   "demo_link": "https://store.steampowered.com/app/5461800/",
    "demo_available": true
   },
   {
-   "appid": 3368150,
-   "demo_appid": 4918560,
-   "title": "Saltwater Bodies",
-   "developer": "Semble Knights",
-   "blurb": "A cave-diving body horror game",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3368150/header.jpg?t=1792725217",
-   "release_date": "To be announced",
-   "link": "https://store.steampowered.com/app/3368150/",
-   "demo_link": "https://store.steampowered.com/app/4918560/",
-   "demo_available": true
-  },
-  {
-   "appid": 5246560,
-   "demo_appid": 5280850,
-   "title": "Help Wanted",
-   "developer": "Caffeineline",
-   "blurb": "first/third person psychological horror, where the player takes odd freelance jobs,with specific rules to survive. Using a phone to access security cameras, take pictures, and the flashlight app to help with work. -Thanks for applying to ou",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5246560/906f52affede4b0cdb95f695a800c0346c7a43b9/header.jpg?t=1790153061",
-   "release_date": "Coming soon",
-   "link": "https://store.steampowered.com/app/5246560/",
-   "demo_link": "https://store.steampowered.com/app/5280850/",
+   "appid": 4171930,
+   "demo_appid": 4999110,
+   "title": "PNEUMA",
+   "developer": "Gravity Grid Studios",
+   "blurb": "Pneuma is an online co-op sci-fi paranormal investigation game for up to 4 players. Operate advanced paranormal tech to investigate, analyze, and outmaneuver deadly ghosts before you are possessed. Speak rituals aloud with your own voice to",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4171930/5782063da556c084998fc30046b8f524c70b9e22/header.jpg?t=1792787220",
+   "release_date": "2027",
+   "link": "https://store.steampowered.com/app/4171930/",
+   "demo_link": "https://store.steampowered.com/app/4999110/",
    "demo_available": true
   }
  ]
