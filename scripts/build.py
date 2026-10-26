@@ -60,7 +60,7 @@ def head(title, desc, path, img=None, extra=""):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@300;400;600;700&display=swap">
 <link rel="stylesheet" href="/assets/style.css">{extra}</head><body>
 <header class="top"><div class="wrap"><a class="logo" href="/">Fright Queue</a>
-<nav><a href="/#this-week">This Week</a><a href="/#queue">The Queue</a><a href="/#arcade">JURN Arcade</a><a href="/next-fest/">Next Fest</a><a href="/jams/">Jams</a><a href="/submit.html">Submit</a><a href="{JURN}ghoulbox/">Ghoul Box</a><a href="{JURN}">The JURN ↗</a></nav></div></header>"""
+<nav><a href="/#this-week">This Week</a><a href="/#queue">The Queue</a><a href="/#arcade">JURN Arcade</a><a href="/next-fest/">Next Fest</a><a href="/jams/">Jams</a><a href="/dev-planner/">Dev Planner</a><a href="/submit.html">Submit</a><a href="{JURN}ghoulbox/">Ghoul Box</a><a href="{JURN}">The JURN ↗</a></nav></div></header>"""
 
 def foot():
     return f"""<footer><div class="wrap jurn"><a href="{JURN}" aria-label="The JURN"><img src="/assets/jurn-logo.png" alt="The JURN logo" loading="lazy" width="96" height="48"></a>
@@ -215,10 +215,81 @@ jp += f"""<main class="wrap">
 (R/"jams").mkdir(exist_ok=True)
 (R/"jams/index.html").write_text(jp)
 
+# ---------- Steam horror sale & fest planner for developers (/dev-planner/) ----------
+# Every date below is copied from Steamworks "Upcoming Steam Events" (partner.steamgames.com/doc/marketing/upcoming_events),
+# checked 2026-10-26. Update when Valve posts new dates. Never add unverified dates.
+from datetime import date as _d, timedelta as _td
+SRC_EV = "https://partner.steamgames.com/doc/marketing/upcoming_events"
+SRC_DISC = "https://partner.steamgames.com/doc/marketing/discounts"
+SRC_SEAS = "https://partner.steamgames.com/doc/marketing/discounts/seasonalsales"
+SRC_NF = "https://partner.steamgames.com/doc/marketing/upcoming_events/nextfest/feb_2027"
+EVENTS = [  # (start, end, name, kind, horror?, note)
+    ("2026-10-19", "2026-10-26", "Steam Next Fest: October 2026", "nextfest", False, "Demos for unreleased games."),
+    ("2026-10-26", "2026-11-02", "Steam Scream V", "fest", True, "Horror-category and explicitly Halloween-centric games."),
+    ("2026-11-16", "2026-11-23", "Auto-Battler RPG Fest", "fest", False, ""),
+    ("2026-12-17", "2027-01-04", "Steam Winter Sale 2026", "seasonal", False, "Seasonal sale: exempt from the 30-day discount cooldown."),
+    ("2027-01-14", "2027-01-18", "Desktop Companion Fest", "fest", False, ""),
+    ("2027-01-25", "2027-02-01", "Shop Keeper Fest", "fest", False, ""),
+    ("2027-02-04", "2027-02-08", "Sheep Fest", "fest", False, ""),
+    ("2027-02-08", "2027-02-15", "Couch Co-Op Fest", "fest", False, ""),
+    ("2027-02-22", "2027-03-01", "Steam Next Fest: February 2027", "nextfest", False, "Demos for unreleased games."),
+    ("2027-03-08", "2027-03-15", "Rhythm Fest", "fest", False, ""),
+    ("2027-03-18", "2027-03-25", "Steam Spring Sale 2027", "seasonal", False, "Seasonal sale: exempt from the 30-day discount cooldown."),
+    ("2027-03-29", "2027-04-05", "Dinos vs. Robots Fest", "fest", False, ""),
+    ("2027-04-12", "2027-04-19", "Racing Fest", "fest", False, ""),
+    ("2027-04-22", "2027-04-26", "Witch Fest", "fest", True, "Witchy games, a natural fit for occult and folk horror."),
+    ("2027-04-26", "2027-05-03", "Fighting Fest", "fest", False, ""),
+    ("2027-05-10", "2027-05-17", "Real-Time Strategy Fest", "fest", False, ""),
+    ("2027-05-31", "2027-06-03", "Mountaineering Fest", "fest", False, ""),
+    ("2027-06-14", "2027-06-21", "Steam Next Fest: June 2027", "nextfest", False, "Demos for unreleased games."),
+    ("2027-06-24", "2027-07-08", "Steam Summer Sale 2027", "seasonal", False, "Seasonal sale: exempt from the 30-day discount cooldown."),
+]
+_D = lambda s: _d.fromisoformat(s)
+_fmt = lambda d: d.strftime("%b %-d, %Y")
+_today = date.today()
+def _row(ev):
+    a, b, n, k, h, note = ev; A, B = _D(a), _D(b)
+    if k == "seasonal":
+        plan = (f"To join, your game must be released (and any price increase made) by <strong>{_fmt(A - _td(days=30))}</strong>. "
+                "Other discounts before or after do not block it.")
+    elif k == "nextfest":
+        plan = 'For unreleased games with a demo. See our <a href="/next-fest/">Next Fest horror demo tracker</a>.'
+    else:
+        plan = (f"To be on discount here: released by <strong>{_fmt(A - _td(days=30))}</strong>, and your previous non-seasonal discount must "
+                f"have ended by <strong>{_fmt(A - _td(days=30))}</strong>. A discount here blocks your next non-seasonal discount until "
+                f"<strong>{_fmt(B + _td(days=30))}</strong>. You can also join at full price.")
+    cls = ' class="horror"' if h else ''
+    past = ' style="opacity:.55"' if B < _today else ''
+    return (f'<tr{cls}{past}><td><time datetime="{a}">{_fmt(A)}</time> to <time datetime="{b}">{_fmt(B)}</time></td>'
+            f'<td><strong>{e(n)}</strong>{" 🎃" if h else ""}<br><span class="meta">{e(note)}</span></td><td>{plan}</td></tr>')
+_rows = "".join(_row(ev) for ev in EVENTS if _D(ev[1]) >= _today - _td(days=7))
+dp = head("Steam Sale & Fest Planner for Horror Devs | Fright Queue",
+          "Upcoming Steam seasonal sales, horror fests and Next Fest, with Steam's 30-day discount cooldown explained and safe launch and discount windows. Sourced from Steamworks.", "/dev-planner/",
+          extra="<style>.plan{width:100%;border-collapse:collapse}.plan td,.plan th{border-bottom:1px solid #333;padding:.6rem;vertical-align:top;text-align:left}.plan tr.horror{background:rgba(255,80,0,.08)}</style>")
+dp += f"""<main class="wrap">
+<section class="hero"><div class="eyebrow">For developers · dates checked against Steamworks</div><h1>Steam Sale &amp; Fest Planner for Horror Devs</h1>
+<p>Every upcoming Steam seasonal sale, themed fest and Next Fest Valve has announced, with the dates you need to hit so the 30-day cooldowns don't lock you out. Horror-relevant events are marked 🎃.</p></section>
+<section id="rules"><h2 class="sec">The 30-day rules in plain English</h2><ul>
+<li><strong>Release cooldown:</strong> no discounts for 30 days after release (Early Access and full release both count). The only exception is an optional <em>launch discount</em> (7 to 14 days, max 40%), which must be set up before release.</li>
+<li><strong>Discount cooldown:</strong> a discount can't start within 30 days of the end of your previous discount. This covers Daily/Midweek/Weekend/Weeklong deals, Steam Fests, publisher sales and custom discounts.</li>
+<li><strong>Seasonal sales are the exception:</strong> the Spring, Summer, Autumn and Winter sales are exempt from the discount cooldown, so you can run a discount just before or after one and still join. They are <em>not</em> exempt from the release or price-increase cooldowns.</li>
+<li><strong>Price-increase cooldown:</strong> no discounts for 30 days after raising your base price in any currency.</li>
+<li><strong>Fests don't require a discount:</strong> themed fests prioritise discounted games, but free, Coming Soon and demo games can take part, and you can be featured at full price.</li>
+<li>Discounts run 1 to 14 days at 10% to 95% off. A 20%+ discount can trigger wishlist emails.</li></ul>
+<p class="meta">Source: <a href="{SRC_DISC}" rel="noopener">Steamworks: Discounting</a>.</p></section>
+<section id="calendar"><h2 class="sec">Calendar &amp; safe windows</h2>
+<p class="sub">Windows are calculated from the event dates with the 30-day rules above. Events usually start and end at 10 AM Pacific; always confirm in your Steamworks dashboard.</p>
+<div style="overflow-x:auto"><table class="plan"><thead><tr><th>Dates</th><th>Event</th><th>Your launch &amp; discount window</th></tr></thead><tbody>{_rows}</tbody></table></div>
+<p class="meta">Autumn Sale 2027 is listed by Valve as TBD, so it is not on this calendar yet. Sources: <a href="{SRC_EV}" rel="noopener">Steamworks: Upcoming Steam Events</a> · <a href="{SRC_SEAS}" rel="noopener">Steamworks: Seasonal Sales</a> · <a href="{SRC_NF}" rel="noopener">Steamworks: Next Fest February 2027</a>.</p></section>
+<section><h2 class="sec">Planning a horror launch?</h2><p>Track the horror demos in the next Next Fest on our <a href="/next-fest/">Next Fest tracker</a>, find a jam to prototype in on the <a href="/jams/">horror jam tracker</a>, or <a href="/submit.html">submit your game</a> to Fright Queue.</p></section>
+{news()}</main>{foot()}</body></html>"""
+(R/"dev-planner").mkdir(exist_ok=True)
+(R/"dev-planner/index.html").write_text(dp)
+
 # ---------- 404, sitemap, robots ----------
 (R/"404.html").write_text(head("Lost in the crypt | Fright Queue","Page not found","/404.html")+'<main class="wrap hero"><h1>404</h1><p>This page has been buried. <a href="/">Back to the Queue</a></p></main>'+foot()+"</body></html>")
 today = date.today().isoformat()
-urls = ["/", "/next-fest/", "/jams/", "/submit.html"] + [f"/games/{g['id']}.html" for g in games]
+urls = ["/", "/next-fest/", "/jams/", "/dev-planner/", "/submit.html"] + [f"/games/{g['id']}.html" for g in games]
 (R/"sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     "".join(f"  <url><loc>{SITE}{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n")
 (R/"robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
