@@ -60,7 +60,7 @@ def head(title, desc, path, img=None, extra=""):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@300;400;600;700&display=swap">
 <link rel="stylesheet" href="/assets/style.css">{extra}</head><body>
 <header class="top"><div class="wrap"><a class="logo" href="/">Fright Queue</a>
-<nav><a href="/#this-week">This Week</a><a href="/#queue">The Queue</a><a href="/#arcade">JURN Arcade</a><a href="/next-fest/">Next Fest</a><a href="/submit.html">Submit</a><a href="{JURN}ghoulbox/">Ghoul Box</a><a href="{JURN}">The JURN ↗</a></nav></div></header>"""
+<nav><a href="/#this-week">This Week</a><a href="/#queue">The Queue</a><a href="/#arcade">JURN Arcade</a><a href="/next-fest/">Next Fest</a><a href="/jams/">Jams</a><a href="/submit.html">Submit</a><a href="{JURN}ghoulbox/">Ghoul Box</a><a href="{JURN}">The JURN ↗</a></nav></div></header>"""
 
 def foot():
     return f"""<footer><div class="wrap jurn"><a href="{JURN}" aria-label="The JURN"><img src="/assets/jurn-logo.png" alt="The JURN logo" loading="lazy" width="96" height="48"></a>
@@ -191,10 +191,34 @@ s.textContent='Check Steamworks for the next Next Fest dates.';c.textContent='';
 (R/"next-fest").mkdir(exist_ok=True)
 (R/"next-fest/index.html").write_text(nfp)
 
+# ---------- Horror game jam tracker (/jams/) ----------
+_jm_path = R/"data/jams.json"
+jm = json.loads(_jm_path.read_text()) if _jm_path.exists() else {"updated": "", "jams": []}
+def _jcard(j):
+    dates = f'<time datetime="{e(j["start"])}">{e(j["start"][:10])}</time> to <time datetime="{e(j["end"])}">{e(j["end"][:10])}</time> (UTC)'
+    prize = f'<p><strong>Prize:</strong> {e(j["prize"])}</p>' if j.get("prize") else ''
+    img = f'<a href="{e(j["link"])}" rel="noopener"><img src="{e(j["image"])}" alt="{e(j["name"])} jam banner" loading="lazy" width="140" height="111"></a>' if j.get("image") else ''
+    return f"""<article class="card">{img}<div class="b"><span class="pill">{e(j["status"])}</span>
+<h3><a href="{e(j["link"])}" rel="noopener">{e(j["name"])}</a></h3><p class="meta">Hosted by {e(j["host"])}</p>
+<p>{dates}</p><p><strong>{j["joined"]:,}</strong> joined</p>{prize}
+<p style="margin-top:.6rem"><a class="btn" href="{e(j["link"])}" rel="noopener">View jam on itch.io</a></p></div></article>"""
+_live = [j for j in jm["jams"] if j["status"] == "in progress"]; _up = [j for j in jm["jams"] if j["status"] == "upcoming"]
+jp = head("Horror Game Jam Tracker | Fright Queue",
+          "Current and upcoming horror game jams on itch.io: dates, joined counts, prizes and links. Updated nightly by Fright Queue.", "/jams/")
+jp += f"""<main class="wrap">
+<section class="hero"><div class="eyebrow">itch.io game jams · updated {e(jm["updated"][:10])}</div><h1>Horror Game Jam Tracker</h1>
+<p>{len(jm["jams"])} horror game jams running now or coming up on itch.io, pulled nightly from <a href="https://itch.io/jams" rel="noopener">itch.io/jams</a>. Dates are in UTC; check each jam page for the official rules.</p></section>
+<section id="live"><h2 class="sec">Running now ({len(_live)})</h2><div class="grid">{"".join(map(_jcard, _live)) or "<p>No horror jams running right now.</p>"}</div></section>
+<section id="upcoming"><h2 class="sec">Upcoming ({len(_up)})</h2><div class="grid">{"".join(map(_jcard, _up)) or "<p>No upcoming horror jams listed right now.</p>"}</div></section>
+<section id="feature"><h2 class="sec">Feature your jam</h2><p>Hosting a horror jam? Email <a href="mailto:contact@thejurn.com?subject=Fright%20Queue%20jam%20feature">contact@thejurn.com</a> with your itch.io jam link and we'll take a look. Jams listed on itch.io with horror in the name or description show up here automatically.</p></section>
+{news()}</main>{foot()}</body></html>"""
+(R/"jams").mkdir(exist_ok=True)
+(R/"jams/index.html").write_text(jp)
+
 # ---------- 404, sitemap, robots ----------
 (R/"404.html").write_text(head("Lost in the crypt | Fright Queue","Page not found","/404.html")+'<main class="wrap hero"><h1>404</h1><p>This page has been buried. <a href="/">Back to the Queue</a></p></main>'+foot()+"</body></html>")
 today = date.today().isoformat()
-urls = ["/", "/next-fest/", "/submit.html"] + [f"/games/{g['id']}.html" for g in games]
+urls = ["/", "/next-fest/", "/jams/", "/submit.html"] + [f"/games/{g['id']}.html" for g in games]
 (R/"sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     "".join(f"  <url><loc>{SITE}{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n")
 (R/"robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")

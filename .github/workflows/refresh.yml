@@ -17,6 +17,8 @@ jobs:
         run: python3 scripts/refresh_games.py --per-source 12
       - name: Refresh Next Fest demos
         run: python3 scripts/refresh_nextfest.py || true
+      - name: Refresh horror game jams
+        run: python3 scripts/refresh_jams.py || true
       - name: Build site
         run: python3 scripts/build.py
       - name: Commit if data changed
@@ -24,11 +26,12 @@ jobs:
           # games.json always gets a new "updated" stamp; only commit if the game list itself changed
           if { git diff --quiet HEAD -- data/games.json || \
              [ "$(git show HEAD:data/games.json | jq -S .games)" = "$(jq -S .games data/games.json)" ]; } && \
-             [ "$(git show HEAD:data/nextfest.json | jq -S .demos)" = "$(jq -S .demos data/nextfest.json)" ]; then
+             [ "$(git show HEAD:data/nextfest.json | jq -S .demos)" = "$(jq -S .demos data/nextfest.json)" ] && \
+             [ "$(git show HEAD:data/jams.json 2>/dev/null | jq -S .jams)" = "$(jq -S .jams data/jams.json)" ]; then
             echo "No game data changes"; exit 0
           fi
           git config user.name "fright-queue-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data games next-fest index.html sitemap.xml
+          git add -A data games next-fest jams index.html sitemap.xml
           git commit -m "Refresh game data $(date -u +%F)"
           git push
