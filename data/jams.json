@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T16:08:24.799039+00:00",
+ "updated": "2026-10-27T15:22:19.986705+00:00",
  "source": "https://itch.io/jams",
  "jams": [
   {
@@ -59,7 +59,7 @@
    "start": "2026-06-01T05:01:00Z",
    "end": "2027-01-01T06:01:00Z",
    "voting_end": "",
-   "joined": 236,
+   "joined": 235,
    "prize": ""
   },
   {
@@ -107,7 +107,7 @@
    "start": "2026-07-10T12:30:00Z",
    "end": "2026-11-01T06:59:00Z",
    "voting_end": "",
-   "joined": 208,
+   "joined": 207,
    "prize": ""
   },
   {
@@ -119,19 +119,7 @@
    "start": "2026-08-20T14:00:00Z",
    "end": "2026-11-09T04:59:00Z",
    "voting_end": "",
-   "joined": 34,
-   "prize": ""
-  },
-  {
-   "name": "Horror Comics Jam 2026",
-   "link": "https://itch.io/jam/horror-comics-jam-2026",
-   "host": "KilljoyConstruct",
-   "image": "https://img.itch.zone/aW1nLzI5Mjk2NDM4LnBuZw==/140x111%23/LERCRv.png",
-   "status": "in progress",
-   "start": "2026-08-31T04:00:00Z",
-   "end": "2026-10-27T03:59:00Z",
-   "voting_end": "",
-   "joined": 68,
+   "joined": 35,
    "prize": ""
   },
   {
@@ -155,7 +143,7 @@
    "start": "2026-08-31T23:00:00Z",
    "end": "2026-11-01T23:59:59Z",
    "voting_end": "",
-   "joined": 4,
+   "joined": 5,
    "prize": ""
   },
   {
@@ -167,7 +155,7 @@
    "start": "2026-09-01T04:00:00Z",
    "end": "2026-11-01T03:59:00Z",
    "voting_end": "",
-   "joined": 28,
+   "joined": 30,
    "prize": ""
   },
   {
@@ -180,18 +168,6 @@
    "end": "2026-11-17T11:26:14Z",
    "voting_end": "",
    "joined": 11,
-   "prize": ""
-  },
-  {
-   "name": "Hallo-Horror Jam 2026",
-   "link": "https://itch.io/jam/hallo-horror-jam-2026",
-   "host": "PixelCat Studios",
-   "image": "https://img.itch.zone/aW1nLzI5NzQwNDY3LnBuZw==/140x111%23/hA%2FTtB.png",
-   "status": "in progress",
-   "start": "2026-09-05T11:00:00Z",
-   "end": "2026-10-26T21:00:00Z",
-   "voting_end": "2026-10-31T03:59:59Z",
-   "joined": 63,
    "prize": ""
   },
   {
@@ -239,7 +215,7 @@
    "start": "2026-09-30T22:00:00Z",
    "end": "2026-10-31T23:00:00Z",
    "voting_end": "2026-11-14T23:00:00Z",
-   "joined": 5,
+   "joined": 6,
    "prize": ""
   },
   {
@@ -287,7 +263,7 @@
    "start": "2026-10-01T05:06:06Z",
    "end": "2026-10-30T23:58:00Z",
    "voting_end": "",
-   "joined": 190,
+   "joined": 193,
    "prize": ""
   },
   {
@@ -299,7 +275,7 @@
    "start": "2026-10-01T06:04:47Z",
    "end": "2026-10-28T06:01:08Z",
    "voting_end": "",
-   "joined": 66,
+   "joined": 68,
    "prize": ""
   },
   {
@@ -323,7 +299,7 @@
    "start": "2026-10-01T07:00:00Z",
    "end": "2026-11-01T07:30:00Z",
    "voting_end": "2026-11-11T08:00:00Z",
-   "joined": 29,
+   "joined": 30,
    "prize": ""
   },
   {
@@ -347,7 +323,7 @@
    "start": "2026-10-01T10:00:00Z",
    "end": "2026-10-30T23:00:00Z",
    "voting_end": "2026-11-02T23:00:00Z",
-   "joined": 49,
+   "joined": 51,
    "prize": ""
   },
   {
@@ -359,7 +335,7 @@
    "start": "2026-10-01T14:00:00Z",
    "end": "2026-10-31T02:00:00Z",
    "voting_end": "",
-   "joined": 15,
+   "joined": 14,
    "prize": ""
   },
   {
@@ -371,7 +347,7 @@
    "start": "2026-10-01T19:00:00Z",
    "end": "2026-10-30T22:59:59Z",
    "voting_end": "2026-11-07T20:00:00Z",
-   "joined": 12,
+   "joined": 13,
    "prize": ""
   },
   {
@@ -383,7 +359,7 @@
    "start": "2026-10-01T20:00:00Z",
    "end": "2026-10-31T17:00:00Z",
    "voting_end": "2026-11-04T02:00:00Z",
-   "joined": 12,
+   "joined": 13,
    "prize": ""
   },
   {
@@ -395,7 +371,19 @@
    "start": "2026-10-06T01:58:34Z",
    "end": "2026-10-31T01:58:37Z",
    "voting_end": "",
-   "joined": 19,
+   "joined": 21,
+   "prize": ""
+  },
+  {
+   "name": "Month of Horror #2: Withering Away",
+   "link": "https://itch.io/jam/month-of-horror-2",
+   "host": "Beregon , BroodyGaming",
+   "image": "https://img.itch.zone/aW1nLzI4Njg4NDQ5LnBuZw==/140x111%23/tpP71u.png",
+   "status": "in progress",
+   "start": "2026-10-07T17:59:00Z",
+   "end": "2026-11-09T08:59:00Z",
+   "voting_end": "2026-11-16T22:59:00Z",
+   "joined": 302,
    "prize": ""
   },
   {
@@ -419,19 +407,7 @@
    "start": "2026-10-14T00:00:00Z",
    "end": "2026-10-28T23:59:00Z",
    "voting_end": "2026-11-04T23:59:00Z",
-   "joined": 15,
-   "prize": ""
-  },
-  {
-   "name": "Nightmare on Dev Street: The Halloween Shift",
-   "link": "https://itch.io/jam/nightmare-on-dev-street-the-halloween-shift",
-   "host": "TweNty GAmEs",
-   "image": "https://img.itch.zone/aW1nLzMwNjAxOTAxLnBuZw==/140x111%23/M%2FOGND.png",
-   "status": "in progress",
-   "start": "2026-10-14T02:00:00Z",
-   "end": "2026-10-27T02:00:00Z",
-   "voting_end": "2026-10-31T02:00:00Z",
-   "joined": 33,
+   "joined": 16,
    "prize": ""
   },
   {
@@ -443,7 +419,7 @@
    "start": "2026-10-14T17:59:00Z",
    "end": "2026-12-14T08:59:00Z",
    "voting_end": "2027-01-11T22:59:00Z",
-   "joined": 116,
+   "joined": 115,
    "prize": ""
   },
   {
@@ -467,7 +443,7 @@
    "start": "2026-10-15T23:00:00Z",
    "end": "2026-10-31T23:59:59Z",
    "voting_end": "",
-   "joined": 21,
+   "joined": 23,
    "prize": ""
   },
   {
@@ -479,7 +455,7 @@
    "start": "2026-10-16T05:00:00Z",
    "end": "2026-10-30T13:29:00Z",
    "voting_end": "2026-11-06T13:29:00Z",
-   "joined": 209,
+   "joined": 207,
    "prize": "1st - AU$100 cash 2nd - Merch pack (AU$50 if international) 3rd - A life"
   },
   {
@@ -503,7 +479,7 @@
    "start": "2026-10-17T13:00:00Z",
    "end": "2026-11-01T01:00:00Z",
    "voting_end": "",
-   "joined": 58,
+   "joined": 59,
    "prize": ""
   },
   {
@@ -515,7 +491,7 @@
    "start": "2026-10-17T22:00:00Z",
    "end": "2026-12-01T01:00:00Z",
    "voting_end": "2026-12-16T01:30:00Z",
-   "joined": 6,
+   "joined": 8,
    "prize": ""
   },
   {
@@ -563,7 +539,7 @@
    "start": "2026-10-19T15:00:00Z",
    "end": "2026-11-03T01:00:00Z",
    "voting_end": "2026-11-10T01:00:00Z",
-   "joined": 28,
+   "joined": 29,
    "prize": ""
   },
   {
@@ -599,7 +575,7 @@
    "start": "2026-10-20T23:00:00Z",
    "end": "2026-11-20T23:00:00Z",
    "voting_end": "2026-12-05T23:00:00Z",
-   "joined": 27,
+   "joined": 28,
    "prize": ""
   },
   {
@@ -611,7 +587,7 @@
    "start": "2026-10-21T00:10:00Z",
    "end": "2026-10-28T18:00:00Z",
    "voting_end": "2026-11-01T05:59:59Z",
-   "joined": 127,
+   "joined": 123,
    "prize": "$100 + prizes"
   },
   {
@@ -623,7 +599,7 @@
    "start": "2026-10-21T15:00:00Z",
    "end": "2026-10-28T15:00:00Z",
    "voting_end": "2026-10-31T04:00:00Z",
-   "joined": 41,
+   "joined": 40,
    "prize": ""
   },
   {
@@ -635,7 +611,7 @@
    "start": "2026-10-22T15:00:00Z",
    "end": "2026-10-29T22:00:00Z",
    "voting_end": "2026-11-02T23:00:00Z",
-   "joined": 206,
+   "joined": 208,
    "prize": ""
   },
   {
@@ -659,7 +635,7 @@
    "start": "2026-10-23T10:00:00Z",
    "end": "2026-10-30T10:00:00Z",
    "voting_end": "2026-11-06T10:00:00Z",
-   "joined": 409,
+   "joined": 416,
    "prize": ""
   },
   {
@@ -683,7 +659,7 @@
    "start": "2026-10-24T10:00:00Z",
    "end": "2026-10-31T02:59:00Z",
    "voting_end": "2026-10-31T23:30:00Z",
-   "joined": 9,
+   "joined": 6,
    "prize": ""
   },
   {
@@ -695,7 +671,7 @@
    "start": "2026-10-24T14:00:00Z",
    "end": "2026-11-01T15:00:00Z",
    "voting_end": "",
-   "joined": 71,
+   "joined": 72,
    "prize": ""
   },
   {
@@ -707,7 +683,7 @@
    "start": "2026-10-24T17:00:00Z",
    "end": "2026-10-30T20:00:00Z",
    "voting_end": "2026-11-02T13:30:00Z",
-   "joined": 108,
+   "joined": 106,
    "prize": ""
   },
   {
@@ -723,27 +699,15 @@
    "prize": ""
   },
   {
-   "name": "Month of Horror #2: Withering Away",
-   "link": "https://itch.io/jam/month-of-horror-2",
-   "host": "Beregon , BroodyGaming",
-   "image": "https://img.itch.zone/aW1nLzI4Njg4NDQ5LnBuZw==/140x111%23/tpP71u.png",
-   "status": "upcoming",
-   "start": "2026-10-07T17:59:00Z",
-   "end": "2026-11-09T08:59:00Z",
-   "voting_end": "2026-11-16T22:59:00Z",
-   "joined": 301,
-   "prize": ""
-  },
-  {
    "name": "🎵👻💜 Music Jam: Travel RPG #7 - A Love Song for A Ghost",
    "link": "https://itch.io/jam/music-travel-rpg-7",
    "host": "Tokyo Frequency",
    "image": "https://img.itch.zone/aW1nLzMwNjcyNDYzLnBuZw==/140x111%23/HIks2W.png",
-   "status": "upcoming",
+   "status": "in progress",
    "start": "2026-10-26T18:59:59Z",
    "end": "2026-11-02T07:59:59Z",
    "voting_end": "2026-11-09T07:59:59Z",
-   "joined": 21,
+   "joined": 26,
    "prize": ""
   },
   {
@@ -767,7 +731,7 @@
    "start": "2026-10-30T05:00:00Z",
    "end": "2026-11-01T18:00:00Z",
    "voting_end": "2026-11-09T05:59:59Z",
-   "joined": 17,
+   "joined": 19,
    "prize": ""
   },
   {
@@ -779,7 +743,7 @@
    "start": "2026-10-30T10:00:00Z",
    "end": "2026-11-03T10:00:00Z",
    "voting_end": "2026-11-09T17:00:00Z",
-   "joined": 100,
+   "joined": 108,
    "prize": ""
   },
   {
@@ -791,7 +755,7 @@
    "start": "2026-10-30T17:00:00Z",
    "end": "2026-11-02T17:00:00Z",
    "voting_end": "2026-11-03T17:00:00Z",
-   "joined": 17,
+   "joined": 22,
    "prize": ""
   },
   {
@@ -815,7 +779,7 @@
    "start": "2026-10-31T10:22:36Z",
    "end": "2026-11-15T10:23:03Z",
    "voting_end": "2026-11-25T10:23:47Z",
-   "joined": 12,
+   "joined": 14,
    "prize": ""
   },
   {
@@ -827,7 +791,7 @@
    "start": "2026-11-01T21:00:00Z",
    "end": "2026-11-05T21:00:00Z",
    "voting_end": "2026-11-08T21:00:00Z",
-   "joined": 4,
+   "joined": 6,
    "prize": ""
   },
   {
@@ -851,7 +815,7 @@
    "start": "2026-11-06T16:30:00Z",
    "end": "2026-11-08T17:00:00Z",
    "voting_end": "",
-   "joined": 67,
+   "joined": 71,
    "prize": ""
   },
   {
@@ -875,7 +839,7 @@
    "start": "2026-11-18T18:59:00Z",
    "end": "2026-12-21T08:59:00Z",
    "voting_end": "2026-12-28T22:59:00Z",
-   "joined": 61,
+   "joined": 62,
    "prize": ""
   },
   {
@@ -899,7 +863,7 @@
    "start": "2026-12-03T18:30:00Z",
    "end": "2026-12-13T18:30:00Z",
    "voting_end": "2026-12-20T18:30:00Z",
-   "joined": 194,
+   "joined": 196,
    "prize": ""
   },
   {
@@ -911,7 +875,7 @@
    "start": "2027-01-06T18:59:00Z",
    "end": "2027-02-08T08:59:00Z",
    "voting_end": "2027-02-15T22:59:00Z",
-   "joined": 15,
+   "joined": 16,
    "prize": ""
   },
   {
@@ -923,7 +887,7 @@
    "start": "2027-01-13T18:59:00Z",
    "end": "2027-03-15T08:59:00Z",
    "voting_end": "2027-04-12T21:59:00Z",
-   "joined": 13,
+   "joined": 14,
    "prize": ""
   },
   {
@@ -947,18 +911,6 @@
    "start": "2027-02-17T18:59:00Z",
    "end": "2027-03-22T08:59:00Z",
    "voting_end": "2027-03-29T21:59:00Z",
-   "joined": 9,
-   "prize": ""
-  },
-  {
-   "name": "RPG Maker Horror Game Jam #19: Secret Garden",
-   "link": "https://itch.io/jam/rpg-maker-horror-game-jam-19",
-   "host": "Beregon , BroodyGaming",
-   "image": "https://img.itch.zone/aW1nLzI1MjI4OTk4LnBuZw==/140x111%23/4RzU60.png",
-   "status": "upcoming",
-   "start": "2027-04-14T17:59:00Z",
-   "end": "2027-06-14T07:59:00Z",
-   "voting_end": "2027-07-12T21:59:00Z",
    "joined": 10,
    "prize": ""
   }
