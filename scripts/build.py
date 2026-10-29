@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Build static pages from data/*.json: index.html, games/<id>.html, submit.html, sitemap.xml, robots.txt."""
 import json, html
-from datetime import date
+from datetime import date, datetime, timezone
+from urllib.parse import urlencode, quote
 from pathlib import Path
 R = Path(__file__).resolve().parent.parent
 SITE = "https://frightqueue.thejurn.com"
@@ -194,14 +195,30 @@ s.textContent='Check Steamworks for the next Next Fest dates.';c.textContent='';
 # ---------- Horror game jam tracker (/jams/) ----------
 _jm_path = R/"data/jams.json"
 jm = json.loads(_jm_path.read_text()) if _jm_path.exists() else {"updated": "", "jams": []}
+def _jdt(v):
+    """Parse an ISO UTC timestamp from jams.json; None if missing/invalid."""
+    try: return datetime.fromisoformat(str(v or "").replace("Z", "+00:00")).astimezone(timezone.utc)
+    except ValueError: return None
+def _jcal(j):
+    """Add-to-calendar buttons (.ics built client-side by /assets/jams.js; Google link built here). Hidden unless start and end are valid."""
+    s, en = _jdt(j.get("start")), _jdt(j.get("end"))
+    if not s or not en or en <= s: return ''
+    f = lambda d: d.strftime("%Y%m%dT%H%M%SZ")
+    g = "https://calendar.google.com/calendar/render?" + urlencode({"action": "TEMPLATE", "text": j["name"] + " (horror game jam)",
+        "dates": f"{f(s)}/{f(en)}", "details": f'Horror game jam on itch.io: {j["link"]}\nTracked by Fright Queue: {SITE}/jams/', "location": j["link"]}, quote_via=lambda v, safe, enc, err: quote(v, safe="/:"))
+    return (f'<p class="cal"><span class="meta">Add to calendar:</span> '
+            f'<a class="calbtn" href="{e(j["link"])}" data-ics data-name="{e(j["name"])}" data-start="{f(s)}" data-end="{f(en)}" data-url="{e(j["link"])}" rel="noopener" title="Download .ics file with a reminder 1 day before the jam starts">.ics</a>'
+            f'<a class="calbtn" href="{e(g)}" target="_blank" rel="noopener">Google Calendar</a></p>')
 def _jcard(j):
-    dates = f'<time datetime="{e(j["start"])}">{e(j["start"][:10])}</time> to <time datetime="{e(j["end"])}">{e(j["end"][:10])}</time> (UTC)'
+    s, en = j.get("start") or "", j.get("end") or ""
+    dates = f'<time datetime="{e(s)}">{e(s[:10])}</time> to <time datetime="{e(en)}">{e(en[:10])}</time> (UTC)' if s and en else (
+            f'Starts <time datetime="{e(s)}">{e(s[:10])}</time> (UTC)' if s else (f'Ends <time datetime="{e(en)}">{e(en[:10])}</time> (UTC)' if en else 'Dates not listed'))
     prize = f'<p><strong>Prize:</strong> {e(j["prize"])}</p>' if j.get("prize") else ''
     img = f'<a href="{e(j["link"])}" rel="noopener"><img src="{e(j["image"])}" alt="{e(j["name"])} jam banner" loading="lazy" width="140" height="111"></a>' if j.get("image") else ''
     return f"""<article class="card">{img}<div class="b"><span class="pill">{e(j["status"])}</span>
 <h3><a href="{e(j["link"])}" rel="noopener">{e(j["name"])}</a></h3><p class="meta">Hosted by {e(j["host"])}</p>
 <p>{dates}</p><p><strong>{j["joined"]:,}</strong> joined</p>{prize}
-<p style="margin-top:.6rem"><a class="btn" href="{e(j["link"])}" rel="noopener">View jam on itch.io</a></p></div></article>"""
+<p style="margin-top:.6rem"><a class="btn" href="{e(j["link"])}" rel="noopener">View jam on itch.io</a></p>{_jcal(j)}</div></article>"""
 _live = [j for j in jm["jams"] if j["status"] == "in progress"]; _up = [j for j in jm["jams"] if j["status"] == "upcoming"]
 jp = head("Horror Game Jam Tracker | Fright Queue",
           "Current and upcoming horror game jams on itch.io: dates, joined counts, prizes and links. Updated nightly by Fright Queue.", "/jams/")
@@ -211,7 +228,7 @@ jp += f"""<main class="wrap">
 <section id="live"><h2 class="sec">Running now ({len(_live)})</h2><div class="grid">{"".join(map(_jcard, _live)) or "<p>No horror jams running right now.</p>"}</div></section>
 <section id="upcoming"><h2 class="sec">Upcoming ({len(_up)})</h2><div class="grid">{"".join(map(_jcard, _up)) or "<p>No upcoming horror jams listed right now.</p>"}</div></section>
 <section id="feature"><h2 class="sec">Feature your jam</h2><p>Hosting a horror jam? Email <a href="mailto:contact@thejurn.com?subject=Fright%20Queue%20jam%20feature">contact@thejurn.com</a> with your itch.io jam link and we'll take a look. Jams listed on itch.io with horror in the name or description show up here automatically.</p></section>
-{news()}</main>{foot()}</body></html>"""
+{news()}</main>{foot()}<script src="/assets/jams.js" defer></script></body></html>"""
 (R/"jams").mkdir(exist_ok=True)
 (R/"jams/index.html").write_text(jp)
 
