@@ -1,5 +1,5 @@
 (async()=>{
-const res=await fetch('/data/games.json');const {games}=await res.json();
+const res=await fetch('/data/games.json');const {games:_all}=await res.json();const games=_all.filter(g=>g.id);
 const label={demo:'Free demo',released:'Out now',upcoming:'Upcoming'};
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const card=g=>`<article class="card"><a href="/games/${g.id}.html"><img src="${esc(g.image)}" alt="${esc(g.title)}" loading="lazy" width="460" height="215"></a>

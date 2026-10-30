@@ -8,7 +8,7 @@ R = Path(__file__).resolve().parent.parent
 SITE = "https://frightqueue.thejurn.com"
 JURN = "https://thejurn.com/"
 data = json.loads((R/"data/games.json").read_text())
-games = data["games"]
+games = [g for g in data["games"] if g.get("id")]  # skip entries with a blank id (would yield games/.html)
 arcade = json.loads((R/"data/arcade.json").read_text())
 e = lambda s: html.escape(str(s or ""), quote=True)
 # AFFILIATE HOOK: set per-store affiliate params here once programs are approved (none signed up yet).
@@ -115,13 +115,22 @@ for g in games:
 <p style="margin-top:1rem"><a href="/#queue">← Back to the Queue</a></p></div></div>{news()}</main>{foot()}</body></html>"""
     (R/f"games/{g['id']}.html").write_text(p)
 
+
+# ---------- Halloween banner (home only; hides itself after Nov 1, 2026 ET via JS date check) ----------
+BANNER = """<div id="hween-banner" hidden style="background:linear-gradient(90deg,rgba(255,110,0,.22),rgba(191,0,255,.22));border-bottom:1px solid rgba(255,140,0,.45);text-align:center;padding:.55rem 1rem;font-size:.9rem">
+🎃 <strong style="color:#ffb15c">Happy Halloween!</strong> Not sure what to play tonight? <a href="/tonight/" style="color:#fff;font-weight:700">See our Halloween night picks →</a></div>
+<script>(function(){try{var d=new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+if(d<='2026-11-01'){var b=document.getElementById('hween-banner');if(b)b.hidden=false;}}catch(e){}})();</script>
+"""
+
+today_iso = date.today().isoformat()
 # ---------- index ----------
 arc = "".join(f"""<article class="card"><a href="{e(a.get("url") or JURN+a["path"])}"><img src="/{e(a["img"])}" alt="{e(a["title"])}" loading="lazy" width="320" height="180"></a>
 <div class="b"><span class="meta">{e(a["genre"])} · free in your browser</span><h3><a href="{e(a.get("url") or JURN+a["path"])}">{e(a["title"])}</a></h3></div></article>""" for a in arcade)
 noscript = "".join(f'<li><a href="/games/{g["id"]}.html">{e(g["title"])}</a> ({e(g["developer"])})</li>' for g in games)
 idx = head("Fright Queue: New & Upcoming Indie Horror Games and Free Demos",
            "A living tracker of new, upcoming and free-demo indie horror games on Steam and itch.io, from The JURN.", "/")
-idx += f"""<main class="wrap">
+idx += f"""{BANNER}<main class="wrap">
 <section class="hero"><div class="eyebrow">Indie horror radar · updated {e(data["updated"][:10])}</div><h1>Fright Queue</h1>
 <p>New and upcoming indie horror, plus free demos you can play tonight. Dug up from Steam and itch.io so you don't have to.</p>
 <p style="margin-top:1.2rem"><a class="btn" href="#queue">Browse the Queue</a> <a class="btn" href="/submit.html">Submit your game</a></p></section>
@@ -303,10 +312,70 @@ dp += f"""<main class="wrap">
 (R/"dev-planner").mkdir(exist_ok=True)
 (R/"dev-planner/index.html").write_text(dp)
 
+
+# ---------- /tonight/: curated Halloween-night picks, generated from data/games.json (survives nightly refresh) ----------
+import re as _re
+def _ok(g):  # playable now: released or demo, has an id and a store link (skips blank-id entries such as an unnamed game)
+    return bool(g.get("id")) and bool(g.get("link")) and g.get("status") in ("released", "demo") and bool(g.get("title"))
+def _hook(g, n=150):
+    b = " ".join((g.get("blurb") or "").split())
+    if not b: return ", ".join(g.get("tags") or []) or ""
+    m = _re.match(r"(.+?[.!?])(\s|$)", b)
+    h = m.group(1) if m and len(m.group(1)) >= 12 else b
+    if len(h) > n: h = h[:n].rsplit(" ", 1)[0].rstrip(",;:- ") + "…"
+    return h
+_ids = {g["id"]: g for g in games if _ok(g)}
+_used = set()
+def _pick(prefer, rule, cap):
+    out = []
+    for g in [ _ids[i] for i in prefer if i in _ids ] + [g for g in games if _ok(g) and rule(g)]:
+        if g["id"] in _used or g in out or not (g["id"] in prefer or rule(g)): continue
+        out.append(g); _used.add(g["id"])
+        if len(out) >= cap: break
+    return out
+_has = lambda g, pat: bool(_re.search(pat, (g.get("blurb") or ""), _re.I))
+TONIGHT_GROUPS = [
+    ("Quick scares", "Short and small, per their own store descriptions. Good for squeezing in before the trick-or-treaters arrive.",
+     _pick(["rotten-machines", "bonbon", "project-kat"], lambda g: _has(g, r"\b(short|small)\b"), 3)),
+    ("Play with friends", "Co-op and party horror, so you don't have to be scared alone.",
+     _pick(["phasmophobia", "escape-the-backrooms", "invokyr", "machine-party"], lambda g: _has(g, r"co-?op|multiplayer|friends"), 4)),
+    ("Free tonight", "Listed as free on itch.io, and some play right in your browser.",
+     _pick(["syntaxia", "nosfer-a-tooth", "fears-to-fathom-home-alone", "madison-demo", "alisa-demo"],
+           lambda g: g.get("free") and g.get("status") == "released" and "Browser" in g.get("platforms", []), 5)),
+    ("Demos on Steam", "Try before you buy: each of these has a demo listed on Steam.",
+     _pick(["dreadout", "among-the-sleep-enhanced-edition", "psalm-2"],
+           lambda g: g.get("status") == "demo" and g.get("demo_link") and g.get("release_date", "9")[:2] in ("19", "20") and g["release_date"] <= today_iso, 3)),
+]
+def _tcard(g):
+    bits = [g.get("store"), ", ".join(g.get("platforms") or [])]
+    if g.get("free"): bits.append("Free")
+    elif g.get("status") == "demo" and g.get("demo_link"): bits.append("Demo available")
+    elif g.get("price"): bits.append(g["price"])
+    meta = " · ".join(e(b) for b in bits if b)
+    demo = f' <a href="{e(g["demo_link"])}" rel="noopener">Get the demo</a>' if g.get("status") == "demo" and g.get("demo_link") else ""
+    return (f'<li class="tpick"><h3><a href="{e(link(g))}" rel="noopener sponsored">{e(g["title"])}</a></h3>'
+            f'<p>{e(_hook(g))}</p><p class="meta">{meta}</p>'
+            f'<p><a class="btn" href="{e(link(g))}" rel="noopener sponsored">View on {e(g["store"])}</a>{demo}</p></li>')
+_tn = sum(len(x[2]) for x in TONIGHT_GROUPS)
+_tsecs = "".join(f'<section><h2 class="sec">{e(t)}</h2><p class="sub">{e(sub)}</p><ul class="tlist">{"".join(map(_tcard, items))}</ul></section>'
+                 for t, sub, items in TONIGHT_GROUPS if items)
+tn = head("What to Play This Halloween Night | Fright Queue",
+          f"{_tn} indie horror games you can play tonight: quick scares, co-op for friends, free games and demos, picked from the Fright Queue.", "/tonight/",
+          extra="<style>.tlist{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.tpick{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1rem}.tpick h3{font-size:1.05rem;color:#fff;margin-bottom:.3rem}.tpick h3 a{color:inherit;text-decoration:none}.tpick h3 a:hover{color:var(--green)}.tpick p{margin:.35rem 0}</style>")
+tn += f"""<main class="wrap">
+<section class="hero"><div class="eyebrow">Halloween 2026 · {_tn} picks · data updated {e(data["updated"][:10])}</div><h1>What to Play This Halloween Night</h1>
+<p>Lights off, snacks on. Playable-tonight horror from the Queue: quick scares, co-op with friends, and free stuff.</p>
+<p style="margin-top:1.2rem"><a class="btn" href="/#queue">Browse the full Queue</a> <a class="btn" href="/jams/">Horror game jams</a> <a class="btn" href="/dev-planner/">Dev planner</a></p></section>
+{_tsecs}
+<section><h2 class="sec">Keep the scares coming</h2><p>Making your own horror game? Check the <a href="/jams/">horror jam tracker</a> for a jam to join, and the <a href="/dev-planner/">Steam sale &amp; fest planner</a> to time your launch.</p></section>
+{news()}</main>{foot()}</body></html>"""
+(R/"tonight").mkdir(exist_ok=True)
+(R/"tonight/index.html").write_text(tn)
+
 # ---------- 404, sitemap, robots ----------
+today = today_iso
 (R/"404.html").write_text(head("Lost in the crypt | Fright Queue","Page not found","/404.html")+'<main class="wrap hero"><h1>404</h1><p>This page has been buried. <a href="/">Back to the Queue</a></p></main>'+foot()+"</body></html>")
-today = date.today().isoformat()
-urls = ["/", "/next-fest/", "/jams/", "/dev-planner/", "/submit.html"] + [f"/games/{g['id']}.html" for g in games]
+urls = ["/", "/tonight/", "/next-fest/", "/jams/", "/dev-planner/", "/submit.html"] + [f"/games/{g['id']}.html" for g in games]
 (R/"sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     "".join(f"  <url><loc>{SITE}{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n")
 (R/"robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
