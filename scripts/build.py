@@ -359,13 +359,20 @@ def _tcard(g):
 _tn = sum(len(x[2]) for x in TONIGHT_GROUPS)
 _tsecs = "".join(f'<section><h2 class="sec">{e(t)}</h2><p class="sub">{e(sub)}</p><ul class="tlist">{"".join(map(_tcard, items))}</ul></section>'
                  for t, sub, items in TONIGHT_GROUPS if items)
+_hero = """<section class="hw" aria-label="Halloween featured">
+<a class="hc" href="https://thejurn.com/games/graveyard-shift/"><div class="eyebrow">Free · Early access</div><h2>🪦 Grave Hog's Graveyard Shift</h2><p>Fast, chaotic horror roguelite. Fight the undead, survive until sunrise. Free to play, still being worked on.</p><span class="btn">Play it free</span></a>
+<a class="hc" href="https://www.youtube.com/@Spacetrucker138/live" target="_blank" rel="noopener"><div class="eyebrow">Live 24/7</div><h2>📻 Double Future Radio</h2><p>A TV-station loop of music videos, cursed ads and skits. Put it on while you carve pumpkins.</p><span class="btn">Watch the stream</span></a>
+</section>
+<p class="hnote">Want to be a playtester? <a href="https://thejurn.com/games/graveyard-shift/">Check out the game page</a></p>
+"""
 tn = head("What to Play This Halloween Night | Fright Queue",
           f"{_tn} indie horror games you can play tonight: quick scares, co-op for friends, free games and demos, picked from the Fright Queue.", "/tonight/",
-          extra="<style>.tlist{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.tpick{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1rem}.tpick h3{font-size:1.05rem;color:#fff;margin-bottom:.3rem}.tpick h3 a{color:inherit;text-decoration:none}.tpick h3 a:hover{color:var(--green)}.tpick p{margin:.35rem 0}</style>")
+          extra="<style>.tlist{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.tpick{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1rem}.tpick h3{font-size:1.05rem;color:#fff;margin-bottom:.3rem}.tpick h3 a{color:inherit;text-decoration:none}.tpick h3 a:hover{color:var(--green)}.tpick p{margin:.35rem 0}.hw{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1.2rem 0}.hc{display:block;background:var(--card);border:1px solid var(--green);border-radius:12px;padding:1rem 1.1rem;color:inherit;text-decoration:none;min-height:44px}.hc:hover,.hc:focus-visible{border-color:#ffb15c}.hc .eyebrow{margin-bottom:.2rem}.hc h2{font-size:1.15rem;color:#fff;margin:.1rem 0 .35rem}.hc p{margin:.3rem 0;color:var(--text,#ddd)}.hc .btn{display:inline-block;margin-top:.4rem}.hnote{margin:.2rem 0 1.4rem;font-size:.95rem}.hnote a{display:inline-block;padding:.65rem .2rem;min-height:44px}@media(max-width:700px){header.top nav a{display:inline-block;padding:.5rem .4rem;min-height:40px}.wrap.jurn a:not(:has(img)),.news .meta a{display:inline-block;padding:.7rem .45rem;min-height:44px}.tpick h3 a{display:block;padding:.45rem 0;min-height:44px}.tpick .btn,.hero .btn,.news .btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px}.news input[type=email]{min-height:44px}main section p a:not(.btn){display:inline-block;padding:.7rem .3rem}}</style>")
 tn += f"""<main class="wrap">
 <section class="hero"><div class="eyebrow">Halloween 2026 · {_tn} picks · data updated {e(data["updated"][:10])}</div><h1>What to Play This Halloween Night</h1>
 <p>Lights off, snacks on. Playable-tonight horror from the Queue: quick scares, co-op with friends, and free stuff.</p>
 <p style="margin-top:1.2rem"><a class="btn" href="/#queue">Browse the full Queue</a> <a class="btn" href="/jams/">Horror game jams</a> <a class="btn" href="/dev-planner/">Dev planner</a></p></section>
+{_hero}
 {_tsecs}
 <section><h2 class="sec">Keep the scares coming</h2><p>Making your own horror game? Check the <a href="/jams/">horror jam tracker</a> for a jam to join, and the <a href="/dev-planner/">Steam sale &amp; fest planner</a> to time your launch.</p></section>
 {news()}</main>{foot()}</body></html>"""
