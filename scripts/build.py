@@ -363,7 +363,7 @@ _hero = """<section class="hw" aria-label="Halloween featured">
 <a class="hc" href="https://thejurn.com/games/graveyard-shift/"><div class="eyebrow">Free · Early access</div><h2>🪦 Grave Hog's Graveyard Shift</h2><p>Fast, chaotic horror roguelite. Fight the undead, survive until sunrise. Free to play, still being worked on.</p><span class="btn">Play it free</span></a>
 <a class="hc" href="https://www.youtube.com/@Spacetrucker138/live" target="_blank" rel="noopener"><div class="eyebrow">Live 24/7</div><h2>📻 Double Future Radio</h2><p>A TV-station loop of music videos, cursed ads and skits. Put it on while you carve pumpkins.</p><span class="btn">Watch the stream</span></a>
 </section>
-<p class="hnote">Want to be a playtester? <a href="mailto:spacetrucker138@proton.me?subject=Grave%20Hog%27s%20Graveyard%20Shift%20playtester">Email us</a></p>
+<p class="hnote">Want to be a playtester? <a href="https://thejurn.com/playtest/">Sign up</a></p>
 """
 tn = head("What to Play This Halloween Night | Fright Queue",
           f"{_tn} indie horror games you can play tonight: quick scares, co-op for friends, free games and demos, picked from the Fright Queue.", "/tonight/",
