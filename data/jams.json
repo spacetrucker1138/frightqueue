@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T19:30:33.512583+00:00",
+ "updated": "2026-11-03T17:03:35.668320+00:00",
  "source": "https://itch.io/jams",
  "jams": [
   {
@@ -59,7 +59,7 @@
    "start": "2026-06-01T05:01:00Z",
    "end": "2027-01-01T06:01:00Z",
    "voting_end": "",
-   "joined": 237,
+   "joined": 239,
    "prize": ""
   },
   {
@@ -119,7 +119,7 @@
    "start": "2026-09-21T10:36:52Z",
    "end": "2027-04-12T10:37:10Z",
    "voting_end": "",
-   "joined": 35,
+   "joined": 36,
    "prize": ""
   },
   {
@@ -131,7 +131,7 @@
    "start": "2026-09-29T23:00:00Z",
    "end": "2026-11-11T00:00:00Z",
    "voting_end": "",
-   "joined": 387,
+   "joined": 385,
    "prize": "1st place wins $100 , an \" I <3 Denpa\" Archivist-tan keychain , and a denpa gir"
   },
   {
@@ -167,7 +167,7 @@
    "start": "2026-10-07T17:59:00Z",
    "end": "2026-11-09T08:59:00Z",
    "voting_end": "2026-11-16T22:59:00Z",
-   "joined": 304,
+   "joined": 306,
    "prize": ""
   },
   {
@@ -179,7 +179,7 @@
    "start": "2026-10-14T17:59:00Z",
    "end": "2026-12-14T08:59:00Z",
    "voting_end": "2027-01-11T22:59:00Z",
-   "joined": 114,
+   "joined": 112,
    "prize": ""
   },
   {
@@ -191,7 +191,7 @@
    "start": "2026-10-17T22:00:00Z",
    "end": "2026-12-01T01:00:00Z",
    "voting_end": "2026-12-16T01:30:00Z",
-   "joined": 9,
+   "joined": 10,
    "prize": ""
   },
   {
@@ -204,18 +204,6 @@
    "end": "2026-11-05T15:59:59Z",
    "voting_end": "2026-11-06T14:02:49Z",
    "joined": 4,
-   "prize": ""
-  },
-  {
-   "name": "Halloween Jack-O-Jam",
-   "link": "https://itch.io/jam/dmg-halloween-jam-26",
-   "host": "Dangerous-Mind-Games",
-   "image": "https://img.itch.zone/aW1nLzMwOTU3NzAxLnBuZw==/140x111%23/jUzjKX.png",
-   "status": "in progress",
-   "start": "2026-10-19T15:00:00Z",
-   "end": "2026-11-03T01:00:00Z",
-   "voting_end": "2026-11-10T01:00:00Z",
-   "joined": 31,
    "prize": ""
   },
   {
@@ -263,19 +251,7 @@
    "start": "2026-10-29T18:00:00Z",
    "end": "2026-11-05T10:00:00Z",
    "voting_end": "",
-   "joined": 7,
-   "prize": ""
-  },
-  {
-   "name": "GoedWare Game Jam Halloween Part 3 👻(+ prizes 🏆)",
-   "link": "https://itch.io/jam/goedware-game-jam-halloween-3",
-   "host": "GoedWare",
-   "image": "https://img.itch.zone/aW1nLzMwNDAxNDI4LnBuZw==/140x111%23/bSS4eD.png",
-   "status": "in progress",
-   "start": "2026-10-30T10:00:00Z",
-   "end": "2026-11-03T12:00:00Z",
-   "voting_end": "2026-11-10T12:00:00Z",
-   "joined": 253,
+   "joined": 9,
    "prize": ""
   },
   {
@@ -287,7 +263,7 @@
    "start": "2026-10-30T15:00:00Z",
    "end": "2026-11-07T04:00:00Z",
    "voting_end": "2026-11-13T16:00:00Z",
-   "joined": 12,
+   "joined": 14,
    "prize": ""
   },
   {
@@ -299,7 +275,7 @@
    "start": "2026-10-31T10:22:36Z",
    "end": "2026-11-15T10:23:03Z",
    "voting_end": "2026-11-25T10:23:47Z",
-   "joined": 22,
+   "joined": 23,
    "prize": ""
   },
   {
@@ -323,7 +299,7 @@
    "start": "2026-11-01T15:00:00Z",
    "end": "2026-11-14T15:00:00Z",
    "voting_end": "2026-11-20T15:00:00Z",
-   "joined": 38,
+   "joined": 39,
    "prize": ""
   },
   {
@@ -335,7 +311,7 @@
    "start": "2026-11-01T21:00:00Z",
    "end": "2026-11-05T21:00:00Z",
    "voting_end": "2026-11-08T21:00:00Z",
-   "joined": 22,
+   "joined": 26,
    "prize": ""
   },
   {
@@ -347,7 +323,7 @@
    "start": "2026-11-02T06:50:29Z",
    "end": "2026-11-16T06:50:44Z",
    "voting_end": "2026-11-23T06:50:59Z",
-   "joined": 16,
+   "joined": 19,
    "prize": ""
   },
   {
@@ -359,7 +335,7 @@
    "start": "2026-11-05T11:00:00Z",
    "end": "2026-11-14T11:00:00Z",
    "voting_end": "2026-11-21T11:00:00Z",
-   "joined": 2,
+   "joined": 4,
    "prize": ""
   },
   {
@@ -371,7 +347,7 @@
    "start": "2026-11-06T16:30:00Z",
    "end": "2026-11-08T17:00:00Z",
    "voting_end": "",
-   "joined": 102,
+   "joined": 113,
    "prize": ""
   },
   {
@@ -383,7 +359,7 @@
    "start": "2026-11-06T18:45:00Z",
    "end": "2026-11-08T17:30:00Z",
    "voting_end": "2026-11-15T17:30:00Z",
-   "joined": 4,
+   "joined": 9,
    "prize": ""
   },
   {
@@ -395,7 +371,7 @@
    "start": "2026-11-14T01:00:00Z",
    "end": "2026-11-16T01:00:00Z",
    "voting_end": "2026-11-16T01:00:01Z",
-   "joined": 31,
+   "joined": 37,
    "prize": "$350+ Prizes!"
   },
   {
@@ -407,7 +383,7 @@
    "start": "2026-11-18T18:59:00Z",
    "end": "2026-12-21T08:59:00Z",
    "voting_end": "2026-12-28T22:59:00Z",
-   "joined": 82,
+   "joined": 85,
    "prize": ""
   },
   {
@@ -419,7 +395,7 @@
    "start": "2026-11-27T08:00:00Z",
    "end": "2026-12-15T07:59:59Z",
    "voting_end": "2026-12-22T07:59:59Z",
-   "joined": 22,
+   "joined": 24,
    "prize": ""
   },
   {
@@ -431,7 +407,7 @@
    "start": "2026-12-03T18:30:00Z",
    "end": "2026-12-13T18:30:00Z",
    "voting_end": "2026-12-20T18:30:00Z",
-   "joined": 213,
+   "joined": 212,
    "prize": ""
   },
   {
