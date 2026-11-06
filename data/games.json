@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T17:14:35Z",
+  "updated": "2026-11-06T16:46:25Z",
   "games": [
     {
       "id": "graveyard-shift",
@@ -26,283 +26,182 @@
       "pinned": true
     },
     {
-      "id": "wickwood",
-      "title": "Wickwood",
-      "developer": "Renderville Games",
+      "id": "degenerate-star",
+      "title": "DEGENERATE STAR",
+      "developer": "Ozone Interactive ",
       "status": "upcoming",
-      "release_date": "2026-11-04",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/5234980/",
-      "blurb": "A top-down pixel action game set across one long night. No crafting, no hunger, no inventory — just a bat, an axe, and a lantern burning down. The shrinking circle of light is…",
-      "tags": [
-        "Horror",
-        "Action",
-        "Adventure",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5234980/48e7bd57889b87d36d233fd63ff294fdd600b9d4/header.jpg?t=1792578323",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5234980
-    },
-    {
-      "id": "event-horizon-research",
-      "title": "Event Horizon Research",
-      "developer": "TinC",
-      "status": "upcoming",
-      "release_date": "2026-11-04",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/5260090/",
-      "blurb": "A first-person sci-fi descent into a black hole. Study it from a research station, design and assemble your own capsule from real engines and hull materials, then pilot it…",
-      "tags": [
-        "Horror",
-        "Adventure",
-        "Indie",
-        "Simulation",
-        "Early Access"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5260090/08e60eead893d27b09fa32e0b0c68cc454e1928e/header.jpg?t=1793208266",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5260090
-    },
-    {
-      "id": "cardsharp",
-      "title": "Cardsharp",
-      "developer": "Zandbox Studio Games",
-      "status": "upcoming",
-      "release_date": "2026-11-04",
+      "release_date": "2026-11-06",
       "platforms": [
         "Windows",
         "Mac",
         "Linux"
       ],
       "store": "Steam",
-      "link": "https://store.steampowered.com/app/5094940/",
-      "blurb": "Blackjack in a dark room. Solo or with friends. Win the hand and you get paid; lose it and the dealer takes a finger. Rob the other players, burn the card they were saving, push…",
-      "tags": [
-        "Horror",
-        "Action",
-        "Indie",
-        "Strategy"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5094940/63d3767fb80dae9afaf755b7ec7a84c2338fbc48/header.jpg?t=1793812425",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5094940
-    },
-    {
-      "id": "camera-5",
-      "title": "Camera 5",
-      "developer": "Hackachi",
-      "status": "upcoming",
-      "release_date": "2026-11-04",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/4931720/",
-      "blurb": "Five cameras. Five nights. One caretaker who's starting to notice too much. A slow-burn surveillance horror where the building lies to you — and the system does too.",
+      "link": "https://store.steampowered.com/app/4751190/",
+      "blurb": "Investigate the S.S Vandermeer and discover the fate of those aboard.",
       "tags": [
         "Horror",
         "Indie"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4931720/03ec915aad35a8e63e28b560a75999e022d9dab9/header.jpg?t=1792688240",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4751190/82cc934a0e16078247899ced997a103b180c58f5/header.jpg?t=1793360768",
       "free": false,
       "price": null,
       "source": "steam",
-      "steam_appid": 4931720
+      "steam_appid": 4751190
     },
     {
-      "id": "in-full-bloom",
-      "title": "In Full Bloom",
-      "developer": "obleak games",
+      "id": "no-one-runs-alone",
+      "title": "No One Runs Alone",
+      "developer": "GiantNetwork Studios",
       "status": "upcoming",
-      "release_date": "2026-11-04",
+      "release_date": "2026-11-06",
       "platforms": [
-        "Windows",
-        "Mac"
+        "Windows"
       ],
       "store": "Steam",
-      "link": "https://store.steampowered.com/app/3810240/",
-      "blurb": "Feed and raise your little baby. Watch it grow and feed on every and anything. In Full Bloom is a Tamagotchi inspired Katamari-like about a creature with never-ending hunger for…",
+      "link": "https://store.steampowered.com/app/5411990/",
+      "blurb": "No One Runs Alone is a chaotic multiplayer survival game where you and your team are bound together by the Soulbinder. Outsmart the Hunter, grab powerful perks, adapt to wild…",
+      "tags": [
+        "Horror",
+        "Action",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5411990/ccb8eee6fa7cbbcba9d8d49f5e53dbb67224a814/header.jpg?t=1792767556",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5411990
+    },
+    {
+      "id": "kolun",
+      "title": "KOLUN",
+      "developer": "John Bomjizki",
+      "status": "upcoming",
+      "release_date": "2026-11-06",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5124920/",
+      "blurb": "KOLUN - the machine. You are WORKER 1331. Your job is to work. Grab the stumps, split them, load the logs onto the cart, and earn Tickets.",
+      "tags": [
+        "Horror",
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5124920/bb79b54f04f85e3e18fce8a3feb12c6aa4b6b858/header.jpg?t=1793349929",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5124920
+    },
+    {
+      "id": "no-one-to-see-pinebark-camp",
+      "title": "No One to See – Pinebark Camp",
+      "developer": "StandAlone Studios",
+      "status": "upcoming",
+      "release_date": "2026-11-06",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/4175050/",
+      "blurb": "Going through a hard time, Ethan decided to go camping alone in the Pinebark woods. He wanted to get away from everything for a few days and find a little silence. He just didn't…",
       "tags": [
         "Horror",
         "Adventure",
         "Casual",
         "Indie"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3810240/7bfe6c462fcff35858970757ab59cd4dfeb7eb98/header.jpg?t=1793742241",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4175050/32632772747165c7fd9c376d3e0dc96b85b559ef/header.jpg?t=1793955414",
       "free": false,
       "price": null,
       "source": "steam",
-      "steam_appid": 3810240
+      "steam_appid": 4175050
     },
     {
-      "id": "rules-of-the-inn",
-      "title": "宿の掟 / Rules of the Inn",
-      "developer": "Pekomaro",
+      "id": "hitchhiking-to-hell",
+      "title": "Hitchhiking to Hell",
+      "developer": "MM88",
       "status": "upcoming",
-      "release_date": "2026-11-05",
-      "platforms": [
-        "Windows",
-        "Linux"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/5045430/",
-      "blurb": "Japanese anomaly-horror mystery at an inn on the afterlife's border. Obey each night's new rule as something creeps in; stare to note earlier guests' traces as it comes. By…",
-      "tags": [
-        "Horror",
-        "Adventure",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045430/29709389ced7cb364ba8f9d395e153dfe7e602a4/header.jpg?t=1793408847",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5045430
-    },
-    {
-      "id": "zone-l-o-s-t",
-      "title": "ZONE L.O.S.T.",
-      "developer": "DAKA Production",
-      "status": "upcoming",
-      "release_date": "2026-11-05",
+      "release_date": "2026-11-06",
       "platforms": [
         "Windows"
       ],
       "store": "Steam",
-      "link": "https://store.steampowered.com/app/4420660/",
-      "blurb": "YOUR BODY IS YOUR WEAKNESS. A four-player co-op horror game that puts you in the shoes of the chief scientists of a research facility. Your sole objective is to carry out the…",
+      "link": "https://store.steampowered.com/app/4673450/",
+      "blurb": "A hitchhiking journey through empty roads where every car could be your salvation… or your end. Walk through desolate places and encounter bizarre strangers along the way. Talk,…",
       "tags": [
         "Horror",
-        "Action",
-        "Adventure",
+        "Casual",
         "Indie"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4420660/85cfecfcfa358904c5febdb25fc762ae264b3ba1/header.jpg?t=1791748375",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4673450/e2135611625e8e1938d2552304328eff165c0cde/header.jpg?t=1790026307",
       "free": false,
       "price": null,
       "source": "steam",
-      "steam_appid": 4420660
+      "steam_appid": 4673450
     },
     {
-      "id": "overtime-development-hell",
-      "title": "Overtime : Development Hell",
-      "developer": "Akhir Hayat Studio",
+      "id": "this-floor-is-mine",
+      "title": "This Floor Is Mine",
+      "developer": "Bob Cat Games Ltd",
       "status": "upcoming",
-      "release_date": "2026-11-05",
+      "release_date": "2026-11-06",
       "platforms": [
         "Windows"
       ],
       "store": "Steam",
-      "link": "https://store.steampowered.com/app/5329860/",
-      "blurb": "Play as Frank, a developer at a highly secretive game development studio rushing to finish the studio's most anticipated release, while being disrupted by an obsessed fan trying…",
+      "link": "https://store.steampowered.com/app/5008350/",
+      "blurb": "An unfolding apocalypse will challenge your decision making as you try to keep the residents of the third floor happy and alive. Will they succumb to infighting? Or will you…",
       "tags": [
         "Horror",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5329860/2ef2ce2f5b1f5da9d0e12bf1b3e778fde203ec6c/header.jpg?t=1793424741",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5329860
-    },
-    {
-      "id": "hunted-within-terminal-rust",
-      "title": "Hunted Within: Terminal Rust",
-      "developer": "LRDev Games",
-      "status": "upcoming",
-      "release_date": "2026-11-05",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/5048700/",
-      "blurb": "In a wasteland consumed by sandstorms, gravity anomalies, and grotesque biomechanical horrors, blast your way through a brutal survival horror experience to hunt down your worst…",
-      "tags": [
-        "Horror",
-        "Action",
-        "Adventure",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5048700/e4b9c585fed207923e494f79c130a41e45958925/header.jpg?t=1793294266",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5048700
-    },
-    {
-      "id": "last-inspection",
-      "title": "Last Inspection",
-      "developer": "Dark Games DGG, Setone Games",
-      "status": "upcoming",
-      "release_date": "2026-11-05",
-      "platforms": [
-        "Windows",
-        "Linux"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/4586230/",
-      "blurb": "Your new duty is to inspect properties before move-in. It does not matter what waits inside — all responsibility will rest on your shoulders alone. Do the job well, and there is…",
-      "tags": [
-        "Horror",
-        "Action",
-        "Adventure",
+        "Casual",
         "Indie",
         "Simulation"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4586230/5ebb6a415e019c37379a1a0d22e51bd786716135/header.jpg?t=1792570629",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5008350/2d6bbbb8b0f835f03724db674fa43783c664bd08/header.jpg?t=1793328240",
       "free": false,
       "price": null,
       "source": "steam",
-      "steam_appid": 4586230
+      "steam_appid": 5008350
     },
     {
-      "id": "phuy",
-      "title": "PHUY",
-      "developer": " Viridian St.",
+      "id": "",
+      "title": "怪談寺",
+      "developer": "幻想怪談スタジオ",
       "status": "upcoming",
-      "release_date": "2026-11-05",
+      "release_date": "2026-11-08",
       "platforms": [
         "Windows"
       ],
       "store": "Steam",
-      "link": "https://store.steampowered.com/app/4132280/",
-      "blurb": "You’re a crew of hapless thieves with one job: rob a museum and make it out alive. Hunt for valuables, solve puzzles, and survive the locals. Just try not to become part of the…",
+      "link": "https://store.steampowered.com/app/5096660/",
+      "blurb": "山の中にてあなたは偶然にも、怪談寺に迷い込む――。そこにいたのはとある4人の人物だった。まともな人物はゼロ。聞かされる怪談話の数々。王道ホラーから人怖、SFホラー、ホラーコメディなど多岐に渡る癖の強い物語たち。VHS風画面短編集邪道ホラーノベルゲーム。",
       "tags": [
         "Horror",
-        "Action",
-        "Indie",
-        "Early Access"
+        "Adventure",
+        "Indie"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4132280/d730d0880203a2547b909bdaaeea2f88be017276/header.jpg?t=1793785856",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5096660/b0764fb44ff097889bc26a763e0c05498e9e4f41/header.jpg?t=1793551111",
       "free": false,
       "price": null,
       "source": "steam",
-      "steam_appid": 4132280
+      "steam_appid": 5096660
     },
     {
-      "id": "derail",
-      "title": "DERAIL",
-      "developer": "A_Wild_Dev",
+      "id": "the-9th-haunted-corridor",
+      "title": "The 9th Haunted Corridor",
+      "developer": "Soliloqu-You",
       "status": "upcoming",
-      "release_date": "2026-11-05",
+      "release_date": "2026-11-08",
       "platforms": [
         "Windows"
       ],
       "store": "Steam",
-      "link": "https://store.steampowered.com/app/4252720/",
-      "blurb": "DERAIL is a horror anomaly game where instead of spotting anomalies you have to cleanse them with your camera to escape the loop.",
+      "link": "https://store.steampowered.com/app/4646360/",
+      "blurb": "The 9th Haunted Corridor is a short horror game where you must spot anomalies in an endless corridor and survive the paranormal phenomena that await you. Observe your…",
       "tags": [
         "Horror",
         "Adventure",
@@ -310,11 +209,102 @@
         "Indie",
         "Simulation"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4252720/c215d3f255865ccfee984bdeaf7a116c422280e7/header.jpg?t=1793651355",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4646360/fd0df44b020fa3d4bbd789dc52362a7aba634ed3/header.jpg?t=1792457145",
       "free": false,
       "price": null,
       "source": "steam",
-      "steam_appid": 4252720
+      "steam_appid": 4646360
+    },
+    {
+      "id": "pick-a-boo",
+      "title": "PICK A BOO",
+      "developer": "Toydium",
+      "status": "upcoming",
+      "release_date": "2026-11-08",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/4459600/",
+      "blurb": "PICK A BOO is an online co-op roguelike escape action game for up to 6 players. Explore ever-changing stages and haul furniture and cargo with magnetic power. Upgrade your…",
+      "tags": [
+        "Horror",
+        "Action"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459600/29687dce57976b34114d07415619127caaeb48b0/header.jpg?t=1793934689",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 4459600
+    },
+    {
+      "id": "1999tokoyo-building",
+      "title": "1999TOKOYO Building",
+      "developer": "常夜不動産",
+      "status": "upcoming",
+      "release_date": "2026-11-09",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/4099810/",
+      "blurb": "1999. The protagonist, a boy named Akira, finds himself lost in the TOKOYO Building—an indoor amusement park filled with secrets and eerie rumors. There, he begins living and…",
+      "tags": [
+        "Horror",
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099810/b6cc300848c6d5186272fb10361dca827fb864a2/header.jpg?t=1793964352",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 4099810
+    },
+    {
+      "id": "rec-rewind",
+      "title": "REC:REWIND",
+      "developer": "そうらい",
+      "status": "upcoming",
+      "release_date": "2026-11-09",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5379260/",
+      "blurb": "Set in an American home, REC:REWIND follows a missing husband and the wife who refuses to stop searching for him. Experience a “reverse loop” horror story, unraveling the truth…",
+      "tags": [
+        "Horror",
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379260/d22eefe6dfbdd7e06d678dce9b583a2a0e296c00/header.jpg?t=1793283564",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5379260
+    },
+    {
+      "id": "the-staring-man",
+      "title": "The Staring Man | 凝視男",
+      "developer": "TADAIMA WORKS",
+      "status": "upcoming",
+      "release_date": "2026-11-09",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5427570/",
+      "blurb": "A first-person horror game set in a Japanese convenience store. You work the night shift alone. Across the street, a man stands staring at you every night. As you encounter…",
+      "tags": [
+        "Horror",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5427570/86cf5d6faddd9b44ed6b31f66856171f1ecb5a06/header.jpg?t=1793808282",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5427570
     },
     {
       "id": "phasmophobia",
@@ -408,7 +398,7 @@
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/00ae7d0e0fd0ad72635bddb1dd80ee68cc94eed5/header.jpg?t=1793352925",
       "free": false,
-      "price": "$5.99",
+      "price": "$7.99",
       "source": "steam",
       "steam_appid": 4108000
     },
@@ -459,36 +449,9 @@
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1562430/header.jpg?t=1793158823",
       "free": false,
-      "price": "$9.99",
+      "price": "$19.99",
       "source": "steam",
       "steam_appid": 1562430
-    },
-    {
-      "id": "don-t-starve-together",
-      "title": "Don't Starve Together",
-      "developer": "Klei Entertainment",
-      "status": "released",
-      "release_date": "2016-04-21",
-      "platforms": [
-        "Windows",
-        "Mac",
-        "Linux"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/322330/",
-      "blurb": "Fight, Farm, Build and Explore Together in the standalone multiplayer expansion to the uncompromising wilderness survival game, Don't Starve.",
-      "tags": [
-        "Horror",
-        "Action",
-        "Adventure",
-        "Indie",
-        "RPG"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/050ea9c51a4e96f707309d33b7cdd38e0a6cbfff/header_alt_assets_51.jpg?t=1793044716",
-      "free": false,
-      "price": "$5.09",
-      "source": "steam",
-      "steam_appid": 322330
     },
     {
       "id": "rat-game",
@@ -513,29 +476,6 @@
       "price": "$5.39",
       "source": "steam",
       "steam_appid": 3347910
-    },
-    {
-      "id": "lunacid",
-      "title": "Lunacid",
-      "developer": "KIRA LLC",
-      "status": "released",
-      "release_date": "2023-10-30",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/1745510/",
-      "blurb": "Cast into the Great Well, unwanted by the world above. You delve the dark in search of the Old One, your last salvation. Lunacid is a dark fantasy dungeon crawler inspired by…",
-      "tags": [
-        "Horror",
-        "Indie",
-        "RPG"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1745510/header.jpg?t=1777045181",
-      "free": false,
-      "price": "$13.99",
-      "source": "steam",
-      "steam_appid": 1745510
     },
     {
       "id": "dreadout",
@@ -734,30 +674,6 @@
       "demo_link": "https://store.steampowered.com/app/4095730/"
     },
     {
-      "id": "the-stalked-3",
-      "title": "The Stalked 3",
-      "developer": "Korvinrular",
-      "status": "demo",
-      "release_date": "2026-08-20",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/3565980/",
-      "blurb": "A late-night thrill turns into a nightmare. Olivia sneaks into Creepwood Wonderland Carnival with her boyfriend, expecting a fun night alone in the park. But something feels off.…",
-      "tags": [
-        "Horror",
-        "Adventure",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3565980/c9bef29849787df3c3dc6fd1644b798ae766d093/header.jpg?t=1787239450",
-      "free": false,
-      "price": "$2.99",
-      "source": "steam",
-      "steam_appid": 3565980,
-      "demo_link": "https://store.steampowered.com/app/4064480/"
-    },
-    {
       "id": "soviet-spooky-tales-green-eyes",
       "title": "SOVIET SPOOKY TALES: Green Eyes",
       "developer": "FISHNAUTS",
@@ -805,6 +721,30 @@
       "source": "steam",
       "steam_appid": 4878690,
       "demo_link": "https://store.steampowered.com/app/5208890/"
+    },
+    {
+      "id": "the-stalked-3",
+      "title": "The Stalked 3",
+      "developer": "Korvinrular",
+      "status": "demo",
+      "release_date": "2026-08-20",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/3565980/",
+      "blurb": "A late-night thrill turns into a nightmare. Olivia sneaks into Creepwood Wonderland Carnival with her boyfriend, expecting a fun night alone in the park. But something feels off.…",
+      "tags": [
+        "Horror",
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3565980/c9bef29849787df3c3dc6fd1644b798ae766d093/header.jpg?t=1787239450",
+      "free": false,
+      "price": "$2.99",
+      "source": "steam",
+      "steam_appid": 3565980,
+      "demo_link": "https://store.steampowered.com/app/4064480/"
     },
     {
       "id": "mumei",
