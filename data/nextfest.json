@@ -1,28 +1,16 @@
 {
- "updated": "2026-11-06T16:47:17.890162+00:00",
+ "updated": "2026-11-07T15:40:59.422052+00:00",
  "demos": [
   {
-   "appid": 5385490,
-   "demo_appid": 5543760,
-   "title": "Shav : The Night Watch",
-   "developer": "Ravik_Games",
-   "blurb": "An overnight job. A covered body. A lamp you must keep alight. Watch over a dead woman in a remote Indian village, and discover what's gone wrong before you open the door.",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5385490/4a526394fb24289807d3c5e1f453f718328cef61/header.jpg?t=1793540598",
-   "release_date": "Dec 18, 2026",
-   "link": "https://store.steampowered.com/app/5385490/",
-   "demo_link": "https://store.steampowered.com/app/5543760/",
-   "demo_available": true
-  },
-  {
-   "appid": 4251290,
-   "demo_appid": 5276030,
-   "title": "Skinator",
-   "developer": "Craig Paul Green, Pedro Casavecchia",
-   "blurb": "A turn-based combat roguelite where you build a monster from the body parts of your enemies. Create evolving combos, break enemy limbs mid-fight and wear their flesh after you defeat them to grow in power.",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4251290/42b303a2cce12365c52e9e23b3bf968b50318594/header.jpg?t=1793713597",
-   "release_date": "Coming soon",
-   "link": "https://store.steampowered.com/app/4251290/",
-   "demo_link": "https://store.steampowered.com/app/5276030/",
+   "appid": 5370490,
+   "demo_appid": 5549700,
+   "title": "ROOM 307",
+   "developer": "Afterlight Games",
+   "blurb": "ROOM 307 is a first-person psychological horror game set in an abandoned hospital. Explore its decaying halls, uncover disturbing records, survive paranormal encounters, and discover what happened at 03:17. Some memories were buried for a r",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5370490/fe66777b624993924e8fa59022cbf42c7b077fc7/header.jpg?t=1793611628",
+   "release_date": "May 27, 2027",
+   "link": "https://store.steampowered.com/app/5370490/",
+   "demo_link": "https://store.steampowered.com/app/5549700/",
    "demo_available": true
   },
   {
@@ -110,6 +98,18 @@
    "demo_available": true
   },
   {
+   "appid": 3598450,
+   "demo_appid": 4835980,
+   "title": "A Story of Questions",
+   "developer": "Under the Bridge Games by Tim Hertel",
+   "blurb": "You are trapped, unable to walk, only a desk in front of you. The voice you hear is that of a woman on a speaker. Solve puzzles, interact with your surroundings, and make weighty decisions as you uncover a strange and disturbing story in th",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3598450/9ffebf369db64df5273a85f3d22dfcaa9c455f1d/header.jpg?t=1784557086",
+   "release_date": "Coming soon",
+   "link": "https://store.steampowered.com/app/3598450/",
+   "demo_link": "https://store.steampowered.com/app/4835980/",
+   "demo_available": true
+  },
+  {
    "appid": 5486980,
    "demo_appid": 5502250,
    "title": "Grim Deck",
@@ -119,18 +119,6 @@
    "release_date": "November 2026",
    "link": "https://store.steampowered.com/app/5486980/",
    "demo_link": "https://store.steampowered.com/app/5502250/",
-   "demo_available": true
-  },
-  {
-   "appid": 5163380,
-   "demo_appid": 5229360,
-   "title": "SECTOR GAMMA",
-   "developer": "Savich18-Games",
-   "blurb": "SECTOR GAMMA - an atmospheric horror simulator set in the Soviet Union, 1968. You are an intern at a secret Soviet facility. Your job: dispose of anomalous waste, fight dangerous robots, and survive on a limited budget. Ready to sign the co",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5163380/6699c0df5faee3c5d416b4c3853649bd63056323/header.jpg?t=1793811025",
-   "release_date": "April 2027",
-   "link": "https://store.steampowered.com/app/5163380/",
-   "demo_link": "https://store.steampowered.com/app/5229360/",
    "demo_available": true
   },
   {
@@ -146,15 +134,27 @@
    "demo_available": true
   },
   {
-   "appid": 3598450,
-   "demo_appid": 4835980,
-   "title": "A Story of Questions",
-   "developer": "Under the Bridge Games by Tim Hertel",
-   "blurb": "You are trapped, unable to walk, only a desk in front of you. The voice you hear is that of a woman on a speaker. Solve puzzles, interact with your surroundings, and make weighty decisions as you uncover a strange and disturbing story in th",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3598450/9ffebf369db64df5273a85f3d22dfcaa9c455f1d/header.jpg?t=1784557086",
+   "appid": 5163380,
+   "demo_appid": 5229360,
+   "title": "SECTOR GAMMA",
+   "developer": "Savich18-Games",
+   "blurb": "SECTOR GAMMA - an atmospheric horror simulator set in the Soviet Union, 1968. You are an intern at a secret Soviet facility. Your job: dispose of anomalous waste, fight dangerous robots, and survive on a limited budget. Ready to sign the co",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5163380/6699c0df5faee3c5d416b4c3853649bd63056323/header.jpg?t=1793811025",
+   "release_date": "April 2027",
+   "link": "https://store.steampowered.com/app/5163380/",
+   "demo_link": "https://store.steampowered.com/app/5229360/",
+   "demo_available": true
+  },
+  {
+   "appid": 5051030,
+   "demo_appid": 5067580,
+   "title": "BACKUP_71",
+   "developer": "Candeia Studio",
+   "blurb": "A psychological horror investigation and survival game where you explore a house full of secrets, faces the living unkow, solve puzzles, use a fully interactive retro computer, and uncover a decades-old conspiracy.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051030/0ec42e5ef5a353a8c6154478f7fbb832aa8f7f91/header.jpg?t=1793137963",
    "release_date": "Coming soon",
-   "link": "https://store.steampowered.com/app/3598450/",
-   "demo_link": "https://store.steampowered.com/app/4835980/",
+   "link": "https://store.steampowered.com/app/5051030/",
+   "demo_link": "https://store.steampowered.com/app/5067580/",
    "demo_available": true
   },
   {
@@ -194,18 +194,6 @@
    "demo_available": true
   },
   {
-   "appid": 5051030,
-   "demo_appid": 5067580,
-   "title": "BACKUP_71",
-   "developer": "Candeia Studio",
-   "blurb": "A psychological horror investigation and survival game where you explore a house full of secrets, faces the living unkow, solve puzzles, use a fully interactive retro computer, and uncover a decades-old conspiracy.",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051030/0ec42e5ef5a353a8c6154478f7fbb832aa8f7f91/header.jpg?t=1793137963",
-   "release_date": "Coming soon",
-   "link": "https://store.steampowered.com/app/5051030/",
-   "demo_link": "https://store.steampowered.com/app/5067580/",
-   "demo_available": true
-  },
-  {
    "appid": 5011890,
    "demo_appid": 5426430,
    "title": "The Split Layer",
@@ -230,27 +218,39 @@
    "demo_available": true
   },
   {
-   "appid": 5226130,
-   "demo_appid": 5430870,
-   "title": "Have We Gone Too Far?",
-   "developer": "AoM.",
-   "blurb": "A solo or co-op horde survival where reckless wizards (you) blast mutated hordes with synthwave magic, upgrade between runs, and try not to kill each other.",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5226130/1d3f6ce94882d32043d94df1c6a60919ac694771/header.jpg?t=1791673105",
-   "release_date": "Q2 2027",
-   "link": "https://store.steampowered.com/app/5226130/",
-   "demo_link": "https://store.steampowered.com/app/5430870/",
+   "appid": 3676100,
+   "demo_appid": 3707190,
+   "title": "Life 2047 Escape Simulator",
+   "developer": "Axionity",
+   "blurb": "Life 2047: Escape Simulator is an atmospheric puzzle game set in a cyberpunk dystopia. The line is your path to freedom. Hack the system, evade surveillance, uncover hidden truths, and escape the loop where every day repeats. Are you a glit",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3676100/98c8bacc79e42eb4565c1d1ca6d42280881fde42/header.jpg?t=1780414054",
+   "release_date": "Coming soon",
+   "link": "https://store.steampowered.com/app/3676100/",
+   "demo_link": "https://store.steampowered.com/app/3707190/",
    "demo_available": true
   },
   {
-   "appid": 4592470,
-   "demo_appid": 5442840,
-   "title": "GUTSPILL",
-   "developer": "Blanqo",
-   "blurb": "GUTSPILL is a brutal horror game where you use a hammer and kicks to destroy and cannibalize your enemies using the environment to your advantage. Survive a descent into madness where everything becomes increasingly surreal and visceral.",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4592470/cbaf343dad76b0ba0f80c3e0cf65e4753887934d/header.jpg?t=1792959695",
+   "appid": 4660870,
+   "demo_appid": 4660880,
+   "title": "DarkCage",
+   "developer": "RealStone Studio",
+   "blurb": "DarkCage is a mystery escape-room adventure where you must solve puzzles and gather clues alongside others trapped in an unfamiliar place. Only by uncovering the truth can you hope to escape.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4660870/5e40f48bb2a91218d94d3c507c1d66e03434d7be/header.jpg?t=1777059268",
+   "release_date": "Q4 2026",
+   "link": "https://store.steampowered.com/app/4660870/",
+   "demo_link": "https://store.steampowered.com/app/4660880/",
+   "demo_available": true
+  },
+  {
+   "appid": 4493200,
+   "demo_appid": 4673340,
+   "title": "Head Office",
+   "developer": "Dumbbell Games",
+   "blurb": "Welcome to the afterlife's premier termination facility. Manage booths, process clients through industrial disposal units, collect VIP specimens, and scale your death enterprise. A darkly corporate idle game widget for your desktop.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4493200/3ab5673edbd3a3fdae918754cdb1a415886e3caf/header.jpg?t=1792401886",
    "release_date": "Coming soon",
-   "link": "https://store.steampowered.com/app/4592470/",
-   "demo_link": "https://store.steampowered.com/app/5442840/",
+   "link": "https://store.steampowered.com/app/4493200/",
+   "demo_link": "https://store.steampowered.com/app/4673340/",
    "demo_available": true
   },
   {
@@ -266,27 +266,15 @@
    "demo_available": true
   },
   {
-   "appid": 5055390,
-   "demo_appid": 5358650,
-   "title": "The Edge of the Backrooms",
-   "developer": "CosmicArcade",
-   "blurb": "After discovering a strange anomaly on Jupiter's moon, Europa, you find yourself in the outer reaches of a dangerous, uncanny complex.",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5055390/fd9ddc2ea91e4543ca87429136d0604c6a930693/header.jpg?t=1793664482",
-   "release_date": "2027",
-   "link": "https://store.steampowered.com/app/5055390/",
-   "demo_link": "https://store.steampowered.com/app/5358650/",
-   "demo_available": true
-  },
-  {
-   "appid": 5474750,
-   "demo_appid": 5486330,
-   "title": "The Alleyway",
-   "developer": "Mind Home Games",
-   "blurb": "Trapped within in a looping British alleyway, you must complete disturbing tasks for a demonic rubbish bin while surviving murderous children's TV puppets known as, Huggles & Friends. A surreal and macabre first-person horror based on the S",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5474750/b3d88cb7155f5bc88e30b9fd3b1192cc8a0cf4f3/header.jpg?t=1793456947",
-   "release_date": "February 2027",
-   "link": "https://store.steampowered.com/app/5474750/",
-   "demo_link": "https://store.steampowered.com/app/5486330/",
+   "appid": 5392550,
+   "demo_appid": 5407970,
+   "title": "OUTIS",
+   "developer": "OUTIS",
+   "blurb": "A 1–10 player PvE/PvP rules-horror game. Follow the rules of the urban legend—or deceive them—to survive and escape. The objects you bring back from inside the legend will be used to advance technology for humanity's survival.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5392550/126c5cfc24983871099a2dd401532e1c8d9c12a7/header.jpg?t=1791684827",
+   "release_date": "March 2027",
+   "link": "https://store.steampowered.com/app/5392550/",
+   "demo_link": "https://store.steampowered.com/app/5407970/",
    "demo_available": true
   },
   {
@@ -299,6 +287,30 @@
    "release_date": "2027",
    "link": "https://store.steampowered.com/app/5499690/",
    "demo_link": "https://store.steampowered.com/app/5499900/",
+   "demo_available": true
+  },
+  {
+   "appid": 4523780,
+   "demo_appid": 5515810,
+   "title": "MINE ESCAPE",
+   "developer": "GAMOPOTAMIA",
+   "blurb": "Traped in a co-op horror game where the only way to evade death is by mining your way out. Navigate using rails fight using a machine gun and collect equipment along the way. Play solo or with friends and see if you have what it takes to su",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523780/5574ed89edd5ab2ab80745ff955d8f296ae97ecb/header.jpg?t=1793623206",
+   "release_date": "Coming soon",
+   "link": "https://store.steampowered.com/app/4523780/",
+   "demo_link": "https://store.steampowered.com/app/5515810/",
+   "demo_available": true
+  },
+  {
+   "appid": 5055390,
+   "demo_appid": 5358650,
+   "title": "The Edge of the Backrooms",
+   "developer": "CosmicArcade",
+   "blurb": "After discovering a strange anomaly on Jupiter's moon, Europa, you find yourself in the outer reaches of a dangerous, uncanny complex.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5055390/fd9ddc2ea91e4543ca87429136d0604c6a930693/header.jpg?t=1793664482",
+   "release_date": "2027",
+   "link": "https://store.steampowered.com/app/5055390/",
+   "demo_link": "https://store.steampowered.com/app/5358650/",
    "demo_available": true
   },
   {
@@ -326,18 +338,6 @@
    "demo_available": true
   },
   {
-   "appid": 3676100,
-   "demo_appid": 3707190,
-   "title": "Life 2047 Escape Simulator",
-   "developer": "Axionity",
-   "blurb": "Life 2047: Escape Simulator is an atmospheric puzzle game set in a cyberpunk dystopia. The line is your path to freedom. Hack the system, evade surveillance, uncover hidden truths, and escape the loop where every day repeats. Are you a glit",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3676100/98c8bacc79e42eb4565c1d1ca6d42280881fde42/header.jpg?t=1780414054",
-   "release_date": "Coming soon",
-   "link": "https://store.steampowered.com/app/3676100/",
-   "demo_link": "https://store.steampowered.com/app/3707190/",
-   "demo_available": true
-  },
-  {
    "appid": 5128870,
    "demo_appid": 5244810,
    "title": "Fear: Nightmare Citadel",
@@ -347,66 +347,6 @@
    "release_date": "Coming soon",
    "link": "https://store.steampowered.com/app/5128870/",
    "demo_link": "https://store.steampowered.com/app/5244810/",
-   "demo_available": true
-  },
-  {
-   "appid": 5056570,
-   "demo_appid": 5062400,
-   "title": "A Week to Remember",
-   "developer": "Letterflux Studios",
-   "blurb": "Help Elliot recover his memories and unlock the truth of what happened before it's too late. A Mexican-American gothic, boys' love visual novel, featuring interactive spell crafting and point-and-click exploration.",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5056570/bcbb857f016a953f6f20684eea7ac80be1413041/header.jpg?t=1790180424",
-   "release_date": "2027",
-   "link": "https://store.steampowered.com/app/5056570/",
-   "demo_link": "https://store.steampowered.com/app/5062400/",
-   "demo_available": true
-  },
-  {
-   "appid": 4863690,
-   "demo_appid": 4864410,
-   "title": "Until the Fire Dies",
-   "developer": "Crimson Cloud Games",
-   "blurb": "A first-person survival horror game where you chop trees and split logs by day, then keep the fire alive through the night as horrors close in beyond its light.",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4863690/e52e107138db8545bc1b12c472c9f5dda1d09a3c/header.jpg?t=1784905237",
-   "release_date": "Coming soon",
-   "link": "https://store.steampowered.com/app/4863690/",
-   "demo_link": "https://store.steampowered.com/app/4864410/",
-   "demo_available": true
-  },
-  {
-   "appid": 5510400,
-   "demo_appid": 5531270,
-   "title": "39D",
-   "developer": "Bulbion",
-   "blurb": "39D is a linear sci-fi horror visual novel. Once you cross the line, there’s only one way to go: down.",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5510400/20f9006626c33e571efe79ea20246b31286d5572/header.jpg?t=1793439748",
-   "release_date": "Q4 2026",
-   "link": "https://store.steampowered.com/app/5510400/",
-   "demo_link": "https://store.steampowered.com/app/5531270/",
-   "demo_available": true
-  },
-  {
-   "appid": 5529920,
-   "demo_appid": 5532510,
-   "title": "Revenant of Tsushima",
-   "developer": "Aurora Studio",
-   "blurb": "Explore haunted shrines and lantern-lit graveyards in a first-person Japanese folklore horror adventure. Collect wandering spirits, investigate strange clues, and uncover the secrets beyond the torii gates.",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5529920/5847d8857a650a27091a93186fc46deef552a96a/header.jpg?t=1793714683",
-   "release_date": "Q4 2027",
-   "link": "https://store.steampowered.com/app/5529920/",
-   "demo_link": "https://store.steampowered.com/app/5532510/",
-   "demo_available": true
-  },
-  {
-   "appid": 3766630,
-   "demo_appid": 5541310,
-   "title": "OCULUM",
-   "developer": "TOMASTIC",
-   "blurb": "OCULUM is a challenging first-person platformer set within a strange and unsettling world. Every step is a gamble, and every mistake is brutal. Climb toward the summit, uncover its secrets, and face whatever is waiting above. Will you endur",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3766630/1f0b6f8fc86c205fd531d9b71cd0b6cf6f4d8273/header.jpg?t=1793567500",
-   "release_date": "Mar 3, 2027",
-   "link": "https://store.steampowered.com/app/3766630/",
-   "demo_link": "https://store.steampowered.com/app/5541310/",
    "demo_available": true
   },
   {
@@ -422,15 +362,75 @@
    "demo_available": true
   },
   {
-   "appid": 4660870,
-   "demo_appid": 4660880,
-   "title": "DarkCage",
-   "developer": "RealStone Studio",
-   "blurb": "DarkCage is a mystery escape-room adventure where you must solve puzzles and gather clues alongside others trapped in an unfamiliar place. Only by uncovering the truth can you hope to escape.",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4660870/5e40f48bb2a91218d94d3c507c1d66e03434d7be/header.jpg?t=1777059268",
+   "appid": 4863690,
+   "demo_appid": 4864410,
+   "title": "Until the Fire Dies",
+   "developer": "Crimson Cloud Games",
+   "blurb": "A first-person survival horror game where you chop trees and split logs by day, then keep the fire alive through the night as horrors close in beyond its light.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4863690/e52e107138db8545bc1b12c472c9f5dda1d09a3c/header.jpg?t=1784905237",
+   "release_date": "Coming soon",
+   "link": "https://store.steampowered.com/app/4863690/",
+   "demo_link": "https://store.steampowered.com/app/4864410/",
+   "demo_available": true
+  },
+  {
+   "appid": 5056570,
+   "demo_appid": 5062400,
+   "title": "A Week to Remember",
+   "developer": "Letterflux Studios",
+   "blurb": "Help Elliot recover his memories and unlock the truth of what happened before it's too late. A Mexican-American gothic, boys' love visual novel, featuring interactive spell crafting and point-and-click exploration.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5056570/bcbb857f016a953f6f20684eea7ac80be1413041/header.jpg?t=1790180424",
+   "release_date": "2027",
+   "link": "https://store.steampowered.com/app/5056570/",
+   "demo_link": "https://store.steampowered.com/app/5062400/",
+   "demo_available": true
+  },
+  {
+   "appid": 4847950,
+   "demo_appid": 5002980,
+   "title": "REAVEN WOOD HOTEL : ROOM 207",
+   "developer": "BLACK VEIL STUDIOS, MARWAN WAEL",
+   "blurb": "A first-person psychological horror game set inside a mysterious mountain hotel. Explore the dark halls of Reaven Wood Hotel and uncover the terrifying secrets hidden behind Room 207.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4847950/252977727a6247df9552a12a121dcbe2232d65e3/header.jpg?t=1792549607",
+   "release_date": "Dec 30, 2026",
+   "link": "https://store.steampowered.com/app/4847950/",
+   "demo_link": "https://store.steampowered.com/app/5002980/",
+   "demo_available": true
+  },
+  {
+   "appid": 5226130,
+   "demo_appid": 5430870,
+   "title": "Have We Gone Too Far?",
+   "developer": "AoM.",
+   "blurb": "A solo or co-op horde survival where reckless wizards (you) blast mutated hordes with synthwave magic, upgrade between runs, and try not to kill each other.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5226130/1d3f6ce94882d32043d94df1c6a60919ac694771/header.jpg?t=1791673105",
+   "release_date": "Q2 2027",
+   "link": "https://store.steampowered.com/app/5226130/",
+   "demo_link": "https://store.steampowered.com/app/5430870/",
+   "demo_available": true
+  },
+  {
+   "appid": 4592470,
+   "demo_appid": 5442840,
+   "title": "GUTSPILL",
+   "developer": "Blanqo",
+   "blurb": "GUTSPILL is a brutal horror game where you use a hammer and kicks to destroy and cannibalize your enemies using the environment to your advantage. Survive a descent into madness where everything becomes increasingly surreal and visceral.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4592470/cbaf343dad76b0ba0f80c3e0cf65e4753887934d/header.jpg?t=1792959695",
+   "release_date": "Coming soon",
+   "link": "https://store.steampowered.com/app/4592470/",
+   "demo_link": "https://store.steampowered.com/app/5442840/",
+   "demo_available": true
+  },
+  {
+   "appid": 5510400,
+   "demo_appid": 5531270,
+   "title": "39D",
+   "developer": "Bulbion",
+   "blurb": "39D is a linear sci-fi horror visual novel. Once you cross the line, there’s only one way to go: down.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5510400/20f9006626c33e571efe79ea20246b31286d5572/header.jpg?t=1793439748",
    "release_date": "Q4 2026",
-   "link": "https://store.steampowered.com/app/4660870/",
-   "demo_link": "https://store.steampowered.com/app/4660880/",
+   "link": "https://store.steampowered.com/app/5510400/",
+   "demo_link": "https://store.steampowered.com/app/5531270/",
    "demo_available": true
   }
  ]

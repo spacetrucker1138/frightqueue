@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T17:15:29.869471+00:00",
+ "updated": "2026-11-07T15:40:59.484539+00:00",
  "source": "https://itch.io/jams",
  "jams": [
   {
@@ -59,7 +59,7 @@
    "start": "2026-06-01T05:01:00Z",
    "end": "2027-01-01T06:01:00Z",
    "voting_end": "",
-   "joined": 240,
+   "joined": 243,
    "prize": ""
   },
   {
@@ -95,7 +95,7 @@
    "start": "2026-08-20T14:00:00Z",
    "end": "2026-11-09T04:59:00Z",
    "voting_end": "",
-   "joined": 34,
+   "joined": 37,
    "prize": ""
   },
   {
@@ -131,7 +131,7 @@
    "start": "2026-09-29T23:00:00Z",
    "end": "2026-11-11T00:00:00Z",
    "voting_end": "",
-   "joined": 386,
+   "joined": 385,
    "prize": "1st place wins $100 , an \" I <3 Denpa\" Archivist-tan keychain , and a denpa gir"
   },
   {
@@ -143,7 +143,7 @@
    "start": "2026-10-01T07:00:00Z",
    "end": "2026-11-09T08:00:00Z",
    "voting_end": "",
-   "joined": 47,
+   "joined": 50,
    "prize": ""
   },
   {
@@ -155,7 +155,7 @@
    "start": "2026-10-01T09:00:00Z",
    "end": "2026-11-30T21:00:00Z",
    "voting_end": "2027-01-01T09:00:00Z",
-   "joined": 43,
+   "joined": 44,
    "prize": ""
   },
   {
@@ -167,7 +167,7 @@
    "start": "2026-10-07T17:59:00Z",
    "end": "2026-11-09T08:59:00Z",
    "voting_end": "2026-11-16T22:59:00Z",
-   "joined": 307,
+   "joined": 309,
    "prize": ""
   },
   {
@@ -191,19 +191,7 @@
    "start": "2026-10-17T22:00:00Z",
    "end": "2026-12-01T01:00:00Z",
    "voting_end": "2026-12-16T01:30:00Z",
-   "joined": 13,
-   "prize": ""
-  },
-  {
-   "name": "GAME HORROR jam",
-   "link": "https://itch.io/jam/game-horror-jam",
-   "host": "DEX AI",
-   "image": "https://img.itch.zone/aW1nLzMxMDI5MTg4LnBuZw==/140x111%23/JcoPIZ.png",
-   "status": "in progress",
-   "start": "2026-10-18T13:00:19Z",
-   "end": "2026-11-05T15:59:59Z",
-   "voting_end": "2026-11-06T14:02:49Z",
-   "joined": 4,
+   "joined": 20,
    "prize": ""
   },
   {
@@ -215,7 +203,7 @@
    "start": "2026-10-19T15:00:00Z",
    "end": "2026-11-20T04:59:00Z",
    "voting_end": "",
-   "joined": 26,
+   "joined": 27,
    "prize": ""
   },
   {
@@ -227,7 +215,7 @@
    "start": "2026-10-20T23:00:00Z",
    "end": "2026-11-20T23:00:00Z",
    "voting_end": "2026-12-05T23:00:00Z",
-   "joined": 34,
+   "joined": 37,
    "prize": ""
   },
   {
@@ -251,31 +239,7 @@
    "start": "2026-10-28T12:00:00Z",
    "end": "2026-11-29T02:59:59Z",
    "voting_end": "2026-12-05T12:00:00Z",
-   "joined": 5,
-   "prize": ""
-  },
-  {
-   "name": "AGDS Halloween Jam '26",
-   "link": "https://itch.io/jam/agds-halloween-jam-26",
-   "host": "Abertay Game Development Society",
-   "image": "https://img.itch.zone/aW1nLzMxNTIxMjUwLnBuZw==/140x111%23/MPPIKH.png",
-   "status": "in progress",
-   "start": "2026-10-29T18:00:00Z",
-   "end": "2026-11-05T10:00:00Z",
-   "voting_end": "",
-   "joined": 10,
-   "prize": ""
-  },
-  {
-   "name": "Weekly Note Music Composing Jam #57 (Happy Halloween!)",
-   "link": "https://itch.io/jam/weekly-note-music-composing-jam-57",
-   "host": "emscottish",
-   "image": "https://img.itch.zone/aW1nLzMxNTk1MTIwLnBuZw==/140x111%23/lm%2B5B%2B.png",
-   "status": "in progress",
-   "start": "2026-10-30T15:00:00Z",
-   "end": "2026-11-07T04:00:00Z",
-   "voting_end": "2026-11-13T16:00:00Z",
-   "joined": 16,
+   "joined": 8,
    "prize": ""
   },
   {
@@ -287,8 +251,8 @@
    "start": "2026-10-31T10:22:36Z",
    "end": "2026-11-15T10:23:03Z",
    "voting_end": "2026-11-25T10:23:47Z",
-   "joined": 23,
-   "prize": ""
+   "joined": 25,
+   "prize": "$100 gift card* This will be awarded based on: The uniqueness of"
   },
   {
    "name": "YumeBound Jam: Psyche, Surrealism & Horror in RPG Maker",
@@ -311,19 +275,7 @@
    "start": "2026-11-01T15:00:00Z",
    "end": "2026-11-14T15:00:00Z",
    "voting_end": "2026-11-20T15:00:00Z",
-   "joined": 40,
-   "prize": ""
-  },
-  {
-   "name": "S-Kill-Up Horror Game Jam 2026",
-   "link": "https://itch.io/jam/s-kill-up-horror-2026",
-   "host": "UpSkill Community",
-   "image": "https://img.itch.zone/aW1nLzMxMjU5MTkxLnBuZw==/140x111%23/JKuvS9.png",
-   "status": "in progress",
-   "start": "2026-11-01T21:00:00Z",
-   "end": "2026-11-05T21:00:00Z",
-   "voting_end": "2026-11-08T21:00:00Z",
-   "joined": 31,
+   "joined": 48,
    "prize": ""
   },
   {
@@ -343,11 +295,11 @@
    "link": "https://itch.io/jam/masckyjam",
    "host": "MaquityStudios",
    "image": "https://img.itch.zone/aW1nLzMxNTY3MTM0LnBuZw==/140x111%23/0La3zA.png",
-   "status": "upcoming",
+   "status": "in progress",
    "start": "2026-11-05T11:00:00Z",
    "end": "2026-11-14T11:00:00Z",
    "voting_end": "2026-11-21T11:00:00Z",
-   "joined": 6,
+   "joined": 7,
    "prize": ""
   },
   {
@@ -355,11 +307,23 @@
    "link": "https://itch.io/jam/spooky-game-jam-26",
    "host": "Natasha Bianca Mangan",
    "image": "https://img.itch.zone/aW1nLzMwNzkwNjQ1LmpwZw==/140x111%23/naVD78.jpg",
-   "status": "upcoming",
+   "status": "in progress",
    "start": "2026-11-06T16:30:00Z",
    "end": "2026-11-08T17:00:00Z",
    "voting_end": "",
-   "joined": 119,
+   "joined": 171,
+   "prize": ""
+  },
+  {
+   "name": "Uji Game Jam 2026 (Spooky Edition)",
+   "link": "https://itch.io/jam/uji-game-jam-2026-spooky-edition",
+   "host": "HDchrom , Jorge Florencio Molina (Floromacoba) , UbePunto",
+   "image": "https://img.itch.zone/aW1nLzMxNDc1MjIwLnBuZw==/140x111%23/H6xXjk.png",
+   "status": "in progress",
+   "start": "2026-11-06T18:45:00Z",
+   "end": "2026-11-08T17:30:00Z",
+   "voting_end": "2026-11-15T17:30:00Z",
+   "joined": 32,
    "prize": ""
   },
   {
@@ -371,7 +335,7 @@
    "start": "2026-11-14T01:00:00Z",
    "end": "2026-11-16T01:00:00Z",
    "voting_end": "2026-11-16T01:00:01Z",
-   "joined": 46,
+   "joined": 58,
    "prize": "$350+ Prizes!"
   },
   {
@@ -383,7 +347,7 @@
    "start": "2026-11-18T18:59:00Z",
    "end": "2026-12-21T08:59:00Z",
    "voting_end": "2026-12-28T22:59:00Z",
-   "joined": 92,
+   "joined": 107,
    "prize": ""
   },
   {
@@ -395,7 +359,7 @@
    "start": "2026-11-27T08:00:00Z",
    "end": "2026-12-15T07:59:59Z",
    "voting_end": "2026-12-22T07:59:59Z",
-   "joined": 24,
+   "joined": 26,
    "prize": ""
   },
   {
@@ -407,7 +371,7 @@
    "start": "2026-12-03T18:30:00Z",
    "end": "2026-12-13T18:30:00Z",
    "voting_end": "2026-12-20T18:30:00Z",
-   "joined": 217,
+   "joined": 235,
    "prize": ""
   },
   {
@@ -419,7 +383,7 @@
    "start": "2026-12-04T19:00:00Z",
    "end": "2026-12-13T19:00:00Z",
    "voting_end": "2026-12-20T19:00:00Z",
-   "joined": 3,
+   "joined": 7,
    "prize": ""
   },
   {
@@ -431,7 +395,7 @@
    "start": "2027-01-06T18:59:00Z",
    "end": "2027-02-08T08:59:00Z",
    "voting_end": "2027-02-15T22:59:00Z",
-   "joined": 16,
+   "joined": 17,
    "prize": ""
   },
   {
@@ -443,7 +407,7 @@
    "start": "2027-01-13T18:59:00Z",
    "end": "2027-03-15T08:59:00Z",
    "voting_end": "2027-04-12T21:59:00Z",
-   "joined": 16,
+   "joined": 17,
    "prize": ""
   },
   {
@@ -467,7 +431,7 @@
    "start": "2027-02-17T18:59:00Z",
    "end": "2027-03-22T08:59:00Z",
    "voting_end": "2027-03-29T21:59:00Z",
-   "joined": 10,
+   "joined": 12,
    "prize": ""
   },
   {
