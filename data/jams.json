@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T15:40:59.484539+00:00",
+ "updated": "2026-11-08T15:59:07.214824+00:00",
  "source": "https://itch.io/jams",
  "jams": [
   {
@@ -27,18 +27,6 @@
    "prize": ""
   },
   {
-   "name": "Australia Jam",
-   "link": "https://itch.io/jam/australia-jam",
-   "host": "nrgs",
-   "image": "https://img.itch.zone/aW1nLzI1MDIxMTUzLnBuZw==/140x111%23/UZXVi6.png",
-   "status": "in progress",
-   "start": "2026-01-25T13:30:00Z",
-   "end": "2026-12-18T13:29:59Z",
-   "voting_end": "",
-   "joined": 13,
-   "prize": ""
-  },
-  {
    "name": "RPG Maker Horror Game Jam: Annual Edition 2026",
    "link": "https://itch.io/jam/rpg-maker-horror-game-jam-annual-edition-2026",
    "host": "Beregon , BroodyGaming",
@@ -47,7 +35,7 @@
    "start": "2026-03-12T22:59:00Z",
    "end": "2026-11-23T08:59:00Z",
    "voting_end": "2026-12-07T22:59:00Z",
-   "joined": 128,
+   "joined": 130,
    "prize": ""
   },
   {
@@ -107,7 +95,7 @@
    "start": "2026-09-04T10:26:10Z",
    "end": "2026-11-17T11:26:14Z",
    "voting_end": "",
-   "joined": 12,
+   "joined": 13,
    "prize": ""
   },
   {
@@ -167,7 +155,7 @@
    "start": "2026-10-07T17:59:00Z",
    "end": "2026-11-09T08:59:00Z",
    "voting_end": "2026-11-16T22:59:00Z",
-   "joined": 309,
+   "joined": 307,
    "prize": ""
   },
   {
@@ -191,7 +179,7 @@
    "start": "2026-10-17T22:00:00Z",
    "end": "2026-12-01T01:00:00Z",
    "voting_end": "2026-12-16T01:30:00Z",
-   "joined": 20,
+   "joined": 23,
    "prize": ""
   },
   {
@@ -215,7 +203,7 @@
    "start": "2026-10-20T23:00:00Z",
    "end": "2026-11-20T23:00:00Z",
    "voting_end": "2026-12-05T23:00:00Z",
-   "joined": 37,
+   "joined": 38,
    "prize": ""
   },
   {
@@ -251,7 +239,7 @@
    "start": "2026-10-31T10:22:36Z",
    "end": "2026-11-15T10:23:03Z",
    "voting_end": "2026-11-25T10:23:47Z",
-   "joined": 25,
+   "joined": 27,
    "prize": "$100 gift card* This will be awarded based on: The uniqueness of"
   },
   {
@@ -263,7 +251,7 @@
    "start": "2026-11-01T03:00:00Z",
    "end": "2026-11-19T03:00:00Z",
    "voting_end": "2026-11-20T03:00:00Z",
-   "joined": 3,
+   "joined": 4,
    "prize": ""
   },
   {
@@ -311,19 +299,19 @@
    "start": "2026-11-06T16:30:00Z",
    "end": "2026-11-08T17:00:00Z",
    "voting_end": "",
-   "joined": 171,
+   "joined": 174,
    "prize": ""
   },
   {
-   "name": "Uji Game Jam 2026 (Spooky Edition)",
-   "link": "https://itch.io/jam/uji-game-jam-2026-spooky-edition",
-   "host": "HDchrom , Jorge Florencio Molina (Floromacoba) , UbePunto",
-   "image": "https://img.itch.zone/aW1nLzMxNDc1MjIwLnBuZw==/140x111%23/H6xXjk.png",
+   "name": "Super Free AI Game jam #2",
+   "link": "https://itch.io/jam/super-free-ai-game-jam-2",
+   "host": "Morei309",
+   "image": "https://img.itch.zone/aW1nLzMxMjc5NDkwLnBuZw==/140x111%23/famIJb.png",
    "status": "in progress",
-   "start": "2026-11-06T18:45:00Z",
-   "end": "2026-11-08T17:30:00Z",
-   "voting_end": "2026-11-15T17:30:00Z",
-   "joined": 32,
+   "start": "2026-11-08T02:10:00Z",
+   "end": "2026-11-15T02:10:00Z",
+   "voting_end": "2026-11-20T02:10:00Z",
+   "joined": 58,
    "prize": ""
   },
   {
@@ -335,7 +323,7 @@
    "start": "2026-11-14T01:00:00Z",
    "end": "2026-11-16T01:00:00Z",
    "voting_end": "2026-11-16T01:00:01Z",
-   "joined": 58,
+   "joined": 61,
    "prize": "$350+ Prizes!"
   },
   {
@@ -347,7 +335,7 @@
    "start": "2026-11-18T18:59:00Z",
    "end": "2026-12-21T08:59:00Z",
    "voting_end": "2026-12-28T22:59:00Z",
-   "joined": 107,
+   "joined": 115,
    "prize": ""
   },
   {
@@ -359,7 +347,7 @@
    "start": "2026-11-27T08:00:00Z",
    "end": "2026-12-15T07:59:59Z",
    "voting_end": "2026-12-22T07:59:59Z",
-   "joined": 26,
+   "joined": 27,
    "prize": ""
   },
   {
@@ -371,7 +359,7 @@
    "start": "2026-12-03T18:30:00Z",
    "end": "2026-12-13T18:30:00Z",
    "voting_end": "2026-12-20T18:30:00Z",
-   "joined": 235,
+   "joined": 239,
    "prize": ""
   },
   {
@@ -395,7 +383,7 @@
    "start": "2027-01-06T18:59:00Z",
    "end": "2027-02-08T08:59:00Z",
    "voting_end": "2027-02-15T22:59:00Z",
-   "joined": 17,
+   "joined": 19,
    "prize": ""
   },
   {
@@ -431,7 +419,7 @@
    "start": "2027-02-17T18:59:00Z",
    "end": "2027-03-22T08:59:00Z",
    "voting_end": "2027-03-29T21:59:00Z",
-   "joined": 12,
+   "joined": 13,
    "prize": ""
   },
   {
