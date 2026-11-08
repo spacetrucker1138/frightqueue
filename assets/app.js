@@ -13,7 +13,7 @@ let f='all';const grid=document.getElementById('grid'),plat=document.getElementB
 const order={upcoming:0,demo:1,released:2};
 function render(){const t=q.value.toLowerCase();
 const list=games.filter(g=>(f==='all'||(f==='free'?(g.free||g.status==='demo'):g.status===f))&&(!plat.value||g.platforms.includes(plat.value))&&(!store.value||g.store===store.value)&&(!t||[g.title,g.developer,...g.tags].join(' ').toLowerCase().includes(t)))
- .sort((a,b)=>order[a.status]-order[b.status]||(a.status==='upcoming'?a.release_date.localeCompare(b.release_date):b.release_date.localeCompare(a.release_date)));
+ .sort((a,b)=>(a.pinned?0:1)-(b.pinned?0:1)||order[a.status]-order[b.status]||(a.status==='upcoming'?a.release_date.localeCompare(b.release_date):b.release_date.localeCompare(a.release_date)));
 grid.innerHTML=list.map(card).join('')||'<p class="empty">Nothing crawled out. Try another filter.</p>';
 document.getElementById('count').textContent=`${list.length} game${list.length===1?'':'s'} in the queue`;}
 document.querySelectorAll('.filters button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.filters button').forEach(x=>x.classList.remove('on'));b.classList.add('on');f=b.dataset.f;render();});

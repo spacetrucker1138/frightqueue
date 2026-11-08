@@ -1,7 +1,7 @@
 # Fright Queue
 New/upcoming indie horror games and free demos. Static site for GitHub Pages at frightqueue.thejurn.com (see `CNAME`).
 
-- `data/games.json`: game data (title, developer, status, release_date, platforms, store, link, blurb, tags, image, free, price). Set `"pinned": true` to keep a hand-added entry through refreshes.
+- `data/games.json`: game data (title, developer, status, release_date, platforms, store, link, blurb, tags, image, free, price). Set `"pinned": true` to keep a hand-added entry through refreshes and to sort it first in The Queue. Filters and search still apply.
 - `data/arcade.json`: JURN Arcade games (links to thejurn.com).
 - `scripts/refresh_games.py`: pulls Steam (horror tag search + appdetails) and itch.io horror RSS feeds. Edit `EXCLUDE` to curate. Stdlib only.
 - `scripts/build.py`: generates index.html, games/*.html, submit.html, 404.html, sitemap.xml, robots.txt.
