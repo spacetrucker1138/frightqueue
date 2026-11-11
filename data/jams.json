@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T17:03:29.338355+00:00",
+ "updated": "2026-11-11T17:07:41.656149+00:00",
  "source": "https://itch.io/jams",
  "jams": [
   {
@@ -11,7 +11,7 @@
    "start": "2023-06-08T11:00:21Z",
    "end": "2030-03-30T18:30:00Z",
    "voting_end": "2035-01-10T18:30:00Z",
-   "joined": 33,
+   "joined": 34,
    "prize": ""
   },
   {
@@ -95,7 +95,7 @@
    "start": "2026-09-04T10:26:10Z",
    "end": "2026-11-17T11:26:14Z",
    "voting_end": "",
-   "joined": 15,
+   "joined": 14,
    "prize": ""
   },
   {
@@ -111,18 +111,6 @@
    "prize": ""
   },
   {
-   "name": "Denpa VN Jam 2026",
-   "link": "https://itch.io/jam/denpa-vn-jam-2026",
-   "host": "denparin , denpa , kalinzero , canislatransed",
-   "image": "https://img.itch.zone/aW1nLzI5MzgwOTAzLnBuZw==/140x111%23/Sy7%2FFw.png",
-   "status": "in progress",
-   "start": "2026-09-29T23:00:00Z",
-   "end": "2026-11-11T00:00:00Z",
-   "voting_end": "",
-   "joined": 395,
-   "prize": "1st place wins $100 , an \" I <3 Denpa\" Archivist-tan keychain , and a denpa gir"
-  },
-  {
    "name": "Zombie Girl Game Jam 3",
    "link": "https://itch.io/jam/zombie-girl-game-jam-3",
    "host": "Apho , ShibeyFaceGames",
@@ -131,7 +119,7 @@
    "start": "2026-10-01T09:00:00Z",
    "end": "2026-11-30T21:00:00Z",
    "voting_end": "2027-01-01T09:00:00Z",
-   "joined": 45,
+   "joined": 46,
    "prize": ""
   },
   {
@@ -167,7 +155,7 @@
    "start": "2026-10-19T15:00:00Z",
    "end": "2026-11-20T04:59:00Z",
    "voting_end": "",
-   "joined": 28,
+   "joined": 29,
    "prize": ""
   },
   {
@@ -179,19 +167,7 @@
    "start": "2026-10-20T23:00:00Z",
    "end": "2026-11-20T23:00:00Z",
    "voting_end": "2026-12-05T23:00:00Z",
-   "joined": 39,
-   "prize": ""
-  },
-  {
-   "name": "Nightfall Halloween Jam",
-   "link": "https://itch.io/jam/nightfall-halloween-jam",
-   "host": "Ridgeworks Studio",
-   "image": "https://img.itch.zone/aW1nLzMxMzYwNTMxLnBuZw==/140x111%23/e4HIDA.png",
-   "status": "in progress",
-   "start": "2026-10-27T16:00:00Z",
-   "end": "2026-11-11T17:00:00Z",
-   "voting_end": "",
-   "joined": 5,
+   "joined": 40,
    "prize": ""
   },
   {
@@ -215,7 +191,7 @@
    "start": "2026-10-31T10:22:36Z",
    "end": "2026-11-15T10:23:03Z",
    "voting_end": "2026-11-25T10:23:47Z",
-   "joined": 27,
+   "joined": 29,
    "prize": "$100 gift card* This will be awarded based on: The uniqueness of"
   },
   {
@@ -239,7 +215,7 @@
    "start": "2026-11-01T15:00:00Z",
    "end": "2026-11-14T15:00:00Z",
    "voting_end": "2026-11-20T15:00:00Z",
-   "joined": 48,
+   "joined": 50,
    "prize": ""
   },
   {
@@ -251,6 +227,18 @@
    "start": "2026-11-02T06:50:29Z",
    "end": "2026-11-16T06:50:44Z",
    "voting_end": "2026-11-23T06:50:59Z",
+   "joined": 19,
+   "prize": ""
+  },
+  {
+   "name": "Cosy Winter Jam",
+   "link": "https://itch.io/jam/cosy-winter-jam",
+   "host": "Fabian Blake",
+   "image": "https://img.itch.zone/aW1nLzMxODI3OTg4LmpwZw==/140x111%23/OPNGmP.jpg",
+   "status": "in progress",
+   "start": "2026-11-05T06:00:00Z",
+   "end": "2026-11-27T00:00:00Z",
+   "voting_end": "",
    "joined": 20,
    "prize": ""
   },
@@ -275,7 +263,7 @@
    "start": "2026-11-08T02:10:00Z",
    "end": "2026-11-15T02:10:00Z",
    "voting_end": "2026-11-20T02:10:00Z",
-   "joined": 75,
+   "joined": 82,
    "prize": ""
   },
   {
@@ -287,7 +275,7 @@
    "start": "2026-11-12T23:00:00Z",
    "end": "2026-11-15T22:59:59Z",
    "voting_end": "2026-11-21T22:59:59Z",
-   "joined": 0,
+   "joined": 2,
    "prize": ""
   },
   {
@@ -299,7 +287,7 @@
    "start": "2026-11-14T01:00:00Z",
    "end": "2026-11-16T01:00:00Z",
    "voting_end": "2026-11-16T01:00:01Z",
-   "joined": 76,
+   "joined": 84,
    "prize": "$350+ Prizes!"
   },
   {
@@ -311,7 +299,7 @@
    "start": "2026-11-18T18:59:00Z",
    "end": "2026-12-21T08:59:00Z",
    "voting_end": "2026-12-28T22:59:00Z",
-   "joined": 156,
+   "joined": 169,
    "prize": ""
   },
   {
@@ -335,7 +323,7 @@
    "start": "2026-12-03T18:30:00Z",
    "end": "2026-12-13T18:30:00Z",
    "voting_end": "2026-12-20T18:30:00Z",
-   "joined": 251,
+   "joined": 258,
    "prize": ""
   },
   {
@@ -347,7 +335,7 @@
    "start": "2026-12-04T19:00:00Z",
    "end": "2026-12-13T19:00:00Z",
    "voting_end": "2026-12-20T19:00:00Z",
-   "joined": 9,
+   "joined": 11,
    "prize": ""
   },
   {
