@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T17:07:41.656149+00:00",
+ "updated": "2026-11-12T17:36:17.645905+00:00",
  "source": "https://itch.io/jams",
  "jams": [
   {
@@ -35,7 +35,7 @@
    "start": "2026-01-25T13:30:00Z",
    "end": "2026-12-18T13:29:59Z",
    "voting_end": "",
-   "joined": 13,
+   "joined": 12,
    "prize": ""
   },
   {
@@ -59,7 +59,7 @@
    "start": "2026-06-01T05:01:00Z",
    "end": "2027-01-01T06:01:00Z",
    "voting_end": "",
-   "joined": 244,
+   "joined": 245,
    "prize": ""
   },
   {
@@ -107,7 +107,7 @@
    "start": "2026-09-21T10:36:52Z",
    "end": "2027-04-12T10:37:10Z",
    "voting_end": "",
-   "joined": 39,
+   "joined": 41,
    "prize": ""
   },
   {
@@ -143,7 +143,7 @@
    "start": "2026-10-17T22:00:00Z",
    "end": "2026-12-01T01:00:00Z",
    "voting_end": "2026-12-16T01:30:00Z",
-   "joined": 26,
+   "joined": 27,
    "prize": ""
   },
   {
@@ -167,7 +167,7 @@
    "start": "2026-10-20T23:00:00Z",
    "end": "2026-11-20T23:00:00Z",
    "voting_end": "2026-12-05T23:00:00Z",
-   "joined": 40,
+   "joined": 41,
    "prize": ""
   },
   {
@@ -191,7 +191,7 @@
    "start": "2026-10-31T10:22:36Z",
    "end": "2026-11-15T10:23:03Z",
    "voting_end": "2026-11-25T10:23:47Z",
-   "joined": 29,
+   "joined": 30,
    "prize": "$100 gift card* This will be awarded based on: The uniqueness of"
   },
   {
@@ -215,7 +215,7 @@
    "start": "2026-11-01T15:00:00Z",
    "end": "2026-11-14T15:00:00Z",
    "voting_end": "2026-11-20T15:00:00Z",
-   "joined": 50,
+   "joined": 49,
    "prize": ""
   },
   {
@@ -227,7 +227,7 @@
    "start": "2026-11-02T06:50:29Z",
    "end": "2026-11-16T06:50:44Z",
    "voting_end": "2026-11-23T06:50:59Z",
-   "joined": 19,
+   "joined": 17,
    "prize": ""
   },
   {
@@ -239,19 +239,7 @@
    "start": "2026-11-05T06:00:00Z",
    "end": "2026-11-27T00:00:00Z",
    "voting_end": "",
-   "joined": 20,
-   "prize": ""
-  },
-  {
-   "name": "Mascky Jam (mascot horror)",
-   "link": "https://itch.io/jam/masckyjam",
-   "host": "MaquityStudios",
-   "image": "https://img.itch.zone/aW1nLzMxNTY3MTM0LnBuZw==/140x111%23/0La3zA.png",
-   "status": "in progress",
-   "start": "2026-11-05T11:00:00Z",
-   "end": "2026-11-14T11:00:00Z",
-   "voting_end": "2026-11-21T11:00:00Z",
-   "joined": 8,
+   "joined": 21,
    "prize": ""
   },
   {
@@ -263,7 +251,7 @@
    "start": "2026-11-08T02:10:00Z",
    "end": "2026-11-15T02:10:00Z",
    "voting_end": "2026-11-20T02:10:00Z",
-   "joined": 82,
+   "joined": 85,
    "prize": ""
   },
   {
@@ -275,7 +263,7 @@
    "start": "2026-11-12T23:00:00Z",
    "end": "2026-11-15T22:59:59Z",
    "voting_end": "2026-11-21T22:59:59Z",
-   "joined": 2,
+   "joined": 4,
    "prize": ""
   },
   {
@@ -287,7 +275,7 @@
    "start": "2026-11-14T01:00:00Z",
    "end": "2026-11-16T01:00:00Z",
    "voting_end": "2026-11-16T01:00:01Z",
-   "joined": 84,
+   "joined": 91,
    "prize": "$350+ Prizes!"
   },
   {
@@ -299,7 +287,7 @@
    "start": "2026-11-18T18:59:00Z",
    "end": "2026-12-21T08:59:00Z",
    "voting_end": "2026-12-28T22:59:00Z",
-   "joined": 169,
+   "joined": 178,
    "prize": ""
   },
   {
@@ -323,7 +311,7 @@
    "start": "2026-12-03T18:30:00Z",
    "end": "2026-12-13T18:30:00Z",
    "voting_end": "2026-12-20T18:30:00Z",
-   "joined": 258,
+   "joined": 263,
    "prize": ""
   },
   {
@@ -420,6 +408,18 @@
    "end": "2027-06-21T07:59:00Z",
    "voting_end": "2027-06-28T21:59:00Z",
    "joined": 1,
+   "prize": ""
+  },
+  {
+   "name": "RPG Maker Horror Game Jam #20: Tortured Artist",
+   "link": "https://itch.io/jam/rpg-maker-horror-game-jam-20",
+   "host": "Beregon , BroodyGaming",
+   "image": "https://img.itch.zone/aW1nLzI3MTE5NTg5LnBuZw==/140x111%23/hFnsrl.png",
+   "status": "upcoming",
+   "start": "2027-07-14T17:59:00Z",
+   "end": "2027-09-13T07:59:00Z",
+   "voting_end": "2027-10-11T09:59:00Z",
+   "joined": 2,
    "prize": ""
   }
  ]
