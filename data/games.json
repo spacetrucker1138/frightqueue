@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T20:09:21Z",
+  "updated": "2026-11-25T19:15:06Z",
   "games": [
     {
       "id": "graveyard-shift",
@@ -24,172 +24,6 @@
       "price": null,
       "source": "manual",
       "pinned": true
-    },
-    {
-      "id": "murmurs-of-fear-a-whisper-of-loneliness",
-      "title": "Murmurs of Fear - A whisper of loneliness",
-      "developer": "BraveCat'Studios",
-      "status": "upcoming",
-      "release_date": "2026-11-24",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/3129900/",
-      "blurb": "Murmurs of Fear is a psychological horror about those left alone with the unexplainable. It is a self-contained story about fear, isolation, and the struggle to stay sane as…",
-      "tags": [
-        "Horror",
-        "Action",
-        "Adventure",
-        "Casual",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3129900/7a7ce4d21c22e980ad2bb804ebb61e471c1f3af0/header.jpg?t=1794129398",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 3129900
-    },
-    {
-      "id": "deadshift",
-      "title": "Deadshift",
-      "developer": "InbredJesus",
-      "status": "upcoming",
-      "release_date": "2026-11-25",
-      "platforms": [
-        "Windows",
-        "Linux"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/5347440/",
-      "blurb": "Spend your last cash on a gun, a perk or a way out. DEADSHIFT is a single-player & multiplayer, top-down zombie survival roguelike. Repair barricades, unlock rooms and evolve…",
-      "tags": [
-        "Horror",
-        "Action",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5347440/fb8341f90f39646d87ed3321e1ce4df9b275de26/header.jpg?t=1795542086",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5347440
-    },
-    {
-      "id": "alone-at-school-christmas",
-      "title": "Alone at  School:Christmas",
-      "developer": "ZV GAMES",
-      "status": "upcoming",
-      "release_date": "2026-11-25",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/5049560/",
-      "blurb": "Alone at School: Christmas is an atmospheric horror walking simulator. Arriving at school before everyone else on Christmas morning, you soon realize that someone, or something,…",
-      "tags": [
-        "Horror",
-        "Adventure",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5049560/292997186662e219ac70b82b2742b46f85365add/header.jpg?t=1794988979",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5049560
-    },
-    {
-      "id": "coma-dreams",
-      "title": "Coma Dreams",
-      "developer": "Ghosto Dev",
-      "status": "upcoming",
-      "release_date": "2026-11-25",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/5214570/",
-      "blurb": "Guide a wounded Marine through a nightmare born of his own coma, facing the horrors of war, scarce ammunition, and dark labyrinths. Evade a colossal, relentless pursuer, overcome…",
-      "tags": [
-        "Horror",
-        "Adventure",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5214570/b446180bc0876943f817d8147166e95c80f45ef8/header.jpg?t=1795273503",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5214570
-    },
-    {
-      "id": "clip-out-backrooms",
-      "title": "Clip Out: Backrooms",
-      "developer": "whipli",
-      "status": "upcoming",
-      "release_date": "2026-11-25",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/5520650/",
-      "blurb": "Play solo or in 2-player online co-op in this PSX style extraction roguelite based on the Backrooms. Explore procedural levels, scavenge for loot, and extract alive to upgrade…",
-      "tags": [
-        "Horror",
-        "Action",
-        "Adventure",
-        "Indie",
-        "Free To Play"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5520650/4f60be24cf7c682b8682f04cec4c4fc98ae55ab2/header.jpg?t=1793718506",
-      "free": true,
-      "price": "Free",
-      "source": "steam",
-      "steam_appid": 5520650
-    },
-    {
-      "id": "the-sixth-sin",
-      "title": "The Sixth Sin",
-      "developer": "HAPPYTECH",
-      "status": "upcoming",
-      "release_date": "2026-11-25",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/4913720/",
-      "blurb": "The Sixth Sin is a horror game set in a suspense-filled atmosphere where you battle demons, supernatural beings, and puzzles, surviving through your own ingenuity. The voice…",
-      "tags": [
-        "Horror",
-        "Adventure",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4913720/491e5beeaf206f00579d16e101350f3a943d46e1/header.jpg?t=1792591448",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 4913720
-    },
-    {
-      "id": "before-it-falls",
-      "title": "Before it Falls",
-      "developer": "Golden Pine Studios",
-      "status": "upcoming",
-      "release_date": "2026-11-25",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/5492190/",
-      "blurb": "Enter the long-closed St. Elora Hospital for a final technical inspection before demolition. Restore power, explore the building, and examine the records left behind. Before it…",
-      "tags": [
-        "Horror",
-        "Adventure",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5492190/c29d3b3a7f3b10ba43f5ca44ceefa3d974864682/header.jpg?t=1794532043",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5492190
     },
     {
       "id": "mythhunt",
@@ -241,29 +75,6 @@
       "steam_appid": 5433240
     },
     {
-      "id": "fool-s-trigger",
-      "title": "Fool's Trigger",
-      "developer": "PodrezCrew",
-      "status": "upcoming",
-      "release_date": "2026-11-26",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/3612300/",
-      "blurb": "Welcome to the table where life is the stake. Fool’s Trigger is a tense mix of Russian roulette and a card game for 6. Load your revolver, manipulate the cards, put lives on the…",
-      "tags": [
-        "Horror",
-        "Indie",
-        "Simulation"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3612300/1594709da7e245531d4f8769a7dd7d865fff98a2/header.jpg?t=1794241553",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 3612300
-    },
-    {
       "id": "midnight-yakiniku",
       "title": "Midnight Yakiniku | 深夜焼肉",
       "developer": "TADAIMA WORKS",
@@ -308,6 +119,195 @@
       "price": null,
       "source": "steam",
       "steam_appid": 5458540
+    },
+    {
+      "id": "fool-s-trigger",
+      "title": "Fool's Trigger",
+      "developer": "PodrezCrew",
+      "status": "upcoming",
+      "release_date": "2026-11-26",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/3612300/",
+      "blurb": "Welcome to the table where life is the stake. Fool’s Trigger is a tense mix of Russian roulette and a card game for 6. Load your revolver, manipulate the cards, put lives on the…",
+      "tags": [
+        "Horror",
+        "Indie",
+        "Simulation"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3612300/1594709da7e245531d4f8769a7dd7d865fff98a2/header.jpg?t=1794241553",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 3612300
+    },
+    {
+      "id": "eyelord-returns",
+      "title": "Eyelord Returns",
+      "developer": "Secret Exit Ltd.",
+      "status": "upcoming",
+      "release_date": "2026-11-26",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5446860/",
+      "blurb": "Eyelord is an intense, fast-paced, heavy metal match-3 pop 'em up. It is a relentless massacre of innocent rolling eyeballs, using a mouse, touchscreen, or game controller. Get…",
+      "tags": [
+        "Horror",
+        "Action",
+        "Casual",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5446860/e2eb3458da4a4e8e4c1c57a70563809b1806c516/header.jpg?t=1794844222",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5446860
+    },
+    {
+      "id": "4th-supplementary",
+      "title": "4th Supplementary",
+      "developer": "Youarenotalone",
+      "status": "upcoming",
+      "release_date": "2026-11-26",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5409780/",
+      "blurb": "You are trapped in an endless, haunted school loop. Evade the lingering spirit, seal the anomalies, and find a way out before it's too late.",
+      "tags": [
+        "Horror",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5409780/559b282024e6017052a96dec5bece986101f7f78/header.jpg?t=1795484036",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5409780
+    },
+    {
+      "id": "slop-squad",
+      "title": "Slop Squad",
+      "developer": "Bloody Bear",
+      "status": "upcoming",
+      "release_date": "2026-11-26",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/4727850/",
+      "blurb": "An online co-op horror game for up to 4 players. Vacuum up valuable scrap from procedurally generated maps and get it back to the scrap crusher before the things lurking inside…",
+      "tags": [
+        "Horror",
+        "Action",
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4727850/117f18aecdc60ca8ca3b7ed8ccbb4f0670fa7881/header.jpg?t=1793852431",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 4727850
+    },
+    {
+      "id": "goshiwon",
+      "title": "Goshiwon | 고시원",
+      "developer": "Jayhyeon Studio",
+      "status": "upcoming",
+      "release_date": "2026-11-26",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5406550/",
+      "blurb": "A first-person psychological horror game set in a cramped Korean goshiwon. You and your friend make fake ghost videos for views. But something that looks exactly like his costume…",
+      "tags": [
+        "Horror",
+        "Indie",
+        "Simulation"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5406550/a41d17dd3785751382db37936dbb44ffb0205bdd/header.jpg?t=1794980644",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5406550
+    },
+    {
+      "id": "moi",
+      "title": "MOI",
+      "developer": "VAINSANE",
+      "status": "upcoming",
+      "release_date": "2026-11-27",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5428300/",
+      "blurb": "After an embarrassing video, Mimp tries a makeover that promises a perfect face and effortless confidence. It also makes caring feel unnecessary. A short psychological horror…",
+      "tags": [
+        "Horror",
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5428300/285de5bc5564e179a5cc88ea835599720a622289/header.jpg?t=1795176614",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5428300
+    },
+    {
+      "id": "mind-the-clown-reborn",
+      "title": "Mind the Clown: Reborn",
+      "developer": "Coast City",
+      "status": "upcoming",
+      "release_date": "2026-11-27",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5165650/",
+      "blurb": "A first-person survival horror game set in a cursed circus shaped by childhood memories. Move carefully and hide from the demonic clown stalking you. Explore dangerous…",
+      "tags": [
+        "Horror",
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5165650/67543ef2f2552c0ee94b130e869d0a46d868dc56/header.jpg?t=1794506807",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5165650
+    },
+    {
+      "id": "stalkers-strand",
+      "title": "Stalkers Strand",
+      "developer": "Hairy Donut Industries",
+      "status": "upcoming",
+      "release_date": "2026-11-27",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5196120/",
+      "blurb": "You're only here to fill your scavenging quota, sweeping the dark shoreline with your metal detector for lost trinkets. But the beach belongs to something else at night. Tread…",
+      "tags": [
+        "Horror",
+        "Action",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5196120/5c6a96fa6ca32bde3b41d7ee22b7bf565998bf00/header.jpg?t=1793212798",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5196120
     },
     {
       "id": "phasmophobia",
@@ -355,31 +355,6 @@
       "price": "$9.99",
       "source": "steam",
       "steam_appid": 1943950
-    },
-    {
-      "id": "invokyr",
-      "title": "Invokyr",
-      "developer": "Ludogram",
-      "status": "released",
-      "release_date": "2026-10-08",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/3883570/",
-      "blurb": "A co-op survival horror game about a cursed board game. Play in a group of 6 players. Roll the dice, survive the horrors that are summoned, and beat the Gamemaster to win your…",
-      "tags": [
-        "Horror",
-        "Action",
-        "Adventure",
-        "Indie",
-        "Simulation"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg?t=1792307731",
-      "free": false,
-      "price": "$12.99",
-      "source": "steam",
-      "steam_appid": 3883570
     },
     {
       "id": "dredge",
@@ -430,6 +405,30 @@
       "price": "$3.74",
       "source": "steam",
       "steam_appid": 262060
+    },
+    {
+      "id": "mortal-sin",
+      "title": "Mortal Sin",
+      "developer": "Nikola Todorovic",
+      "status": "released",
+      "release_date": "2025-08-29",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/1494810/",
+      "blurb": "Mortal Sin is a chaotic, blood-soaked roguelike where skill is power, and overconfidence is death. Carve through procedurally generated nightmares with brutal melee and flashy,…",
+      "tags": [
+        "Horror",
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1494810/b41130d8540063e8250074ccfa10c1681683c56a/header.jpg?t=1795150592",
+      "free": false,
+      "price": "$12.49",
+      "source": "steam",
+      "steam_appid": 1494810
     },
     {
       "id": "dreadout",
@@ -654,28 +653,29 @@
       "demo_link": "https://store.steampowered.com/app/4095730/"
     },
     {
-      "id": "the-stalked-3",
-      "title": "The Stalked 3",
-      "developer": "Korvinrular",
+      "id": "don-t-pick-up",
+      "title": "Don't Pick Up",
+      "developer": "Quarter Games",
       "status": "demo",
-      "release_date": "2026-08-20",
+      "release_date": "2027",
       "platforms": [
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "store": "Steam",
-      "link": "https://store.steampowered.com/app/3565980/",
-      "blurb": "A late-night thrill turns into a nightmare. Olivia sneaks into Creepwood Wonderland Carnival with her boyfriend, expecting a fun night alone in the park. But something feels off.…",
+      "link": "https://store.steampowered.com/app/4878690/",
+      "blurb": "Wanted: a reliable technician who follows the rules, handles sensitive information with discretion, and does not ask questions. Fix the phones. Don't look too closely.",
       "tags": [
         "Horror",
-        "Adventure",
-        "Indie"
+        "Indie",
+        "Simulation"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3565980/c9bef29849787df3c3dc6fd1644b798ae766d093/header.jpg?t=1787239450",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4878690/344344436b4e3fcd7bf93d4f876bc64bf0d6807a/header.jpg?t=1795080034",
       "free": false,
-      "price": "$2.99",
+      "price": null,
       "source": "steam",
-      "steam_appid": 3565980,
-      "demo_link": "https://store.steampowered.com/app/4064480/"
+      "steam_appid": 4878690,
+      "demo_link": "https://store.steampowered.com/app/5208890/"
     },
     {
       "id": "soviet-spooky-tales-green-eyes",
@@ -702,29 +702,28 @@
       "demo_link": "https://store.steampowered.com/app/3293610/"
     },
     {
-      "id": "don-t-pick-up",
-      "title": "Don't Pick Up",
-      "developer": "Quarter Games",
+      "id": "the-stalked-3",
+      "title": "The Stalked 3",
+      "developer": "Korvinrular",
       "status": "demo",
-      "release_date": "2027",
+      "release_date": "2026-08-20",
       "platforms": [
-        "Windows",
-        "Mac"
+        "Windows"
       ],
       "store": "Steam",
-      "link": "https://store.steampowered.com/app/4878690/",
-      "blurb": "Wanted: a reliable technician who follows the rules, handles sensitive information with discretion, and does not ask questions. Fix the phones. Don't look too closely.",
+      "link": "https://store.steampowered.com/app/3565980/",
+      "blurb": "A late-night thrill turns into a nightmare. Olivia sneaks into Creepwood Wonderland Carnival with her boyfriend, expecting a fun night alone in the park. But something feels off.…",
       "tags": [
         "Horror",
-        "Indie",
-        "Simulation"
+        "Adventure",
+        "Indie"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4878690/344344436b4e3fcd7bf93d4f876bc64bf0d6807a/header.jpg?t=1795080034",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3565980/c9bef29849787df3c3dc6fd1644b798ae766d093/header.jpg?t=1787239450",
       "free": false,
-      "price": null,
+      "price": "$2.99",
       "source": "steam",
-      "steam_appid": 4878690,
-      "demo_link": "https://store.steampowered.com/app/5208890/"
+      "steam_appid": 3565980,
+      "demo_link": "https://store.steampowered.com/app/4064480/"
     }
   ]
 }
