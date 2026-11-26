@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T19:15:06Z",
+  "updated": "2026-11-26T18:59:53Z",
   "games": [
     {
       "id": "graveyard-shift",
@@ -26,193 +26,27 @@
       "pinned": true
     },
     {
-      "id": "mythhunt",
-      "title": "MYTHHUNT",
-      "developer": "RedRockGS",
-      "status": "upcoming",
-      "release_date": "2026-11-25",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/5423890/",
-      "blurb": "Hunt cryptids in a hostile open forest, alone or with up to four players in co-op. Scavenge supplies, hunt wildlife, craft gear and customize firearms. Survive each encounter,…",
-      "tags": [
-        "Horror",
-        "Action",
-        "Adventure",
-        "Indie",
-        "Early Access"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5423890/b7d2246f601f7f9f82defb1cdeef29b5d1f701f1/header.jpg?t=1795504639",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5423890
-    },
-    {
-      "id": "unknown-depths",
-      "title": "Unknown Depths",
-      "developer": "Unknown Games",
+      "id": "awake-or-sleep-anomaly",
+      "title": "Awake or Sleep: Anomaly",
+      "developer": "FISAL(ERROR)",
       "status": "upcoming",
       "release_date": "2026-11-26",
       "platforms": [
         "Windows"
       ],
       "store": "Steam",
-      "link": "https://store.steampowered.com/app/5433240/",
-      "blurb": "Climb down a deep, dark shaft with up to three friends. A blind worm grows out of the rock and hunts you by scent: move fast and it follows your trail. Light holds it back, but…",
+      "link": "https://store.steampowered.com/app/5568830/",
+      "blurb": "Awake or Sleep: Anomaly is a first-person psychological horror game where your home becomes a nightmare. Spot strange changes, blink to distinguish reality from dreams, and…",
       "tags": [
         "Horror",
-        "Action",
         "Adventure",
         "Indie"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5433240/a6f692654e90091f3c1d2cd773720727fb413494/header.jpg?t=1793241297",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5568830/159918abf9327948bd30451248eddd3252bf6acf/header.jpg?t=1795652683",
       "free": false,
       "price": null,
       "source": "steam",
-      "steam_appid": 5433240
-    },
-    {
-      "id": "midnight-yakiniku",
-      "title": "Midnight Yakiniku | 深夜焼肉",
-      "developer": "TADAIMA WORKS",
-      "status": "upcoming",
-      "release_date": "2026-11-26",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/5544560/",
-      "blurb": "A psychological horror game set in a yakiniku restaurant in Japan. As the owner, you open the restaurant and welcome customers as usual. But that night, orders begin arriving…",
-      "tags": [
-        "Horror",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5544560/68699e25a854536d104b6ec26e7ce06d6d7d09b7/header.jpg?t=1795262130",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5544560
-    },
-    {
-      "id": "night-concierge",
-      "title": "Night Concierge",
-      "developer": "Shnumi",
-      "status": "upcoming",
-      "release_date": "2026-11-26",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/5458540/",
-      "blurb": "November 2003. Night shift at the front desk of a post-Soviet apartment block. Something is wearing your neighbors' faces. Check the resident log, question visitors over the…",
-      "tags": [
-        "Horror",
-        "Adventure",
-        "Indie",
-        "Simulation"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5458540/28012846cf9f7677c2049b99f769d9a2283ed634/header.jpg?t=1793674092",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5458540
-    },
-    {
-      "id": "fool-s-trigger",
-      "title": "Fool's Trigger",
-      "developer": "PodrezCrew",
-      "status": "upcoming",
-      "release_date": "2026-11-26",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/3612300/",
-      "blurb": "Welcome to the table where life is the stake. Fool’s Trigger is a tense mix of Russian roulette and a card game for 6. Load your revolver, manipulate the cards, put lives on the…",
-      "tags": [
-        "Horror",
-        "Indie",
-        "Simulation"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3612300/1594709da7e245531d4f8769a7dd7d865fff98a2/header.jpg?t=1794241553",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 3612300
-    },
-    {
-      "id": "eyelord-returns",
-      "title": "Eyelord Returns",
-      "developer": "Secret Exit Ltd.",
-      "status": "upcoming",
-      "release_date": "2026-11-26",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/5446860/",
-      "blurb": "Eyelord is an intense, fast-paced, heavy metal match-3 pop 'em up. It is a relentless massacre of innocent rolling eyeballs, using a mouse, touchscreen, or game controller. Get…",
-      "tags": [
-        "Horror",
-        "Action",
-        "Casual",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5446860/e2eb3458da4a4e8e4c1c57a70563809b1806c516/header.jpg?t=1794844222",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5446860
-    },
-    {
-      "id": "4th-supplementary",
-      "title": "4th Supplementary",
-      "developer": "Youarenotalone",
-      "status": "upcoming",
-      "release_date": "2026-11-26",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/5409780/",
-      "blurb": "You are trapped in an endless, haunted school loop. Evade the lingering spirit, seal the anomalies, and find a way out before it's too late.",
-      "tags": [
-        "Horror",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5409780/559b282024e6017052a96dec5bece986101f7f78/header.jpg?t=1795484036",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 5409780
-    },
-    {
-      "id": "slop-squad",
-      "title": "Slop Squad",
-      "developer": "Bloody Bear",
-      "status": "upcoming",
-      "release_date": "2026-11-26",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/4727850/",
-      "blurb": "An online co-op horror game for up to 4 players. Vacuum up valuable scrap from procedurally generated maps and get it back to the scrap crusher before the things lurking inside…",
-      "tags": [
-        "Horror",
-        "Action",
-        "Casual",
-        "Indie",
-        "Simulation"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4727850/117f18aecdc60ca8ca3b7ed8ccbb4f0670fa7881/header.jpg?t=1793852431",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 4727850
+      "steam_appid": 5568830
     },
     {
       "id": "goshiwon",
@@ -231,7 +65,7 @@
         "Indie",
         "Simulation"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5406550/a41d17dd3785751382db37936dbb44ffb0205bdd/header.jpg?t=1794980644",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5406550/a41d17dd3785751382db37936dbb44ffb0205bdd/header.jpg?t=1795700736",
       "free": false,
       "price": null,
       "source": "steam",
@@ -310,6 +144,168 @@
       "steam_appid": 5196120
     },
     {
+      "id": "hamstyping",
+      "title": "hamstyping!",
+      "developer": "みらいゲームズ",
+      "status": "upcoming",
+      "release_date": "2026-11-29",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5340690/",
+      "blurb": "Let's type together with this cute hamster! Don't squish it, okay?☆",
+      "tags": [
+        "Horror",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5340690/c27f923096210cdd3b3e30190c98a1a8589f9c12/header.jpg?t=1795587030",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5340690
+    },
+    {
+      "id": "spektr",
+      "title": "Spektr",
+      "developer": "StarloomStudios",
+      "status": "upcoming",
+      "release_date": "November 2026",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5443450/",
+      "blurb": "Spektr is an asymmetrical online horror game where the objective is simple, haunt or be hunted. Enter a multidimensional battle with up to 4 friends. One of you will randomly be…",
+      "tags": [
+        "Horror",
+        "Action",
+        "Indie",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443450/a0e2bb56a33454ed5d9b6990c80a1ca50dd2ef1e/header.jpg?t=1793804095",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5443450
+    },
+    {
+      "id": "ruby-s-trick-or-treat",
+      "title": "Ruby's Trick or Treat",
+      "developer": "KripKode",
+      "status": "upcoming",
+      "release_date": "November 2026",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5470550/",
+      "blurb": "Freeze when the music stops, solve her puzzles, and escape the house before she gets to you. A short, fully voice-acted anime VTuber horror game where every second counts.",
+      "tags": [
+        "Horror",
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5470550/f8786da95d960c3626c1fe15a5d77aa7d416fec5/header.jpg?t=1793923547",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5470550
+    },
+    {
+      "id": "nachtfrost",
+      "title": "Nachtfrost",
+      "developer": "Two Captain Studios",
+      "status": "upcoming",
+      "release_date": "November 2026",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5502710/",
+      "blurb": "Nachtfrost is a round-based WWII zombie survival shooter. Play alone or with up to three friends across six haunted wartime maps: board the windows, restore the power, earn…",
+      "tags": [
+        "Horror",
+        "Action",
+        "Indie",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5502710/9df0acc5eea8996e71c73b420496d73f8e8eab2f/header.jpg?t=1793400858",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5502710
+    },
+    {
+      "id": "the-hidden-index",
+      "title": "The Hidden Index",
+      "developer": "Daniel Vitor ",
+      "status": "upcoming",
+      "release_date": "November 2026",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5519430/",
+      "blurb": "Investigue os recantos mais profundos da dark web neste jogo de terror psicológico e mistério. Analise arquivos, decifre terminais e desvenda segredos perturbadores numa…",
+      "tags": [
+        "Horror",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5519430/9f641a53750e210a2bee6edd6875071d8a0e9be0/header.jpg?t=1794199609",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5519430
+    },
+    {
+      "id": "catsitter-remastered",
+      "title": "CatSitter - Remastered",
+      "developer": "Matthew Klinekole",
+      "status": "upcoming",
+      "release_date": "November 2026",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5426280/",
+      "blurb": "A short and linear horror game with multiple endings. Play as Amy the photographer who, unknowingly, takes on a well-paid, weekend gig that turns out to house more secrets than…",
+      "tags": [
+        "Horror",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5426280/1ad0ded6cbdd1d3cc9a98fa26babdfd0c9955dcb/header.jpg?t=1795661335",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5426280
+    },
+    {
+      "id": "area-83",
+      "title": "AREA 83",
+      "developer": "Boltwork Studios",
+      "status": "upcoming",
+      "release_date": "November 2026",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/5498370/",
+      "blurb": "AREA 83 is a first-person survival horror shooter set inside a research facility overrun by the infected. Explore dark corridors, uncover classified experiments, manage limited…",
+      "tags": [
+        "Horror",
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5498370/06a7f3ef44a6d0102c9f0fbb7c01fde15de6244f/header.jpg?t=1793126714",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 5498370
+    },
+    {
       "id": "phasmophobia",
       "title": "Phasmophobia",
       "developer": "Kinetic Games",
@@ -357,30 +353,6 @@
       "steam_appid": 1943950
     },
     {
-      "id": "dredge",
-      "title": "DREDGE",
-      "developer": "Black Salt Games",
-      "status": "released",
-      "release_date": "2023-03-30",
-      "platforms": [
-        "Windows",
-        "Mac"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/1562430/",
-      "blurb": "DREDGE is a single-player fishing adventure with a sinister undercurrent. Sell your catch, upgrade your boat, and dredge the depths for long-buried secrets. Explore a mysterious…",
-      "tags": [
-        "Horror",
-        "Adventure",
-        "RPG"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1562430/header.jpg?t=1793158823",
-      "free": false,
-      "price": "$10.79",
-      "source": "steam",
-      "steam_appid": 1562430
-    },
-    {
       "id": "darkest-dungeon",
       "title": "Darkest Dungeon®",
       "developer": "Red Hook Studios",
@@ -405,30 +377,6 @@
       "price": "$3.74",
       "source": "steam",
       "steam_appid": 262060
-    },
-    {
-      "id": "mortal-sin",
-      "title": "Mortal Sin",
-      "developer": "Nikola Todorovic",
-      "status": "released",
-      "release_date": "2025-08-29",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/1494810/",
-      "blurb": "Mortal Sin is a chaotic, blood-soaked roguelike where skill is power, and overconfidence is death. Carve through procedurally generated nightmares with brutal melee and flashy,…",
-      "tags": [
-        "Horror",
-        "Action",
-        "Indie",
-        "RPG"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1494810/b41130d8540063e8250074ccfa10c1681683c56a/header.jpg?t=1795150592",
-      "free": false,
-      "price": "$12.49",
-      "source": "steam",
-      "steam_appid": 1494810
     },
     {
       "id": "dreadout",
@@ -531,30 +479,6 @@
       "demo_link": "https://store.steampowered.com/app/4422700/"
     },
     {
-      "id": "the-no-jumpscare-show",
-      "title": "The No Jumpscare Show",
-      "developer": "Polypaw",
-      "status": "demo",
-      "release_date": "Coming soon",
-      "platforms": [
-        "Windows"
-      ],
-      "store": "Steam",
-      "link": "https://store.steampowered.com/app/4889280/",
-      "blurb": "In a world where the paranormal is normal and jumpscares are lazy clichés, Illy signs up for a shady haunted house promising true psychological horror. The deal? Survive without…",
-      "tags": [
-        "Horror",
-        "Adventure",
-        "Indie"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4889280/ee336908b9b6ef918698a004c7b78904ac8a15bc/header.jpg?t=1791339621",
-      "free": false,
-      "price": null,
-      "source": "steam",
-      "steam_appid": 4889280,
-      "demo_link": "https://store.steampowered.com/app/5056910/"
-    },
-    {
       "id": "adopt-me-please",
       "title": "Adopt Me Please",
       "developer": "Joyever Studio",
@@ -579,6 +503,30 @@
       "source": "steam",
       "steam_appid": 4417910,
       "demo_link": "https://store.steampowered.com/app/4571720/"
+    },
+    {
+      "id": "the-no-jumpscare-show",
+      "title": "The No Jumpscare Show",
+      "developer": "Polypaw",
+      "status": "demo",
+      "release_date": "Coming soon",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "Steam",
+      "link": "https://store.steampowered.com/app/4889280/",
+      "blurb": "In a world where the paranormal is normal and jumpscares are lazy clichés, Illy signs up for a shady haunted house promising true psychological horror. The deal? Survive without…",
+      "tags": [
+        "Horror",
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4889280/ee336908b9b6ef918698a004c7b78904ac8a15bc/header.jpg?t=1791339621",
+      "free": false,
+      "price": null,
+      "source": "steam",
+      "steam_appid": 4889280,
+      "demo_link": "https://store.steampowered.com/app/5056910/"
     },
     {
       "id": "the-floor-above",
@@ -724,6 +672,689 @@
       "source": "steam",
       "steam_appid": 3565980,
       "demo_link": "https://store.steampowered.com/app/4064480/"
+    },
+    {
+      "id": "empty-box",
+      "title": "Empty Box:空盒子",
+      "developer": "mimu2026",
+      "status": "demo",
+      "release_date": "2026-05-22",
+      "platforms": [
+        "Windows",
+        "Mac"
+      ],
+      "store": "itch.io",
+      "link": "https://mimu2026.itch.io/empty-box",
+      "blurb": "...HE SEES YOU?",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzI3NTYyOTczLnBuZw==/315x250%23c/ejTCgn.png",
+      "free": false,
+      "price": "$2.99",
+      "source": "itch"
+    },
+    {
+      "id": "fried-chicken-wings-cause-love-fire",
+      "title": "Fried chicken wings cause love fire",
+      "developer": "mokamwww",
+      "status": "demo",
+      "release_date": "2024-08-02",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux",
+        "Android"
+      ],
+      "store": "itch.io",
+      "link": "https://mokamwww.itch.io/fried-chicken-wings",
+      "blurb": "Resurrected corpse ruined my perfect life!",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzE3NjMzOTk0LmpwZw==/315x250%23c/u1uxj%2F.jpg",
+      "free": false,
+      "price": "$7.99",
+      "source": "itch"
+    },
+    {
+      "id": "power-drill-massacre-early-access",
+      "title": "Power Drill Massacre (Early Access)",
+      "developer": "puppetcombo",
+      "status": "demo",
+      "release_date": "2016-12-19",
+      "platforms": [
+        "Windows",
+        "Mac"
+      ],
+      "store": "itch.io",
+      "link": "https://puppetcombo.itch.io/pdm",
+      "blurb": "A DRILLING good time!... a VHS era, low poly slasher (ps1 style survival horror)",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1hZ2UvMTA3MDc3LzkwODUxMy5naWY=/original/KAzbZ4.gif",
+      "free": false,
+      "price": "$2.95",
+      "source": "itch"
+    },
+    {
+      "id": "scarlet-hollow",
+      "title": "Scarlet Hollow",
+      "developer": "blacktabbygames",
+      "status": "demo",
+      "release_date": "2021-04-25",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "store": "itch.io",
+      "link": "https://blacktabbygames.itch.io/scarlet-hollow",
+      "blurb": "Horror-mystery with sharp writing, impactful choices, and hand-drawn art from Ignatz-winning cartoonist Abby Howard.",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzI1NTY5NDk0LnBuZw==/315x250%23c/mxoe1P.png",
+      "free": false,
+      "price": "$29.99",
+      "source": "itch"
+    },
+    {
+      "id": "my-sweet-housemate",
+      "title": "My Sweet! Housemate",
+      "developer": "sourmiiiilk",
+      "status": "demo",
+      "release_date": "2024-08-13",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "store": "itch.io",
+      "link": "https://sourmiiiilk.itch.io/my-sweet-housemate",
+      "blurb": "A horror comedy about cannibalism",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzE5MzU0MjE3LnBuZw==/315x250%23c/9kuHwt.png",
+      "free": false,
+      "price": "$4.99",
+      "source": "itch"
+    },
+    {
+      "id": "slay-the-princess-the-pristine-cut",
+      "title": "Slay the Princess - The Pristine Cut",
+      "developer": "blacktabbygames",
+      "status": "demo",
+      "release_date": "2022-07-30",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "store": "itch.io",
+      "link": "https://blacktabbygames.itch.io/slay-the-princess",
+      "blurb": "You're here to slay the Princess. Don't believe her lies.",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzE4MjkyMDE0LnBuZw==/315x250%23c/3shEBV.png",
+      "free": false,
+      "price": "$17.99",
+      "source": "itch"
+    },
+    {
+      "id": "ad-nauseam-the-wrong-side-steam-release-out-now",
+      "title": "Ad Nauseam - The Wrong Side [ STEAM RELEASE OUT NOW!!!! ]",
+      "developer": "throwpup",
+      "status": "demo",
+      "release_date": "2023-06-13",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "store": "itch.io",
+      "link": "https://throwpup.itch.io/ad-nauseam-the-wrong-side",
+      "blurb": "Did you wake up on the wrong side?",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzI5MTk3NjYxLmpwZw==/315x250%23c/AXo6yM.jpg",
+      "free": false,
+      "price": "$11.00",
+      "source": "itch"
+    },
+    {
+      "id": "pikabuu-the-silent-night",
+      "title": "Pikabuu: The Silent Night",
+      "developer": "joykeratif",
+      "status": "demo",
+      "release_date": "2025-02-03",
+      "platforms": [
+        "Windows",
+        "Android"
+      ],
+      "store": "itch.io",
+      "link": "https://joykeratif.itch.io/pikabuu-the-silent-night",
+      "blurb": "Don't be a bad kid !",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzE5NjE2MDc4LnBuZw==/315x250%23c/vAElnM.png",
+      "free": false,
+      "price": "$1.00",
+      "source": "itch"
+    },
+    {
+      "id": "fix-her-pipes",
+      "title": "Fix Her Pipes",
+      "developer": "deeplookgames",
+      "status": "demo",
+      "release_date": "2026-10-14",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "itch.io",
+      "link": "https://deeplookgames.itch.io/fix-her-pipes",
+      "blurb": "Escape from Pipe Granny",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzMyMjQ0ODM2LmdpZg==/original/sTuEiP.gif",
+      "free": false,
+      "price": "$2.01",
+      "source": "itch"
+    },
+    {
+      "id": "hapunan-full-game",
+      "title": "Hapunan [Full Game]",
+      "developer": "yikon",
+      "status": "demo",
+      "release_date": "2024-12-04",
+      "platforms": [
+        "Windows",
+        "Android"
+      ],
+      "store": "itch.io",
+      "link": "https://yikon.itch.io/hapunan",
+      "blurb": "What are the secrets of the balut?",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzI5NTIyODYwLmpwZw==/315x250%23c/oEenYN.jpg",
+      "free": false,
+      "price": "$3.99",
+      "source": "itch"
+    },
+    {
+      "id": "when-the-night-comes",
+      "title": "When The Night Comes",
+      "developer": "lunarisgames",
+      "status": "demo",
+      "release_date": "2018-09-04",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "store": "itch.io",
+      "link": "https://lunarisgames.itch.io/wtnc",
+      "blurb": "When the night comes, death follows...",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzQwNzYzNDAucG5n/315x250%23c/RyNITm.png",
+      "free": false,
+      "price": "$12.99",
+      "source": "itch"
+    },
+    {
+      "id": "no-delivery",
+      "title": "No Delivery",
+      "developer": "horror-n-oates",
+      "status": "demo",
+      "release_date": "2019-05-29",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "itch.io",
+      "link": "https://horror-n-oates.itch.io/no-delivery",
+      "blurb": "An employee training video gone wrong.",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzIxNDk0MjguZ2lm/original/yfZ4jO.gif",
+      "free": false,
+      "price": "$5.00",
+      "source": "itch"
+    },
+    {
+      "id": "doki-doki-literature-club",
+      "title": "Doki Doki Literature Club!",
+      "developer": "teamsalvato",
+      "status": "released",
+      "release_date": "2016-12-17",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "store": "itch.io",
+      "link": "https://teamsalvato.itch.io/ddlc",
+      "blurb": "Will you write the way into her heart?",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1hZ2UvMTA2NTk5LzU4NjAxMi5naWY=/original/%2Fz0let.gif",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "night-of-the-nun-aka-nun-massacre",
+      "title": "Night of the Nun... aka Nun Massacre",
+      "developer": "puppetcombo",
+      "status": "released",
+      "release_date": "2018-09-29",
+      "platforms": [
+        "Windows",
+        "Mac"
+      ],
+      "store": "itch.io",
+      "link": "https://puppetcombo.itch.io/nun-massacre",
+      "blurb": "Say your PRAYERS!... a VHS era, low poly slasher (ps1 style survival horror)",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzE1NTkzMzguZ2lm/original/UC6TZy.gif",
+      "free": false,
+      "price": "$4.95",
+      "source": "itch"
+    },
+    {
+      "id": "paper-lily-chapter-1",
+      "title": "Paper Lily - Chapter 1",
+      "developer": "leef6010",
+      "status": "released",
+      "release_date": "2023-01-31",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "store": "itch.io",
+      "link": "https://leef6010.itch.io/paper-lily-chapter-1",
+      "blurb": "A slightly larger unconventional horror RPG in which there is always another way!",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzE0ODAwNzU4LnBuZw==/315x250%23c/WjK12q.png",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "fears-to-fathom-home-alone",
+      "title": "Fears to Fathom - Home Alone",
+      "developer": "rayll",
+      "status": "released",
+      "release_date": "2021-07-02",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "itch.io",
+      "link": "https://rayll.itch.io/fears-to-fathom",
+      "blurb": "Unsettling Home Invasion Horror",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzY0MjA1NTcuZ2lm/original/Iezgd7.gif",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "death-flush",
+      "title": "Death Flush",
+      "developer": "impostersyndrome",
+      "status": "released",
+      "release_date": "2020-08-31",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "itch.io",
+      "link": "https://impostersyndrome.itch.io/death-flush",
+      "blurb": "Will this trip to the bathroom be your last?",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzQxNjM4NjIucG5n/315x250%23c/99uM7j.png",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "project-kat",
+      "title": "Project Kat",
+      "developer": "leef6010",
+      "status": "released",
+      "release_date": "2020-02-09",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "store": "itch.io",
+      "link": "https://leef6010.itch.io/projectkat",
+      "blurb": "A small, unconventional horror rpg.",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzMwOTcyMjIucG5n/315x250%23c/a0NL9j.png",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "baldi-s-basics-in-education-and-learning",
+      "title": "Baldi's Basics in Education and Learning",
+      "developer": "basically-games",
+      "status": "released",
+      "release_date": "2018-03-29",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux",
+        "Android"
+      ],
+      "store": "itch.io",
+      "link": "https://basically-games.itch.io/baldis-basics",
+      "blurb": "Learn with Baldi in his fully 3D interactive schoolhouse! ...Just don't get any questions wrong.",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1hZ2UvMjM5ODQxLzExNDIzNTAucG5n/315x250%23c/GBHLqT.png",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "oceanwork",
+      "title": "Oceanwork",
+      "developer": "warrrkus",
+      "status": "released",
+      "release_date": "2021-04-27",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "store": "itch.io",
+      "link": "https://warrrkus.itch.io/oceanwork",
+      "blurb": "A short PS1 styled survival game",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzU3OTMyMjMucG5n/315x250%23c/fB%2BfHm.png",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "nosfer-a-tooth",
+      "title": "NOSFER-A-TOOTH",
+      "developer": "gregs-games",
+      "status": "released",
+      "release_date": "2026-10-13",
+      "platforms": [
+        "Browser"
+      ],
+      "store": "itch.io",
+      "link": "https://gregs-games.itch.io/nosferatooth",
+      "blurb": "Vampire Teethbuilding Autobiter Game",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzMwOTA1MjMzLmdpZg==/original/vgxOnv.gif",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "alisa-demo",
+      "title": "Alisa | Demo",
+      "developer": "caspercroes",
+      "status": "released",
+      "release_date": "2020-01-26",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "store": "itch.io",
+      "link": "https://caspercroes.itch.io/alisa-demo",
+      "blurb": "classic retro late-90s horror themed action adventure",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzUwNjEzNDAucG5n/315x250%23c/L6Bev6.png",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "nightbound",
+      "title": "Nightbound",
+      "developer": "frengoestudios",
+      "status": "released",
+      "release_date": "2025-10-28",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux",
+        "Android"
+      ],
+      "store": "itch.io",
+      "link": "https://frengoestudios.itch.io/nightbound",
+      "blurb": "Cansado de tu vida como cajero, te acercas a un extraño al salir del trabajo... ¿Mala idea? VN yandere de terror",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzIzODE3OTgxLmdpZg==/original/4Y13Ff.gif",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "the-cursed-box",
+      "title": "The Cursed Box",
+      "developer": "deby-studio",
+      "status": "released",
+      "release_date": "2026-08-01",
+      "platforms": [
+        "Browser"
+      ],
+      "store": "itch.io",
+      "link": "https://deby-studio.itch.io/the-cursed-box",
+      "blurb": "A cursed box, a dangerous obsession, and choices that change everything.",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzMwNDU0ODk2LnBuZw==/315x250%23c/v6VjgZ.png",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "voices-of-the-void-alpha",
+      "title": "\"Voices Of The Void\" Alpha",
+      "developer": "mrdrnose",
+      "status": "released",
+      "release_date": "2022-07-25",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "itch.io",
+      "link": "https://mrdrnose.itch.io/votv",
+      "blurb": "Gather unknown signals from deep, silent space",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzI2NDI5NTgzLmpwZw==/315x250%23c/5lRRHP.jpg",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "14-days-with-you-demo",
+      "title": "14 Days With You [DEMO]",
+      "developer": "cutiesai",
+      "status": "released",
+      "release_date": "2022-04-20",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "store": "itch.io",
+      "link": "https://cutiesai.itch.io/14dayswithyou",
+      "blurb": "He's always going to be with you...",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzIxNDc2NzkxLmdpZg==/original/AWPx1Z.gif",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "touchstarved-a-dark-romance-visual-novel",
+      "title": "TOUCHSTARVED: A Dark Romance Visual Novel",
+      "developer": "redspringstudio",
+      "status": "released",
+      "release_date": "2023-03-14",
+      "platforms": [
+        "Windows",
+        "Mac"
+      ],
+      "store": "itch.io",
+      "link": "https://redspringstudio.itch.io/touchstarved",
+      "blurb": "Find a cure for your curse by entrusting your fate to 5 monstrous love interests",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzExNTk1Nzk5LmpwZw==/315x250%23c/M3tL3R.jpg",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "online-obsession",
+      "title": "Online Obsession",
+      "developer": "sourmiiiilk",
+      "status": "released",
+      "release_date": "2023-09-21",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "store": "itch.io",
+      "link": "https://sourmiiiilk.itch.io/online-obsession",
+      "blurb": "What could go wrong when you finally meet your online friend?",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzE5NjgyMjc4LnBuZw==/315x250%23c/mdp6SI.png",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "kick-the-pi-ata",
+      "title": "Kick The Piñata!",
+      "developer": "eduardscarpato",
+      "status": "released",
+      "release_date": "2026-09-03",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "store": "itch.io",
+      "link": "https://eduardscarpato.itch.io/kick-the-pinata",
+      "blurb": "Grab your trusty bat and smash piñatas in this colorful and completely normal incremental game",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzI5NzYxNjU2LnBuZw==/315x250%23c/K0BjDf.png",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "knee-deep-demo",
+      "title": "Knee Deep! [DEMO]",
+      "developer": "comfortkuma",
+      "status": "released",
+      "release_date": "2025-03-02",
+      "platforms": [
+        "Windows",
+        "Mac",
+        "Linux",
+        "Android"
+      ],
+      "store": "itch.io",
+      "link": "https://comfortkuma.itch.io/knee-deep",
+      "blurb": "Three yanderes are better than one",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzI3MzM5MDk2LnBuZw==/315x250%23c/%2F26AU1.png",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "dead-plate",
+      "title": "Dead Plate",
+      "developer": "racheldrawsthis",
+      "status": "released",
+      "release_date": "2023-10-31",
+      "platforms": [
+        "Windows",
+        "Mac"
+      ],
+      "store": "itch.io",
+      "link": "https://racheldrawsthis.itch.io/dead-plate",
+      "blurb": "60s French restaurant tycoon themed rpg horror game about a waiter and a chef",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzEzOTExNTU0LnBuZw==/315x250%23c/9Xjwn6.png",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
+    },
+    {
+      "id": "suzy-says",
+      "title": "Suzy Says!",
+      "developer": "moonbit",
+      "status": "released",
+      "release_date": "2026-11-06",
+      "platforms": [
+        "Windows"
+      ],
+      "store": "itch.io",
+      "link": "https://moonbit.itch.io/suzy-says",
+      "blurb": "Follow Suzy's rules or suffer the consequences.",
+      "tags": [
+        "Horror"
+      ],
+      "image": "https://img.itch.zone/aW1nLzMxOTQ4NDA2LmdpZg==/original/CO9l5G.gif",
+      "free": true,
+      "price": "Free",
+      "source": "itch"
     }
   ]
 }
